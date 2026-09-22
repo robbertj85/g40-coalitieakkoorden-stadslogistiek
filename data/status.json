@@ -927,11 +927,33 @@
       "economy_summary": "Hoofdstuk 1.4 'Een toekomstgerichte economie' zet in op het Innovatief Maakdistrict Arnhem (Het Broek, Nieuwe Haven, Cleantech Park), Green Deals op bedrijventerreinen, en een robuust financieringssysteem voor bedrijventerreinen, binnenstad en wijkwinkelcentra via BIZ-afspraken. Arnhem is uitgeroepen tot nationale MKB-stad van het jaar 2026. De binnenstad wordt verder vergroend en verkoeld ('De koelste binnenstad van Nederland'); leegstand wordt bestreden met tijdelijke invullingen en een leegstandsheffing voor bedrijfsruimten (p. 14-15).",
       "notes": "Rijke, expliciete stadslogistiek-inhoud: goederenvervoer, zero-emissiezone voor bestel- en vrachtverkeer, en handhaving op vracht-/bezorgverkeer na 11.00 uur. Vermelding van gevaarlijke stoffen door de stad is regionaal/nationaal geagendeerd, niet een lokale maatregel op zich.",
       "logistics_plans": {
-        "status": "todo",
+        "status": "found",
         "retries": 0,
-        "last_checked": null,
-        "documents": [],
-        "notes": ""
+        "last_checked": "2026-09-22",
+        "documents": [
+          {
+            "doc_type": "SUMP",
+            "title": "Duurzaam Mobiliteitsplan Arnhem 2024-2040",
+            "date": "2024",
+            "url": "https://arnhem.bestuurlijkeinformatie.nl/Document/View/24b115bf-3b37-4a15-9ba9-a82e58168902",
+            "source_page": "https://www.arnhem.nl/alle-onderwerpen/verkeer/nieuwe-aanpak-voor-verkeer-en-vervoer/",
+            "local_file": "data/raw/arnhem_sump.pdf",
+            "quotes": [
+              {
+                "term": "hub",
+                "page": 5,
+                "text": "Investeringen totaal (x € 1.000): Actieve mobiliteit, Openbaar vervoer, Hubs en logistiek, Netwerk. Totaal € 550,1 mln., waarvan € 85,16 mln. voor Hubs en logistiek."
+              },
+              {
+                "term": "hub",
+                "page": 7,
+                "text": "Ook stoppen we in deze periode veel tijd en energie in de voorbereiding van de stadsrandhubs, zoals de stadsrandhub GelreDome."
+              }
+            ],
+            "summary": "Door de gemeenteraad vastgesteld duurzaam mobiliteitsplan (2024-2040, expliciet aangeduid als SUMP door adviesbureau Goudappel) met meer dan 100 maatregelen en een investeringsbudget van €550,1 mln. Goederenvervoer/logistiek is een eigen investeringscategorie ('Hubs en logistiek', €85,16 mln.), met de stadsrandhub GelreDome als concreet voorbeeldproject."
+          }
+        ],
+        "notes": "Geen apart Arnhems SULP of goederenvervoeragenda gevonden; logistiek/hubs zijn een programmalijn binnen dit gemeentebrede mobiliteitsplan."
       }
     },
     {
