@@ -2019,11 +2019,28 @@
       "economy_summary": null,
       "notes": "Hilversum houdt geen reguliere raadsverkiezing op 18 maart 2026: de gemeente wordt samengevoegd met Wijdemeren tot een nieuwe gemeente Hilversum, met een herindelingsverkiezing op 18 november 2026 en start van de nieuwe gemeente op 1 januari 2027. Er is dus nog geen coalitieakkoord 2026-2030 voor de (nieuwe) gemeente Hilversum; het huidige college (Hilversum koesteren, 2022-2026: Hart voor Hilversum/later vervangen, VVD, GroenLinks, CDA, met wisselingen) blijft aan tot na de verkiezing. Status na de novemberverkiezing opnieuw controleren. Bevestigd bij tweede controle: de herindelingsverkiezing Hilversum-Wijdemeren is op 18 november 2026, de nieuwe gemeente start 1 januari 2027; het huidige college blijft aan tot dan. Er is dus structureel geen coalitieakkoord 2026-2030 voor (nieuw) Hilversum mogelijk vóór begin 2027. Derde controle: gevonden nieuwsartikelen over 'open eindjes' in een Hilversums coalitieakkoord bleken uit 2018 te stammen, niet relevant. Definitief bevestigd: geen coalitieakkoord 2026-2030 mogelijk vóór de herindelingsverkiezing van 18 november 2026.",
       "logistics_plans": {
-        "status": "todo",
+        "status": "found",
         "retries": 0,
-        "last_checked": null,
-        "documents": [],
-        "notes": ""
+        "last_checked": "2026-09-22",
+        "documents": [
+          {
+            "doc_type": "SUMP",
+            "title": "Mobiliteitsvisie Hilversum 2040 (raadsbesluit)",
+            "date": "2021-03",
+            "url": "https://hilversum.bestuurlijkeinformatie.nl/Document/View/9bf52d41-2c45-42f4-8451-e86f83ef34df",
+            "source_page": "https://www.hilversum.nl/mobiliteitsvisie-2040",
+            "local_file": "data/raw/hilversum_sump.pdf",
+            "quotes": [
+              {
+                "term": "goederenvervoer",
+                "page": 1,
+                "text": "De gefaseerde realisatie van mogelijk een drietal multimodale hubs voor o.a. goederenvervoer aan de randen van Hilversum op strategisch gelegen locaties bij invalswegen."
+              }
+            ],
+            "summary": "Raadsbesluit tot vaststelling van de Mobiliteitsvisie Hilversum 2040 (voorstel B&W 23 maart 2021). Het raadsbesluit zelf bevat een amendement/opdracht om de gefaseerde realisatie van mogelijk drie multimodale hubs voor onder meer goederenvervoer, aan de randen van de stad bij invalswegen, mee te nemen in een tweede uitvoeringsprogramma Mobiliteit."
+          }
+        ],
+        "notes": "Alleen het 3 pagina's tellende raadsbesluit was direct toegankelijk, niet de volledige Mobiliteitsvisie-tekst zelf; geen apart Hilversums SULP of goederenvervoeragenda gevonden."
       }
     },
     {
