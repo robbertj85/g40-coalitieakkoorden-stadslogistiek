@@ -753,11 +753,33 @@
       "economy_summary": "Het akkoord heeft geen apart hoofdstuk over economie of stedelijke bedrijvigheid; het is expliciet een 'akkoord op hoofdlijnen' met afspraken over onder meer parkeerbeleid, energietransitie en de spreidingswet. Economische impact komt vooral terug bij de woningbouwopgave, die volgens het akkoord 'directe gevolgen voor inwoners en de economie' heeft (p. 6, 13).",
       "notes": "Geen enkele term uit de primaire, mobiliteits- of economieset gaf een stadslogistiek/goederenvervoer-hit, behalson twee valse 'hub'-treffers (energiehubs, niet logistiek). Document is een akkoord op hoofdlijnen zonder apart economiehoofdstuk; vandaar geen economy_summary op sectorniveau.",
       "logistics_plans": {
-        "status": "todo",
+        "status": "found",
         "retries": 0,
-        "last_checked": null,
-        "documents": [],
-        "notes": ""
+        "last_checked": "2026-09-22",
+        "documents": [
+          {
+            "doc_type": "SUMP",
+            "title": "Omgevingsprogramma Mobiliteit 2025-2035 – Amersfoort aantrekkelijk en bereikbaar",
+            "date": "2025-05",
+            "url": "https://www.amersfoort.nl/sites/default/files/2025-09/omgevingsprogramma-mobiliteit-2025-2035.pdf",
+            "source_page": "https://www.amersfoort.nl/mobiliteit",
+            "local_file": "data/raw/amersfoort_sump.pdf",
+            "quotes": [
+              {
+                "term": "goederenvervoer",
+                "page": 6,
+                "text": "Voor goederenvervoer voeren we zero-emissiezones in. We beginnen met het kernwinkelgebied in 2025 en breiden die in 2027 uit tot het autoluwe gebied. Voor verschillende soorten voertuigen geldt een overgangsperiode."
+              },
+              {
+                "term": "bevoorrading",
+                "page": 9,
+                "text": "4.2 Zero-emissiezones: schonere bevoorrading en een gezonder stadshart."
+              }
+            ],
+            "summary": "Door het college vastgesteld omgevingsprogramma (13 mei 2025) met 9 thema's tot 2035; hoofdstuk 4.2 introduceert zero-emissiezones voor goederenvervoer, gestart in het kernwinkelgebied in 2025 en uitgebreid tot het autoluwe gebied in 2027, met een overgangsperiode per voertuigtype."
+          }
+        ],
+        "notes": "Geen apart Amersfoorts SULP of goederenvervoeragenda gevonden; zero-emissiezone voor stadslogistiek is onderdeel van dit gemeentebrede mobiliteitsprogramma."
       }
     },
     {
