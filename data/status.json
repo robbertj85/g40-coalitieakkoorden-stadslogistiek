@@ -2463,11 +2463,33 @@
       "economy_summary": "Hoofdstuk 'Innovatieve Maakstad Oss' zet in op het farmaceutische cluster en Pivot Park, verdichting en herstructurering van bedrijventerreinen (waaronder Heesch West), en de Uitvoeringsagenda Haven voor de trimodale haven op Elzenburg gericht op watergebonden en zwaardere bedrijvigheid. Het brede MKB in bouw, logistiek, techniek, agrifood en dienstverlening wordt versterkt naast het farmaceutische cluster (p. 10-11).",
       "notes": "PDF werd zonder .pdf-extensie geserveerd op oss.nl (herkend via bestandssignatuur, niet via URL-patroon). Rijke, expliciete inhoud over trimodaal goederenvervoer en een havenuitvoeringsagenda voor Elzenburg.",
       "logistics_plans": {
-        "status": "todo",
+        "status": "found",
         "retries": 0,
-        "last_checked": null,
-        "documents": [],
-        "notes": ""
+        "last_checked": "2026-09-22",
+        "documents": [
+          {
+            "doc_type": "SUMP",
+            "title": "Mobiliteitsplan Oss – Opinienota Fase 1 (Basis leggen)",
+            "date": "2022-09",
+            "url": "https://oss.bestuurlijkeinformatie.nl/Document/View/c5916437-dbaf-4d05-962a-bf4de64ca619",
+            "source_page": null,
+            "local_file": "data/raw/oss_sump.pdf",
+            "quotes": [
+              {
+                "term": "goederenvervoer",
+                "page": 15,
+                "text": "Inzetten op lokale mobiliteitshubs in de wijken/kernen voor deelmobiliteit, laadpunten en pakketmuur. Inzetten op energietransitie in goederenvervoer (elektrisch vervoer, synchromodaliteit). Inzet op elektrificatie van distributie en invoeren milieuzone."
+              },
+              {
+                "term": "goederenvervoer",
+                "page": 17,
+                "text": "Zekerstellen en bevorderen goederenvervoer per spoor en over water. Zorgdragen voor betrouwbare routes voor het vrachtvervoer over de weg."
+              }
+            ],
+            "summary": "Opinienota fase 1 (6 september 2022) van het Mobiliteitsplan Oss, voortbouwend op de Sturingsnota Mobiliteit (2023) met 31 projecten. Zet in op energietransitie in goederenvervoer (elektrisch, synchromodaliteit), elektrificatie van distributie met een milieuzone, lokale mobiliteitshubs met pakketmuren, en het bevorderen van goederenvervoer per spoor en over water naast betrouwbare wegroutes voor vrachtverkeer."
+          }
+        ],
+        "notes": "Betreft de fase 1-opinienota (basis leggen), niet het definitief vastgestelde Mobiliteitsplan/Uitvoeringsprogramma zelf. Geen apart Ossers SULP of goederenvervoeragenda gevonden. Sluit aan bij de coalitieakkoord-bevinding over de trimodale haven Elzenburg."
       }
     },
     {
