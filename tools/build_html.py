@@ -104,7 +104,6 @@ table{{border-collapse:collapse;width:100%;font-size:.9rem}} th,td{{border-botto
 </style></head><body>
 <h1>Stadslogistiek en goederenvervoer in coalitieakkoorden 2026 (G4 + G40)</h1>
 <p>Overzicht van de coalitie-/bestuursakkoorden na de gemeenteraadsverkiezingen van 18 maart 2026, met letterlijke passages over stadslogistiek en goederenvervoer. Waar die ontbreken: samenvatting van mobiliteits- en economieplannen. Gesorteerd op gemeentenaam. Bijgewerkt: {e(datetime.date.today())}.</p>
-<p class="small"><a href="/g40-themas/">&rarr; Thema-analyse van dezelfde akkoorden: het algemene beeld en de zeven DMI-thema's</a></p>
 <div class="summary">
 <div><b>{len(munis)}</b> gemeenten</div>
 <div><b>{counts.get("found_analysed",0)}</b> geanalyseerd</div>
