@@ -2587,11 +2587,33 @@
       "economy_summary": null,
       "notes": "Expliciete keuze om GEEN zero-emissiezones in te voeren (net als Dordrecht, Ede, Helmond, Leeuwarden), met daarnaast regionale samenwerking om vrachtwagenparkeren op bedrijventerreinen te beheersen. schiedam.notubiz.nl gaf een Cloudflare-achtige JS-uitdaging bij een standaard curl-verzoek; toevoegen van Accept: application/pdf en een Referer-header omzeilde dit.",
       "logistics_plans": {
-        "status": "todo",
+        "status": "found",
         "retries": 0,
-        "last_checked": null,
-        "documents": [],
-        "notes": ""
+        "last_checked": "2026-09-22",
+        "documents": [
+          {
+            "doc_type": "SUMP",
+            "title": "Mobiliteitsvisie Schiedam – Op weg naar de toekomst",
+            "date": "2020-11",
+            "url": "https://zoek.officielebekendmakingen.nl/gmb-2025-72735.pdf",
+            "source_page": "https://www.schiedam.nl/a-tot-z/mobiliteitsvisie-en-uitvoeringsprogramma-mobiliteit",
+            "local_file": "data/raw/schiedam_sump.pdf",
+            "quotes": [
+              {
+                "term": "logistiek",
+                "page": 8,
+                "text": "Het gebruik van duurzame en ruimte-efficiente vervoersmiddelen, zoals lopen, fietsen, deelmobiliteit en een kwalitatief hoogwaardig openbaar vervoer, wordt gestimuleerd. Dit, in combinatie met de transitie richting emissieloze logistiek en auto- en vrachtverkeer, draagt bij aan verbeteren van de omgevingskwaliteit."
+              },
+              {
+                "term": "logistiek",
+                "page": 10,
+                "text": "Ingezet wordt op het versterken van het gebruik van fiets en openbaar vervoer en het stimuleren van duurzame mobiliteit en logistiek. Voor scheepvaart wordt het gebruik van walstroom onderzocht."
+              }
+            ],
+            "summary": "Door de raad op 3 november 2020 vastgestelde mobiliteitsvisie (bevestigd en samengevat via de Schiedamse Omgevingsvisie, ontwerp vastgesteld door B&W 10 december 2024). Zet in op de transitie naar emissieloze logistiek en vracht-/autoverkeer en op duurzame mobiliteit en logistiek in het kader van het Schone Lucht Akkoord (doel: 50% gezondheidswinst in 2030 t.o.v. 2016)."
+          }
+        ],
+        "notes": "De volledige Mobiliteitsvisie-PDF zelf is niet direct gevonden (alleen via schiedam.nl-verwijzingen); inhoud hier bevestigd via de Schiedamse Omgevingsvisie, die de Mobiliteitsvisie als vastgesteld sectoraal beleid citeert en samenvat. Geen apart Schiedams SULP of goederenvervoeragenda gevonden."
       }
     },
     {
