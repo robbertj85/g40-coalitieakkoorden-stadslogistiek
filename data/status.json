@@ -1968,11 +1968,33 @@
       "economy_summary": "Groei naar 200.000 inwoners geeft een impuls aan de economie en het verdienvermogen; nieuwe werklocaties komen bij Ertveldplas, Nuland Noordoost, Groot Meerendonk en Bedrijventerrein Zuid/A2-zone. Energyhubs op bedrijventerreinen en proactieve begeleiding van groepscontracten voor grootverbruikers pakken netcongestie aan. Het Innovatiekwartier wordt het kloppend hart van de Bossche technologie-economie ('FairTech'), in samenwerking met mbo, hbo en Brabantse universiteiten (p. 45, 56).",
       "notes": "Concrete stadslogistiek-passage over verbeterde afspraken over laden en lossen met leveranciers in de binnenstad, gecombineerd met het verplaatsen van grote bussen naar de binnenstadsring.",
       "logistics_plans": {
-        "status": "todo",
+        "status": "found",
         "retries": 0,
-        "last_checked": null,
-        "documents": [],
-        "notes": ""
+        "last_checked": "2026-09-22",
+        "documents": [
+          {
+            "doc_type": "SULP",
+            "title": "Principebesluit omvang zero-emissiezone stadslogistiek 2025 & ondertekening Landelijke Uitvoeringsagenda Stadslogistiek",
+            "date": "2021-01-19",
+            "url": "https://lokaleregelgeving.overheid.nl/CVDR744242/1",
+            "source_page": null,
+            "local_file": null,
+            "quotes": [
+              {
+                "term": "stadslogistiek",
+                "page": null,
+                "text": "40. Principebesluit omvang zero-emissie zone stadslogistiek 2025 & tekenen van Landelijke Uitvoeringsagenda Stadslogistiek, 19 januari 2021."
+              },
+              {
+                "term": "mobiliteitsvisie",
+                "page": null,
+                "text": "Als uitwerking van de hoofdkeuzes in de omgevingsvisie werken we aan een gemeentebrede mobiliteitsvisie. De resultaten hiervan verwerken we bij de eerstvolgende actualisatie van de omgevingsvisie."
+              }
+            ],
+            "summary": "Via de beleidsreferentielijst van de Omgevingsvisie 's-Hertogenbosch (vastgesteld door B&W 25 maart 2025) teruggevonden: op 19 januari 2021 nam het college een principebesluit over de omvang van de zero-emissiezone stadslogistiek 2025 en tekende de gemeente de Landelijke Uitvoeringsagenda Stadslogistiek. Dit sluit aan bij de eerder via de coalitieakkoord-analyse en nieuwsberichten bekende 'Bossche Green Deal Zero Emissie Stadslogistiek' (30 partners, doel: schone en slimme bevoorrading binnenstad in 2025)."
+          }
+        ],
+        "notes": "De omgevingsvisie zelf meldt expliciet dat een gemeentebrede mobiliteitsvisie (SUMP) nog in ontwikkeling was op het moment van vaststellen (maart 2025) en nog niet gereed is; die kan bij een volgende poging apart opgezocht worden zodra gepubliceerd."
       }
     },
     {
