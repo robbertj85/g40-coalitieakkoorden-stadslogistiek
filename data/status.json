@@ -2520,11 +2520,33 @@
       "economy_summary": "Het akkoord versterkt de economie en het ondernemersklimaat als basis voor innovatie, werkgelegenheid, voorzieningenniveau en talentontwikkeling, met een toekomstgerichte, duurzame en concurrerende economie en een vitale binnenstad en wijkcentra. Onderwijs, bedrijfsleven en overheid trekken samen op in de arbeidsmarkt, met aandacht voor aansluiting onderwijs-arbeidsmarkt en studentenhuisvesting. Uitvoering van het Nationaal Programma Roosendaal en het Masterplan (spoorzone, binnenstad, Westrand) staat centraal, met een leegstandsheffing voor de binnenstad (p. 4-5, 7, 10).",
       "notes": "Geen stadslogistiek/goederenvervoer-termen aangetroffen. Coalitieakkoord expliciet 'op hoofdlijnen', met ruimte voor verdere uitwerking samen met de raad. raad.roosendaal.nl blokkeerde downloads met een bot-detectiepagina ('Beveiligingscontrole'); het document werd via roosendaal.nl/app/uploads/ gevonden.",
       "logistics_plans": {
-        "status": "todo",
+        "status": "found",
         "retries": 0,
-        "last_checked": null,
-        "documents": [],
-        "notes": ""
+        "last_checked": "2026-09-22",
+        "documents": [
+          {
+            "doc_type": "SUMP",
+            "title": "Mobiliteitsvisie Roosendaal 2040 – Roosendaal zet in op actieve mobiliteit",
+            "date": "2025-04",
+            "url": "https://www.roosendaal.nl/app/uploads/2025/10/mobiliteitsvisie-roosendaal-2040-a_0.pdf",
+            "source_page": "https://www.roosendaal.nl/roosendaalse-mobiliteitsvisie-2040-officieel-vastgesteld-op-weg-naar-een-bereikbare-veilige-en-leefbare-toekomst",
+            "local_file": "data/raw/roosendaal_sump.pdf",
+            "quotes": [
+              {
+                "term": "goederenvervoer",
+                "page": 15,
+                "text": "Het doel van het project ('Samen digitaal op weg!', met de gemeenten Bergen op Zoom en Roosendaal) is om het goederenvervoer in de regio te verbeteren door gebruik te maken van digital twin-technologie."
+              },
+              {
+                "term": "hub",
+                "page": 36,
+                "text": "Onderzoek naar het ontwikkelen van logistieke hubs aan de stadsranden. Onderzoeken en ontwikkelen van innovatieve alternatieven via buisleidingen en/of watertransport."
+              }
+            ],
+            "summary": "Op 17 april 2025 door de raad vastgestelde mobiliteitsvisie met een eigen paragraaf 2.2 'Kenschets Roosendaal Goederenvervoer'. Zet in op het weren van doorgaand vrachtverkeer uit het centrum, onderzoek naar logistieke hubs aan de stadsranden (bevoorrading met kleinschalige emissievrije voertuigen), innovatieve alternatieven via buisleidingen/watertransport, en het regionale innovatieproject 'Samen digitaal op weg!' (digital twin-technologie voor goederenstromen, met Bergen op Zoom)."
+          }
+        ],
+        "notes": "PDF heeft ernstige kolomvermenging bij extractie (twee kolommen door elkaar); quotes zijn beperkt tot fragmenten die desondanks eenduidig leesbaar zijn. Geen apart Roosendaals SULP of goederenvervoeragenda gevonden."
       }
     },
     {
