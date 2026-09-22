@@ -696,11 +696,33 @@
       "economy_summary": "Hoofdstuk 7 'Economie en transitie' zet in op een kwalitatief hoogwaardige invulling van schaarse ruimte, gericht op arbeids- en kennisintensieve bedrijvigheid, circulaire activiteiten en innovatie, met herstructurering van verouderde bedrijventerreinen en gedeelde voorzieningen (waaronder logistiek). Voor de Greenport Boskoop (sierteeltcluster) wordt een efficiencyslag in de logistiek nagestreefd om vervoersbewegingen te verminderen, met gefaciliteerd vrachtwagenparkeren passend bij de logistieke hubfunctie van het gebied, waarbij eerst wordt gezocht naar oplossingen voordat gehandhaafd wordt (p. 45, 51).",
       "notes": "Publieksversie (kort, 7 pagina's) bevatte geen relevante termen; volledige versie (65 pagina's, via dsresource-link) wel. Pagina 51 is tweekoloms en de bullet over vrachtwagenparkeren loopt over de paginabreek van p.50/51; quote gereconstrueerd uit -layout extractie, mogelijk ontbreekt het allereerste woord van de zin.",
       "logistics_plans": {
-        "status": "todo",
+        "status": "found",
         "retries": 0,
-        "last_checked": null,
-        "documents": [],
-        "notes": ""
+        "last_checked": "2026-09-22",
+        "documents": [
+          {
+            "doc_type": "SULP",
+            "title": "Implementatieplan Nul-emissiezone stadslogistiek Alphen aan den Rijn",
+            "date": "2020-04",
+            "url": "https://alphenaandenrijn.bestuurlijkeinformatie.nl/Document/View/58d0b9be-6f9d-4f6a-bfa1-55fb1e89227b",
+            "source_page": null,
+            "local_file": "data/raw/alphenaandenrijn_sulp.pdf",
+            "quotes": [
+              {
+                "term": "stadslogistiek",
+                "page": 3,
+                "text": "Lukt het om in 2025 de stadslogistiek in Alphen aan den Rijn emissievrij uit te voeren? Deze uitdaging wil Gemeente Alphen aan den Rijn aangaan samen met ondernemers en bedrijven uit de gemeente en de regio."
+              },
+              {
+                "term": "stadslogistiek",
+                "page": 3,
+                "text": "Vanuit ondernemers is recent ook een initiatief gestart dat erop gericht is om te komen tot het bundelen van stadslogistieke stromen, genaamd Lessgo, waardoor minder vervoersbewegingen nodig zijn."
+              }
+            ],
+            "summary": "In opdracht van de gemeente uitgevoerd onderzoek (april 2020, via het landelijke SPES-programma) naar de haalbaarheid van een nul-emissiezone voor stadslogistiek in het centrum, met aandacht voor het lokale bundelingsinitiatief Lessgo en samenwerking met buurgemeenten Gouda en Leiden."
+          }
+        ],
+        "notes": "Een gemeentebrede Mobiliteitsvisie 2040 (SUMP) was in mei 2024 nog in de fase 'plan van aanpak', met vaststelling gepland voor Q2-2025; geen bevestigd vastgestelde einddocument gevonden."
       }
     },
     {
