@@ -1044,11 +1044,33 @@
       "economy_summary": "Breda zet in op het Innovatiedistrict, 't Zoet en bestaande en nieuwe werklocaties als motor voor een vernieuwende en innoverende economie, met aandacht voor technologie, gaming en hoger onderwijs en een internationaler Breda. De binnenstad blijft het kloppend hart en groeit uit tot een groter, veelzijdiger centrumgebied met functiemenging, tijdelijke invulling en samenwerking met vastgoedeigenaren (p. 5-6).",
       "notes": "Geen enkele term uit de primaire stadslogistiek/goederenvervoer-set gaf een hit; alle 'hub'-treffers betreffen mobiliteitshubs voor personenvervoer (parkeren, deelmobiliteit), niet goederenlogistiek.",
       "logistics_plans": {
-        "status": "todo",
+        "status": "found",
         "retries": 0,
-        "last_checked": null,
-        "documents": [],
-        "notes": ""
+        "last_checked": "2026-09-22",
+        "documents": [
+          {
+            "doc_type": "SUMP",
+            "title": "Mobiliteitsvisie Breda – Veilig, robuust en duurzaam van A naar B",
+            "date": "2020-11",
+            "url": "https://open.breda.nl/sites/default/files/2024-11/Mobiliteitsvisie%20Breda.pdf",
+            "source_page": "https://planbreda.nl/afgeronde+plannen/1891396.aspx",
+            "local_file": "data/raw/breda_sump.pdf",
+            "quotes": [
+              {
+                "term": "bevoorrading",
+                "page": 80,
+                "text": "In 2020 is een proef gestart met de bevoorrading van de horeca. Horecaondernemers zijn gaan samenwerken in de bevoorrading, waardoor de bevoorrading veel efficienter en met minder kilometers in de binnenstad kon. In de Bredase binnenstad is sinds 2007 een milieuzone voor vrachtverkeer van kracht met euro 4 norm."
+              },
+              {
+                "term": "pakket",
+                "page": 81,
+                "text": "Een onderwerp waar in de toekomst zeker meer aandacht voor zal moeten komen is de pakketbezorging in de woonwijken. De e-commerce markt blijft fors groeien waardoor steeds vaker producten aan huis worden bezorgd. Dit leidt tot steeds meer vervoersbewegingen van bezorgvoertuigen."
+              }
+            ],
+            "summary": "Door de raad vastgestelde mobiliteitsvisie (november 2020, vastgesteld 28 januari 2021). Stadsdistributie wordt opgepakt via het Logistics Community Brabant (LCB), met een pilot voor gebundelde horeca-bevoorrading en een sinds 2007 geldende milieuzone (euro 4) voor vrachtverkeer in de binnenstad; groeiende pakketbezorging in woonwijken wordt als aandachtspunt benoemd."
+          }
+        ],
+        "notes": "Geen apart Bredaas SULP of goederenvervoeragenda gevonden; stadsdistributie/stadslogistiek is een deelonderwerp binnen deze gemeentebrede mobiliteitsvisie."
       }
     },
     {
