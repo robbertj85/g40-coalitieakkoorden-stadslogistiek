@@ -412,11 +412,54 @@
       "economy_summary": "Hoofdstuk 4.1 'Economie en werkgelegenheid' zet in op de circulaire economie en circulaire maakindustrie (kader 'Utrecht Circulair 2030'), versterking van de lokale gemeenschapseconomie en regionale economie via extra dotatie aan de Regionale Ontwikkelingsmaatschappij (ROM). Er komt geld vrij voor werklocaties in brede zin en voor het verduurzamen en vergroenen van bedrijventerreinen. Leegstand in de binnenstad wordt bestreden met de leegstandsverordening; het ondernemersfonds wordt samen met ondernemers verder gericht (p. 15, 45-47).",
       "notes": "Tweekoloms-PDF: tekstextractie mengt soms kolommen; quotes gecontroleerd tegen paginacontext. Venstertijden op p. 21 betreffen betaald parkeren, niet bevoorrading.",
       "logistics_plans": {
-        "status": "todo",
+        "status": "found",
         "retries": 0,
-        "last_checked": null,
-        "documents": [],
-        "notes": ""
+        "last_checked": "2026-09-22",
+        "documents": [
+          {
+            "doc_type": "Goederenvervoeragenda",
+            "title": "Uitvoeringsprogramma goederenvervoer 2023-2026",
+            "date": "2023",
+            "url": "https://utrecht.bestuurlijkeinformatie.nl/Document/View/a7a56319-7460-41f8-a376-4781efd979ed",
+            "source_page": "https://omgevingsvisie.utrecht.nl/thematisch-beleid/goederenvervoer",
+            "local_file": "data/raw/utrecht_goederenvervoer.pdf",
+            "quotes": [
+              {
+                "term": "goederenvervoer",
+                "page": 5,
+                "text": "Maar ook de uitdaging om vanaf 2025 de binnenstad stapsgewijs helemaal emissievrij te bevoorraden. Op 1 januari 2025 moeten de nieuwe bestel- en vrachtauto’s helemaal uitstootvrij zijn en in 2030 alle bestel- en vrachtauto's."
+              },
+              {
+                "term": "goederenvervoer",
+                "page": 6,
+                "text": "Het vervangen van vracht- en bestelauto’s op benzine en diesel door uitstootvrije voer- en vaartuigen is niet voldoende om de leefbaarheid van de stad en het klimaat te verbeteren; bundeling en efficient goederenvervoer is daarbij noodzakelijk."
+              }
+            ],
+            "summary": "Opvolger van het Actieplan Goederenvervoer 2015-2020; uitvoeringsprogramma tot en met 2026 met maatregelen rond toegangsbeleid, modal shift, bundelen en slimme stadslogistiek, gericht op emissievrije bevoorrading van de binnenstad vanaf 2025."
+          },
+          {
+            "doc_type": "SUMP",
+            "title": "Mobiliteitsplan 2040",
+            "date": "2021-07",
+            "url": "https://bollunetten.nl/wp-content/uploads/2021/01/Mobiliteitsplan-2040.pdf",
+            "source_page": "https://omgevingsvisie.utrecht.nl/thematisch-beleid/verkeer-en-mobiliteit",
+            "local_file": "data/raw/utrecht_sump.pdf",
+            "quotes": [
+              {
+                "term": "goederenvervoer",
+                "page": 32,
+                "text": "Efficienter en schoner goederenvervoer, inzetten op water en spoor waar zinvol."
+              },
+              {
+                "term": "goederenvervoer",
+                "page": 60,
+                "text": "Goederenvervoer: bevoorrading van winkels en andere logistieke stromen stimuleren we meer gebruik te maken van vervoer over water, meer te bundelen, data-gedreven toegang tot (bepaalde delen en tijden van) de stad en indien mogelijk gebruik te maken van kleinere en schonere voertuigen."
+              }
+            ],
+            "summary": "Door de gemeenteraad vastgesteld mobiliteitsplan (15 juli 2021) met vervoerwijzehiërarchie tot 2040; goederenvervoer wordt via het Kwaliteitsnet efficiënt en schoon afgewikkeld, met inzet op vervoer over water en spoor en bundeling van bevoorrading."
+          }
+        ],
+        "notes": "Het oorspronkelijke Actieplan Goederenvervoer 2015-2020 (omgevingsvisie.utrecht.nl) is niet meer online; vervangen door het Uitvoeringsprogramma goederenvervoer 2023-2026."
       }
     },
     {
