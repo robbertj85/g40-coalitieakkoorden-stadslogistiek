@@ -1311,11 +1311,33 @@
       "economy_summary": "Het akkoord noemt Regio Foodvalley als regio met veel behoefte aan flexibele arbeid, vooral in agri-food, logistiek en productie, met een groeiende groep arbeidsmigranten die daaraan bijdraagt. Woningbouw en bedrijventerreinen vragen door de ligging tegen de Veluwe steeds vaker om natuur- en recreatiecompensatie in het landelijk gebied (p. 5, 24).",
       "notes": "Opvallende expliciete keuze: de coalitie stopt met de invoering van een Zero Emissie Zone omdat de inspanning niet opweegt tegen het effect, en consolideert bedrijfsafvalinzameling in het centrum bij één aanbieder om uitstoot te verminderen. Titel op de PDF-omslag ('Doelgericht, met zorg voor elkaar...') wijkt af van de titel 'Groeien in balans' die in eerdere zoekresultaten werd genoemd; de titel op het document zelf is hier leidend.",
       "logistics_plans": {
-        "status": "todo",
+        "status": "found",
         "retries": 0,
-        "last_checked": null,
-        "documents": [],
-        "notes": ""
+        "last_checked": "2026-09-22",
+        "documents": [
+          {
+            "doc_type": "SUMP",
+            "title": "Omgevingsvisie Ede 2040 (mobiliteitsonderdeel)",
+            "date": null,
+            "url": "https://lokaleregelgeving.overheid.nl/CVDR743991/1",
+            "source_page": null,
+            "local_file": null,
+            "quotes": [
+              {
+                "term": "stadslogistiek",
+                "page": null,
+                "text": "In Ede-stad is een Zero Emissiezone voor Stadslogistiek (ZES) in voorbereiding."
+              },
+              {
+                "term": "goederenvervoer",
+                "page": null,
+                "text": "Voor grote afstanden is sprake van een verschuiving van wegtransport naar schoon railvervoer. Initiatieven voor een railterminal aan de spoorlijn Amersfoort-Apeldoorn ter hoogte van Barneveld spelen daar op in en kunnen ook interessant zijn voor bedrijven in de gemeente Ede."
+              }
+            ],
+            "summary": "De Omgevingsvisie Ede 2040 bevat het hoofdstuk 'Schone mobiliteit' waarin een zero-emissiezone voor stadslogistiek (ZES) in Ede-stad wordt aangekondigd als in voorbereiding, en waarin wordt ingezet op modal shift van wegtransport naar railvervoer via een mogelijke railterminal bij Barneveld."
+          }
+        ],
+        "notes": "Geraadpleegd via CVDR-publicatie (lokaleregelgeving.overheid.nl); geen los PDF gedownload, geen exacte vaststellingsdatum gevonden. Het aparte Gemeentelijk Verkeers- en Vervoerplan (GVVP) Ede 'Verbinden en bereiken' is uit 2010 en dus verouderd; geen recentere, losstaande mobiliteitsvisie of SULP/goederenvervoeragenda gevonden."
       }
     },
     {
