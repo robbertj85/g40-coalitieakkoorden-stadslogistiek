@@ -157,7 +157,9 @@
                 "text": "Zo’n 30% van het vracht- en bestelverkeer in de stad komt voort uit bouwactiviteiten. Bouwlogistiek is de grootste en meest urgente logistieke stroom."
               }
             ],
-            "summary": "Stadsbrede logistieke strategie (januari 2022) die de balans zoekt tussen bevoorrading en leefbaarheid: schone, lichte, veilige en efficiente stadslogistiek via bouwhubs, transport over water, micro-/buurthubs en samenwerking met de sector via platform Logistiek 020."
+            "summary": "Stadsbrede logistieke strategie (januari 2022) die de balans zoekt tussen bevoorrading en leefbaarheid: schone, lichte, veilige en efficiente stadslogistiek via bouwhubs, transport over water, micro-/buurthubs en samenwerking met de sector via platform Logistiek 020.",
+            "period": null,
+            "period_checked": false
           },
           {
             "doc_type": "SUMP",
@@ -178,11 +180,14 @@
                 "text": "Samen met de stevige groei van het aantal bewoners, bezoekers en bedrijven groeit ook het goederenvervoer in de stad. Naast de bevoorrading van winkels en horeca neemt ook het bezorgverkeer naar particulieren toe door de populariteit van online shoppen. Goede doorstroming en geschikte faciliteiten voor goederenvervoer zijn daarom essentieel vanwege het grote economisch belang van goede bevoorrading maar ook om overlast, een verslechtering van de luchtkwaliteit en onveiligheid te voorkomen."
               }
             ],
-            "summary": "Gemeentebrede mobiliteitsagenda (vastgesteld door de raad, 30 september 2015) over bereikbaarheid, ruimte en doorstroming; goederenvervoer is een van de meegenomen vervoerstromen, met een specifieke maatregel (m45) voor doorstroming en handhaving van goederenvervoer op drukke routes."
+            "summary": "Gemeentebrede mobiliteitsagenda (vastgesteld door de raad, 30 september 2015) over bereikbaarheid, ruimte en doorstroming; goederenvervoer is een van de meegenomen vervoerstromen, met een specifieke maatregel (m45) voor doorstroming en handhaving van goederenvervoer op drukke routes.",
+            "period": null,
+            "period_checked": false
           }
         ],
         "notes": "Amsterdam heeft geen apart gelabeld 'SUMP'/'SULP', maar de Uitvoeringsagenda Mobiliteit (2015) en de Logistieke strategie (2022) vervullen die functie inhoudelijk."
-      }
+      },
+      "urban_node": true
     },
     {
       "municipality": "Rotterdam",
@@ -251,7 +256,9 @@
                 "text": "De gemeente Rotterdam werkt al jaren samen met het bedrijfsleven aan het reduceren van het aantal logistieke bewegingen in de stad, door slimme logistiek zoals bundeling van goederenstromen, en het verschonen van de vrachtvoertuigen die de stad in moeten."
               }
             ],
-            "summary": "Door de gemeenteraad vastgesteld stappenplan (juni 2019) naar een zero-emissiezone voor stadslogistiek in 2025, met een aanpak langs de Trias Mobilica (volumebeheersing, veranderen, verschonen) en een specifieke aanpak per goederensegment (vers, bouw, pakketten, afval)."
+            "summary": "Door de gemeenteraad vastgesteld stappenplan (juni 2019) naar een zero-emissiezone voor stadslogistiek in 2025, met een aanpak langs de Trias Mobilica (volumebeheersing, veranderen, verschonen) en een specifieke aanpak per goederensegment (vers, bouw, pakketten, afval).",
+            "period": null,
+            "period_checked": false
           },
           {
             "doc_type": "SUMP",
@@ -272,11 +279,14 @@
                 "text": "De zero emissie zone voor stadslogistiek bestaat grofweg uit het gebied binnen de Ruit van Rotterdam. [...] Ze zijn tevens kansrijk voor het realiseren van (grote) logistieke hubs gebundeld met binnenstedelijke zero emissie transporten."
               }
             ],
-            "summary": "Door de gemeenteraad vastgestelde mobiliteitsaanpak (februari 2020) met sturingsprincipes en maatregelen tot 2030; voor goederenvervoer onder meer een zero-emissiezone voor stadslogistiek binnen de Ruit van Rotterdam, logistieke hubs aan de rand en een schone-logistiek-rijstrook (e-lane) op de Maastunnelcorridor."
+            "summary": "Door de gemeenteraad vastgestelde mobiliteitsaanpak (februari 2020) met sturingsprincipes en maatregelen tot 2030; voor goederenvervoer onder meer een zero-emissiezone voor stadslogistiek binnen de Ruit van Rotterdam, logistieke hubs aan de rand en een schone-logistiek-rijstrook (e-lane) op de Maastunnelcorridor.",
+            "period": null,
+            "period_checked": false
           }
         ],
         "notes": "Niet te verwarren met de landelijke 'Uitvoeringsagenda Stadslogistiek' (2021), een gezamenlijk convenant van VNG/IenW/G4/Tilburg dat geen Rotterdam-specifiek document is."
-      }
+      },
+      "urban_node": true
     },
     {
       "municipality": "Den Haag",
@@ -349,7 +359,9 @@
                 "text": "Dit geldt bijvoorbeeld in het kader van de Europese verplichting voor grote steden om een SULP (Sustainable Urban Logistics Plan) op te stellen vóór 2028 als onderdeel van de SUMP (Sustainable Urban Mobility Plan). Dit Actieprogramma geeft hiervoor de ingrediënten op het moment dat hier meer duidelijkheid over is."
               }
             ],
-            "summary": "Concretisering (mei 2026) van het door het College in juli 2025 vastgestelde Programmaplan Duurzame Stadslogistiek, met maatregelen 2026-2030 rond bundelen, gebiedsgerichte aanpak, modal shift/laadinfrastructuur en slimme logistiek. Het document benoemt zelf expliciet de EU-verplichting om voór 2028 een formeel SULP op te stellen (als onderdeel van een SUMP) en positioneert zichzelf als opstap daarnaartoe."
+            "summary": "Concretisering (mei 2026) van het door het College in juli 2025 vastgestelde Programmaplan Duurzame Stadslogistiek, met maatregelen 2026-2030 rond bundelen, gebiedsgerichte aanpak, modal shift/laadinfrastructuur en slimme logistiek. Het document benoemt zelf expliciet de EU-verplichting om voór 2028 een formeel SULP op te stellen (als onderdeel van een SUMP) en positioneert zichzelf als opstap daarnaartoe.",
+            "period": null,
+            "period_checked": false
           },
           {
             "doc_type": "SUMP",
@@ -370,11 +382,14 @@
                 "text": "In goed overleg met Haagse ondernemers en werkgevers zetten we in op stadvriendelijke logistiek en bevoorrading, waarbij verkeersveiligheid voorop staat. Het is belangrijk dat er nieuwe faciliteiten komen voor duurzame- en waar mogelijk kleinschaligere bevoorrading."
               }
             ],
-            "summary": "Vervangt de Haagse Nota Mobiliteit (2011) als leidend mobiliteitsbeleid tot de Omgevingsvisie klaar is; volgens het STOMP-principe (voetganger/fiets/OV/deelmobiliteit voor privéauto) met logistieke mobiliteitshubs en stadvriendelijke bevoorrading als aandachtspunt."
+            "summary": "Vervangt de Haagse Nota Mobiliteit (2011) als leidend mobiliteitsbeleid tot de Omgevingsvisie klaar is; volgens het STOMP-principe (voetganger/fiets/OV/deelmobiliteit voor privéauto) met logistieke mobiliteitshubs en stadvriendelijke bevoorrading als aandachtspunt.",
+            "period": null,
+            "period_checked": false
           }
         ],
         "notes": ""
-      }
+      },
+      "urban_node": true
     },
     {
       "municipality": "Utrecht",
@@ -435,7 +450,9 @@
                 "text": "Het vervangen van vracht- en bestelauto’s op benzine en diesel door uitstootvrije voer- en vaartuigen is niet voldoende om de leefbaarheid van de stad en het klimaat te verbeteren; bundeling en efficient goederenvervoer is daarbij noodzakelijk."
               }
             ],
-            "summary": "Opvolger van het Actieplan Goederenvervoer 2015-2020; uitvoeringsprogramma tot en met 2026 met maatregelen rond toegangsbeleid, modal shift, bundelen en slimme stadslogistiek, gericht op emissievrije bevoorrading van de binnenstad vanaf 2025."
+            "summary": "Opvolger van het Actieplan Goederenvervoer 2015-2020; uitvoeringsprogramma tot en met 2026 met maatregelen rond toegangsbeleid, modal shift, bundelen en slimme stadslogistiek, gericht op emissievrije bevoorrading van de binnenstad vanaf 2025.",
+            "period": null,
+            "period_checked": false
           },
           {
             "doc_type": "SUMP",
@@ -456,11 +473,14 @@
                 "text": "Goederenvervoer: bevoorrading van winkels en andere logistieke stromen stimuleren we meer gebruik te maken van vervoer over water, meer te bundelen, data-gedreven toegang tot (bepaalde delen en tijden van) de stad en indien mogelijk gebruik te maken van kleinere en schonere voertuigen."
               }
             ],
-            "summary": "Door de gemeenteraad vastgesteld mobiliteitsplan (15 juli 2021) met vervoerwijzehiërarchie tot 2040; goederenvervoer wordt via het Kwaliteitsnet efficiënt en schoon afgewikkeld, met inzet op vervoer over water en spoor en bundeling van bevoorrading."
+            "summary": "Door de gemeenteraad vastgesteld mobiliteitsplan (15 juli 2021) met vervoerwijzehiërarchie tot 2040; goederenvervoer wordt via het Kwaliteitsnet efficiënt en schoon afgewikkeld, met inzet op vervoer over water en spoor en bundeling van bevoorrading.",
+            "period": null,
+            "period_checked": false
           }
         ],
         "notes": "Het oorspronkelijke Actieplan Goederenvervoer 2015-2020 (omgevingsvisie.utrecht.nl) is niet meer online; vervangen door het Uitvoeringsprogramma goederenvervoer 2023-2026."
-      }
+      },
+      "urban_node": true
     },
     {
       "municipality": "Alkmaar",
@@ -528,11 +548,14 @@
                 "text": "Daarom is de visie zo opgezet dat de netwerken voor alle modaliteiten, de auto, de fiets, het openbaar vervoer, de voetganger, deelmobiliteit en goederenvervoer, worden (door)ontwikkeld."
               }
             ],
-            "summary": "Door de raad op 15 juli 2024 expliciet vastgesteld als het formele SUMP van Alkmaar, om te voldoen aan de EU-verplichting voor 'urban nodes' (stedelijke gebieden met >100.000 inwoners) om uiterlijk 2027 een Sustainable Urban Mobility Plan te hebben. Goederenvervoer is een van de meegenomen modaliteiten/netwerken."
+            "summary": "Door de raad op 15 juli 2024 expliciet vastgesteld als het formele SUMP van Alkmaar, om te voldoen aan de EU-verplichting voor 'urban nodes' (stedelijke gebieden met >100.000 inwoners) om uiterlijk 2027 een Sustainable Urban Mobility Plan te hebben. Goederenvervoer is een van de meegenomen modaliteiten/netwerken.",
+            "period": null,
+            "period_checked": false
           }
         ],
         "notes": "Geen apart Alkmaars SULP of goederenvervoeragenda gevonden; stadslogistiek/hub-initiatieven lopen via de regionale Agenda Mobiliteit Regio Alkmaar 2023-2025 en het Actieprogramma Economie, niet via een eigen Alkmaars document."
-      }
+      },
+      "urban_node": true
     },
     {
       "municipality": "Almelo",
@@ -574,11 +597,14 @@
             "source_page": "https://almelo.nl/almelo-presenteert-toekomstvisie-voor-mobiliteit-en-openbare-ruimte-binnenstad",
             "local_file": "data/raw/almelo_sump.pdf",
             "quotes": [],
-            "summary": "Uitgangspuntendocument voor de Mobiliteitsvisie Almelo 2050 (2024), met drie ambities: een bereikbare en vitale stad, een gezonde en veilige leefomgeving, en een leefbare en aantrekkelijke stad. Focus op lopen/fietsen op korte en middellange afstand en autoverkeer meer op hoofdroutes; geen expliciete passage over goederenvervoer of stadslogistiek. Concrete keuzes (mogelijk inclusief goederenvervoer) volgen later in een uit te werken mobiliteitsplan."
+            "summary": "Uitgangspuntendocument voor de Mobiliteitsvisie Almelo 2050 (2024), met drie ambities: een bereikbare en vitale stad, een gezonde en veilige leefomgeving, en een leefbare en aantrekkelijke stad. Focus op lopen/fietsen op korte en middellange afstand en autoverkeer meer op hoofdroutes; geen expliciete passage over goederenvervoer of stadslogistiek. Concrete keuzes (mogelijk inclusief goederenvervoer) volgen later in een uit te werken mobiliteitsplan.",
+            "period": null,
+            "period_checked": false
           }
         ],
         "notes": "Dit is het uitgangspuntendocument, niet de definitief vastgestelde visie/het vervolg-mobiliteitsplan; geen apart SULP/goederenvervoeragenda gevonden voor Almelo."
-      }
+      },
+      "urban_node": false
     },
     {
       "municipality": "Almere",
@@ -642,11 +668,14 @@
                 "text": "In de meer landelijke delen van de stad, zoals in Oosterwold, kan het inrichten van hubs, o.a. voor stadslogistiek, bijdragen aan een afname van het aantal rondrijdende bestelbusjes in woonstraten. Dit bespaart voertuigkilometers en zorgt voor een veiliger woonstraat."
               }
             ],
-            "summary": "Door de raad vastgestelde mobiliteitsvisie (2020) met zeven doelen tot 2030; doel 3 is dat stadslogistiek minder milieubelastend wordt, via een richtlijn voor schone stadsdistributie en een pilot met een logistieke hub (met name kansrijk in landelijke delen zoals Oosterwold)."
+            "summary": "Door de raad vastgestelde mobiliteitsvisie (2020) met zeven doelen tot 2030; doel 3 is dat stadslogistiek minder milieubelastend wordt, via een richtlijn voor schone stadsdistributie en een pilot met een logistieke hub (met name kansrijk in landelijke delen zoals Oosterwold).",
+            "period": null,
+            "period_checked": false
           }
         ],
         "notes": "De jaarlijkse uitvoeringskeuzes lopen via het Mobiliteits- en Infrastructuur Programma Almere (MIPA); geen apart Almeers SULP/goederenvervoeragenda gevonden."
-      }
+      },
+      "urban_node": true
     },
     {
       "municipality": "Alphen aan den Rijn",
@@ -719,11 +748,14 @@
                 "text": "Vanuit ondernemers is recent ook een initiatief gestart dat erop gericht is om te komen tot het bundelen van stadslogistieke stromen, genaamd Lessgo, waardoor minder vervoersbewegingen nodig zijn."
               }
             ],
-            "summary": "In opdracht van de gemeente uitgevoerd onderzoek (april 2020, via het landelijke SPES-programma) naar de haalbaarheid van een nul-emissiezone voor stadslogistiek in het centrum, met aandacht voor het lokale bundelingsinitiatief Lessgo en samenwerking met buurgemeenten Gouda en Leiden."
+            "summary": "In opdracht van de gemeente uitgevoerd onderzoek (april 2020, via het landelijke SPES-programma) naar de haalbaarheid van een nul-emissiezone voor stadslogistiek in het centrum, met aandacht voor het lokale bundelingsinitiatief Lessgo en samenwerking met buurgemeenten Gouda en Leiden.",
+            "period": null,
+            "period_checked": false
           }
         ],
         "notes": "Een gemeentebrede Mobiliteitsvisie 2040 (SUMP) was in mei 2024 nog in de fase 'plan van aanpak', met vaststelling gepland voor Q2-2025; geen bevestigd vastgestelde einddocument gevonden."
-      }
+      },
+      "urban_node": false
     },
     {
       "municipality": "Amersfoort",
@@ -776,11 +808,14 @@
                 "text": "4.2 Zero-emissiezones: schonere bevoorrading en een gezonder stadshart."
               }
             ],
-            "summary": "Door het college vastgesteld omgevingsprogramma (13 mei 2025) met 9 thema's tot 2035; hoofdstuk 4.2 introduceert zero-emissiezones voor goederenvervoer, gestart in het kernwinkelgebied in 2025 en uitgebreid tot het autoluwe gebied in 2027, met een overgangsperiode per voertuigtype."
+            "summary": "Door het college vastgesteld omgevingsprogramma (13 mei 2025) met 9 thema's tot 2035; hoofdstuk 4.2 introduceert zero-emissiezones voor goederenvervoer, gestart in het kernwinkelgebied in 2025 en uitgebreid tot het autoluwe gebied in 2027, met een overgangsperiode per voertuigtype.",
+            "period": null,
+            "period_checked": false
           }
         ],
         "notes": "Geen apart Amersfoorts SULP of goederenvervoeragenda gevonden; zero-emissiezone voor stadslogistiek is onderdeel van dit gemeentebrede mobiliteitsprogramma."
-      }
+      },
+      "urban_node": true
     },
     {
       "municipality": "Amstelveen",
@@ -831,11 +866,14 @@
                 "text": "2.7 Stimuleren nieuwe pakketophaalpunten. Minder busjes in wijken en meer elektrisch vervoer. Maakt onderdeel uit van VRA-project SPES (duurzame stadslogistiek) en vraagt ook binnen de gemeente om acties."
               }
             ],
-            "summary": "Op 14 februari 2020 door de raad vastgestelde Mobiliteitsvisie Amstelveen, uitgewerkt in dit Uitvoeringsprogramma 2021-2024. Stadslogistiek komt terug via de Green Deal Zero Emissie Stadslogistiek (ZES), het regionale SPES-project (Vervoerregio Amsterdam) en de stimulering van pakketophaalpunten om bestelbusverkeer in wijken te verminderen."
+            "summary": "Op 14 februari 2020 door de raad vastgestelde Mobiliteitsvisie Amstelveen, uitgewerkt in dit Uitvoeringsprogramma 2021-2024. Stadslogistiek komt terug via de Green Deal Zero Emissie Stadslogistiek (ZES), het regionale SPES-project (Vervoerregio Amsterdam) en de stimulering van pakketophaalpunten om bestelbusverkeer in wijken te verminderen.",
+            "period": null,
+            "period_checked": false
           }
         ],
         "notes": "Geen apart Amstelveens SULP of goederenvervoeragenda gevonden; stadslogistiek loopt via de regionale ZES/SPES-samenwerking binnen de Vervoerregio Amsterdam."
-      }
+      },
+      "urban_node": false
     },
     {
       "municipality": "Apeldoorn",
@@ -894,11 +932,14 @@
                 "text": "Start bij de doorontwikkeling van de Spoorzone met de doorontwikkeling van het NS-station en het busstation tot mobiliteitsknooppunt (hub)."
               }
             ],
-            "summary": "Door de raad vastgesteld (april 2021, definitief besluit) als de Mobiliteitsvisie binnenstad van Apeldoorn. Zet in op verschoning van de (binnen)stadslogistiek conform de ondertekende Green Deal Zero Emission Stadslogistiek, met als doel zoveel mogelijk zero-emissie stadslogistiek binnen de centrumring vanaf 2025 (later diverse malen uitgesteld richting 2030 volgens raadsbesluiten van 2023-2024)."
+            "summary": "Door de raad vastgesteld (april 2021, definitief besluit) als de Mobiliteitsvisie binnenstad van Apeldoorn. Zet in op verschoning van de (binnen)stadslogistiek conform de ondertekende Green Deal Zero Emission Stadslogistiek, met als doel zoveel mogelijk zero-emissie stadslogistiek binnen de centrumring vanaf 2025 (later diverse malen uitgesteld richting 2030 volgens raadsbesluiten van 2023-2024).",
+            "period": null,
+            "period_checked": false
           }
         ],
         "notes": "Na 2 mislukte pogingen (verkeerd toegeschreven verkeersbesluiten van Rotterdam/Den Haag/Amsterdam, 404's op eerdere URL's) alsnog gevonden via de actuele apeldoorn.nl beleidsstukken-pagina. Geen apart Apeldoorns SULP-document gevonden naast deze mobiliteitsvisie."
-      }
+      },
+      "urban_node": true
     },
     {
       "municipality": "Arnhem",
@@ -972,11 +1013,14 @@
                 "text": "Ook stoppen we in deze periode veel tijd en energie in de voorbereiding van de stadsrandhubs, zoals de stadsrandhub GelreDome."
               }
             ],
-            "summary": "Door de gemeenteraad vastgesteld duurzaam mobiliteitsplan (2024-2040, expliciet aangeduid als SUMP door adviesbureau Goudappel) met meer dan 100 maatregelen en een investeringsbudget van €550,1 mln. Goederenvervoer/logistiek is een eigen investeringscategorie ('Hubs en logistiek', €85,16 mln.), met de stadsrandhub GelreDome als concreet voorbeeldproject."
+            "summary": "Door de gemeenteraad vastgesteld duurzaam mobiliteitsplan (2024-2040, expliciet aangeduid als SUMP door adviesbureau Goudappel) met meer dan 100 maatregelen en een investeringsbudget van €550,1 mln. Goederenvervoer/logistiek is een eigen investeringscategorie ('Hubs en logistiek', €85,16 mln.), met de stadsrandhub GelreDome als concreet voorbeeldproject.",
+            "period": null,
+            "period_checked": false
           }
         ],
         "notes": "Geen apart Arnhems SULP of goederenvervoeragenda gevonden; logistiek/hubs zijn een programmalijn binnen dit gemeentebrede mobiliteitsplan."
-      }
+      },
+      "urban_node": true
     },
     {
       "municipality": "Assen",
@@ -1034,11 +1078,14 @@
                 "text": "Vergroenen van onze stadslogistiek vraagt daarnaast om het nadenken over andere logistieke concepten. Op dit moment lijkt het een optie te gaan werken met logistieke hubs waar logistiek dienstverleners hun vracht afleveren en overladen op elektrische cargo-bikes of andere Light Electric Freight Vehicles (LEFV's)."
               }
             ],
-            "summary": "Actualisatie van de mobiliteitsvisie (opvolger van de visie uit 2017, aansluitend op de omgevingsvisie 'Assen nog mooier' 2021 en de Asser Ambitie Agenda 2024). Introduceert in 2025 een zero-emissiezone in de binnenstad (volledig van kracht vanaf 2030) en verkent logistieke hubs met overslag op elektrische cargobikes/LEFV's."
+            "summary": "Actualisatie van de mobiliteitsvisie (opvolger van de visie uit 2017, aansluitend op de omgevingsvisie 'Assen nog mooier' 2021 en de Asser Ambitie Agenda 2024). Introduceert in 2025 een zero-emissiezone in de binnenstad (volledig van kracht vanaf 2030) en verkent logistieke hubs met overslag op elektrische cargobikes/LEFV's.",
+            "period": null,
+            "period_checked": false
           }
         ],
         "notes": "Document geraadpleegd via de CVDR-publicatie (lokaleregelgeving.overheid.nl); geen los PDF-bestand gedownload. Geen apart Assens SULP of goederenvervoeragenda gevonden. Let op: dit lijkt in spanning met de coalitieakkoord-analyse ('Assen handhaaft de bestaande zone zonder uitbreiding') – deze visie spreekt zelf van invoering vanaf 2025."
-      }
+      },
+      "urban_node": false
     },
     {
       "municipality": "Breda",
@@ -1089,11 +1136,14 @@
                 "text": "Een onderwerp waar in de toekomst zeker meer aandacht voor zal moeten komen is de pakketbezorging in de woonwijken. De e-commerce markt blijft fors groeien waardoor steeds vaker producten aan huis worden bezorgd. Dit leidt tot steeds meer vervoersbewegingen van bezorgvoertuigen."
               }
             ],
-            "summary": "Door de raad vastgestelde mobiliteitsvisie (november 2020, vastgesteld 28 januari 2021). Stadsdistributie wordt opgepakt via het Logistics Community Brabant (LCB), met een pilot voor gebundelde horeca-bevoorrading en een sinds 2007 geldende milieuzone (euro 4) voor vrachtverkeer in de binnenstad; groeiende pakketbezorging in woonwijken wordt als aandachtspunt benoemd."
+            "summary": "Door de raad vastgestelde mobiliteitsvisie (november 2020, vastgesteld 28 januari 2021). Stadsdistributie wordt opgepakt via het Logistics Community Brabant (LCB), met een pilot voor gebundelde horeca-bevoorrading en een sinds 2007 geldende milieuzone (euro 4) voor vrachtverkeer in de binnenstad; groeiende pakketbezorging in woonwijken wordt als aandachtspunt benoemd.",
+            "period": null,
+            "period_checked": false
           }
         ],
         "notes": "Geen apart Bredaas SULP of goederenvervoeragenda gevonden; stadsdistributie/stadslogistiek is een deelonderwerp binnen deze gemeentebrede mobiliteitsvisie."
-      }
+      },
+      "urban_node": true
     },
     {
       "municipality": "Delft",
@@ -1144,11 +1194,14 @@
                 "text": "Met het instellen van de milieuzone en nulemissie in de binnenstad voor vracht- en bestelverkeer in 2025 is een logistieke hub essentieel."
               }
             ],
-            "summary": "Door de raad vastgesteld mobiliteitsprogramma (28 januari 2021, definitief) met een aparte paragraaf 'Vernieuwende logistiek'. Zet in op een milieuzone voor heel Delft, aangescherpte milieueisen voor de logistieke zone in de binnenstad, nulemissie vracht-/bestelverkeer vanaf 2025, logistieke hubs met overslag op kleinere elektrische voertuigen en concentratie van binnenvaart-overslag op Schieoevers-Zuid."
+            "summary": "Door de raad vastgesteld mobiliteitsprogramma (28 januari 2021, definitief) met een aparte paragraaf 'Vernieuwende logistiek'. Zet in op een milieuzone voor heel Delft, aangescherpte milieueisen voor de logistieke zone in de binnenstad, nulemissie vracht-/bestelverkeer vanaf 2025, logistieke hubs met overslag op kleinere elektrische voertuigen en concentratie van binnenvaart-overslag op Schieoevers-Zuid.",
+            "period": null,
+            "period_checked": false
           }
         ],
         "notes": "PDF alleen via web.archive.org beschikbaar; de oorspronkelijke delft.nl-link en ris.delft.nl-link gaven 404. Geen apart Delfts SULP of goederenvervoeragenda gevonden."
-      }
+      },
+      "urban_node": false
     },
     {
       "municipality": "Deventer",
@@ -1215,11 +1268,14 @@
                 "text": "We gaan onderzoeken hoe bevoorrading op een slimme en duurzame wijze plaats kan vinden. [...] Het aanbrengen van een knip kan bijvoorbeeld belemmerend werken ten aanzien van bevoorrading van de binnenstad."
               }
             ],
-            "summary": "Door de raad vastgesteld tussenproduct (maart 2025) met een eigen paragraaf 3.2.6 'slimme en duurzame stadslogistiek': nul-emissiezone voor bestel- en vrachtvoertuigen uiterlijk 31 december 2027, gecombineerde inzet op schonere voertuigen en gebundelde/slimme bevoorrading, met aandacht voor de wisselwerking met verkeersknips in de binnenstad."
+            "summary": "Door de raad vastgesteld tussenproduct (maart 2025) met een eigen paragraaf 3.2.6 'slimme en duurzame stadslogistiek': nul-emissiezone voor bestel- en vrachtvoertuigen uiterlijk 31 december 2027, gecombineerde inzet op schonere voertuigen en gebundelde/slimme bevoorrading, met aandacht voor de wisselwerking met verkeersknips in de binnenstad.",
+            "period": null,
+            "period_checked": false
           }
         ],
         "notes": "Geen apart Deventers SULP of goederenvervoeragenda gevonden; stadslogistiek is een eigen programmalijn binnen dit mobiliteitsplan. Bevestigt de eerdere coalitieakkoord-bevinding (nul-emissiezone eind 2027)."
-      }
+      },
+      "urban_node": false
     },
     {
       "municipality": "Dordrecht",
@@ -1288,11 +1344,14 @@
                 "text": "Sturen in een gezamenlijke spoorgemeenten lobby op heroverwegen van nationale goederenvervoer netwerken door woonwijken, met als doel de aanleg van een dedicated Goederenvervoerlijn (DGL) gekoppeld aan de A16."
               }
             ],
-            "summary": "Uitgangspuntennotitie (mei 2023) voor het Mobiliteitsplan Dordrecht 2040, dat op 24 september 2024 door de raad is vastgesteld als SUMP (het definitieve document was niet downloadbaar vanwege een botbeveiliging op raad.dordrecht.nl). Goederenvervoer is een van de vijf te versterken netwerken; genoemd wordt de bestaande 'routekaart Zero Emissie Stadslogistiek', emissieloze en efficientere bevoorrading van de binnenstad, en een regionale lobby voor een dedicated Goederenvervoerlijn (DGL) langs de A16 om goederenvervoer per spoor uit woonwijken te weren."
+            "summary": "Uitgangspuntennotitie (mei 2023) voor het Mobiliteitsplan Dordrecht 2040, dat op 24 september 2024 door de raad is vastgesteld als SUMP (het definitieve document was niet downloadbaar vanwege een botbeveiliging op raad.dordrecht.nl). Goederenvervoer is een van de vijf te versterken netwerken; genoemd wordt de bestaande 'routekaart Zero Emissie Stadslogistiek', emissieloze en efficientere bevoorrading van de binnenstad, en een regionale lobby voor een dedicated Goederenvervoerlijn (DGL) langs de A16 om goederenvervoer per spoor uit woonwijken te weren.",
+            "period": null,
+            "period_checked": false
           }
         ],
         "notes": "Het definitieve, op 24-9-2024 vastgestelde Mobiliteitsplan Dordrecht 2040 stond achter een JS-beveiligingscontrole op raad.dordrecht.nl en geen wayback-snapshot was beschikbaar; deze uitgangspuntennotitie (voorloper, mei 2023) is als beste beschikbare bron gebruikt. Dordrecht heeft daarnaast een losse 'routekaart Zero Emissie Stadslogistiek' (genoemd op p.7) die bij een volgende poging apart opgezocht kan worden als mogelijk SULP."
-      }
+      },
+      "urban_node": true
     },
     {
       "municipality": "Ede",
@@ -1356,11 +1415,14 @@
                 "text": "Voor grote afstanden is sprake van een verschuiving van wegtransport naar schoon railvervoer. Initiatieven voor een railterminal aan de spoorlijn Amersfoort-Apeldoorn ter hoogte van Barneveld spelen daar op in en kunnen ook interessant zijn voor bedrijven in de gemeente Ede."
               }
             ],
-            "summary": "De Omgevingsvisie Ede 2040 bevat het hoofdstuk 'Schone mobiliteit' waarin een zero-emissiezone voor stadslogistiek (ZES) in Ede-stad wordt aangekondigd als in voorbereiding, en waarin wordt ingezet op modal shift van wegtransport naar railvervoer via een mogelijke railterminal bij Barneveld."
+            "summary": "De Omgevingsvisie Ede 2040 bevat het hoofdstuk 'Schone mobiliteit' waarin een zero-emissiezone voor stadslogistiek (ZES) in Ede-stad wordt aangekondigd als in voorbereiding, en waarin wordt ingezet op modal shift van wegtransport naar railvervoer via een mogelijke railterminal bij Barneveld.",
+            "period": null,
+            "period_checked": false
           }
         ],
         "notes": "Geraadpleegd via CVDR-publicatie (lokaleregelgeving.overheid.nl); geen los PDF gedownload, geen exacte vaststellingsdatum gevonden. Het aparte Gemeentelijk Verkeers- en Vervoerplan (GVVP) Ede 'Verbinden en bereiken' is uit 2010 en dus verouderd; geen recentere, losstaande mobiliteitsvisie of SULP/goederenvervoeragenda gevonden."
-      }
+      },
+      "urban_node": false
     },
     {
       "municipality": "Eindhoven",
@@ -1411,7 +1473,9 @@
                 "text": "In 2021 heeft gemeente Eindhoven samen met andere Nederlandse gemeentes, het ministerie van Infrastructuur en Waterstaat en belangenorganisaties en initiatiefnemers uit de logistieke sector de Green Deal Stadslogistiek 2021-2025 getekend. Dit kunnen we zien als de voorloper van dit document."
               }
             ],
-            "summary": "Uitvoeringskader (gemeenteblad 3 februari 2026) dat het onderwerp stadslogistiek uit het Masterplan Mobiliteit 2050 verdiepend uitwerkt, als vervolg op de Green Deal Stadslogistiek 2021-2025. Onderscheidt zes hoofdsegmenten van stadslogistiek (facilitair/service grootste met ~1/3 van de ritten, stukgoed ~28%, vers ~23%) en werkt naar de zero-emissiezone voor vracht- en bestelwagens (2025) en langetermijndoelen voor 2050, uitgewerkt in een actieplan 2026-2027/2028-2030/2031+."
+            "summary": "Uitvoeringskader (gemeenteblad 3 februari 2026) dat het onderwerp stadslogistiek uit het Masterplan Mobiliteit 2050 verdiepend uitwerkt, als vervolg op de Green Deal Stadslogistiek 2021-2025. Onderscheidt zes hoofdsegmenten van stadslogistiek (facilitair/service grootste met ~1/3 van de ritten, stukgoed ~28%, vers ~23%) en werkt naar de zero-emissiezone voor vracht- en bestelwagens (2025) en langetermijndoelen voor 2050, uitgewerkt in een actieplan 2026-2027/2028-2030/2031+.",
+            "period": null,
+            "period_checked": false
           },
           {
             "doc_type": "SUMP",
@@ -1421,11 +1485,14 @@
             "source_page": "https://www.eindhoven.nl/bestuur-en-beleid/beleid/visies-plannen-en-verordeningen",
             "local_file": null,
             "quotes": [],
-            "summary": "Op 12 maart 2024 door de gemeenteraad vastgesteld overkoepelend mobiliteitsplan voor Eindhoven tot 2050 (na dertig ingediende moties alsnog aangenomen). Stadslogistiek is een van de onderdelen; het Uitvoeringskader Duurzame Logistiek (zie SULP hierboven) is de verdiepende uitwerking van dit onderdeel."
+            "summary": "Op 12 maart 2024 door de gemeenteraad vastgesteld overkoepelend mobiliteitsplan voor Eindhoven tot 2050 (na dertig ingediende moties alsnog aangenomen). Stadslogistiek is een van de onderdelen; het Uitvoeringskader Duurzame Logistiek (zie SULP hierboven) is de verdiepende uitwerking van dit onderdeel.",
+            "period": null,
+            "period_checked": false
           }
         ],
         "notes": "Primaire PDF van het Masterplan Mobiliteit zelf niet direct gevonden (alleen bijlagen als Facts & Figures op openeindhoven.nl); metadata (vaststellingsdatum) bevestigd via meerdere bronnen en via verwijzing in het Uitvoeringskader Duurzame Logistiek zelf."
-      }
+      },
+      "urban_node": true
     },
     {
       "municipality": "Emmen",
@@ -1476,11 +1543,14 @@
                 "text": "We zien kansen op verdere economische groei en verduurzaming van de logistieke sector door goede regionale samenwerking en door het benutten van de Euroterminal Emmen-Coevorden-Hardenberg te Coevorden als internationale transporthub."
               }
             ],
-            "summary": "Mobiliteitsvisie expliciet opgesteld om te voldoen aan de EU-verplichting voor Urban Nodes (SUMP). Eén van de zeven leidende principes is 'we maken logistiek duurzaam en toekomstbestendig met slimme hubs en schone brandstoffen'. Zet in op de Euroterminal Coevorden als internationale transporthub, slimmere/kleinschaligere bevoorrading van winkels en horeca in het centrum, en het beperken van de groei van pakketbezorging."
+            "summary": "Mobiliteitsvisie expliciet opgesteld om te voldoen aan de EU-verplichting voor Urban Nodes (SUMP). Eén van de zeven leidende principes is 'we maken logistiek duurzaam en toekomstbestendig met slimme hubs en schone brandstoffen'. Zet in op de Euroterminal Coevorden als internationale transporthub, slimmere/kleinschaligere bevoorrading van winkels en horeca in het centrum, en het beperken van de groei van pakketbezorging.",
+            "period": null,
+            "period_checked": false
           }
         ],
         "notes": "Geen apart Emmens SULP of goederenvervoeragenda gevonden; stadslogistiek is een van de zeven leidende principes binnen deze mobiliteitsvisie."
-      }
+      },
+      "urban_node": true
     },
     {
       "municipality": "Enschede",
@@ -1532,11 +1602,14 @@
                 "text": "In de 'Lokale Actieagenda Slimme & Schone Stadslogistiek' van de gemeente Enschede is een flankerend maatregelenpakket uitgewerkt, gericht op 3 actielijnen: lokale ondernemers ondersteunen bij emissievrije logistiek, laadinfrastructuur voor stadslogistiek op orde maken, en samenwerking en informatie delen tussen publieke en private sector."
               }
             ],
-            "summary": "Op 21 juni 2021 door de raad vastgesteld actieplan voor een zero-emissiezone stadslogistiek, met de voetgangerszone binnenstad als eerste stap en het Binnensingelgebied als stip op de horizon voor een groter maatschappelijk rendement. De Lokale Actieagenda Slimme & Schone Stadslogistiek werkt een flankerend maatregelenpakket uit langs drie actielijnen (ondernemersondersteuning, laadinfrastructuur, publiek-private samenwerking). Het definitieve verkeersbesluit voor de nul-emissiezone volgde op 9 april 2025."
+            "summary": "Op 21 juni 2021 door de raad vastgesteld actieplan voor een zero-emissiezone stadslogistiek, met de voetgangerszone binnenstad als eerste stap en het Binnensingelgebied als stip op de horizon voor een groter maatschappelijk rendement. De Lokale Actieagenda Slimme & Schone Stadslogistiek werkt een flankerend maatregelenpakket uit langs drie actielijnen (ondernemersondersteuning, laadinfrastructuur, publiek-private samenwerking). Het definitieve verkeersbesluit voor de nul-emissiezone volgde op 9 april 2025.",
+            "period": null,
+            "period_checked": false
           }
         ],
         "notes": "De bredere Mobiliteitsvisie Enschede 'Leefbaar, Aantrekkelijk en Bereikbaar' (SUMP) is wel vastgesteld, maar alleen de bijbehorende nota van beantwoording zienswijzen (2019) en het raadsbesluit-aanbiedingsbrief waren downloadbaar, niet de hoofdtekst zelf; vandaar geen apart SUMP-record voor Enschede."
-      }
+      },
+      "urban_node": true
     },
     {
       "municipality": "Gouda",
@@ -1591,11 +1664,14 @@
                 "text": "Voor kleinschalige elektrische stadsdistributie willen we meer mogelijkheden bieden om de binnenstad te bedienen (verruiming of ontheffing van de venstertijden)."
               }
             ],
-            "summary": "Door de raad vastgesteld mobiliteitsplan (2017-2026, opvolger van het plan uit 2007). Zet in op transformatie naar kleinschalige elektrische stadsdistributie in de binnenstad (cargobikes, aansluitend bij de Green Deal Zero Emission Stadslogistiek) en verruiming/ontheffing van venstertijden om dit te faciliteren."
+            "summary": "Door de raad vastgesteld mobiliteitsplan (2017-2026, opvolger van het plan uit 2007). Zet in op transformatie naar kleinschalige elektrische stadsdistributie in de binnenstad (cargobikes, aansluitend bij de Green Deal Zero Emission Stadslogistiek) en verruiming/ontheffing van venstertijden om dit te faciliteren.",
+            "period": null,
+            "period_checked": false
           }
         ],
         "notes": "In april 2021 heeft de raad daarnaast besloten dat vanaf 2025 alleen zero-emissie stadslogistiek toegang krijgt tot de autoluwe binnenstad (apart traject naast het Verkeerscirculatieplan); dit losse besluit/actualisatie is niet als los document teruggevonden, alleen via secundaire bronnen bevestigd."
-      }
+      },
+      "urban_node": false
     },
     {
       "municipality": "Groningen",
@@ -1648,7 +1724,9 @@
                 "text": "Samen met vertegenwoordigers van alle belangenorganisaties in de Groningse stadslogistiek is in 2018 het Convenant Duurzame Stadslogistiek Groningen opgesteld en ondertekend. Hierin is vastgelegd hoe wordt toegewerkt naar een leefbare, veilige, bereikbare en aantrekkelijke binnenstad, met als eindresultaat emissievrije stadslogistiek in 2025."
               }
             ],
-            "summary": "Door de raad op 30 maart 2021 vastgestelde visie 'Ruimte voor zero-emissie stadslogistiek', voortbouwend op het Convenant Duurzame Stadslogistiek Groningen (2018) en de klankbordgroep Stedelijke Logistiek. Resulteerde in het verkeersbesluit (28 november 2024) voor een zero-emissiezone in de binnenstad (Diepenring, Sledemennerbuurt, Westerhaven) vanaf april 2025, met dezelfde grens als het bestaande venstertijdengebied."
+            "summary": "Door de raad op 30 maart 2021 vastgestelde visie 'Ruimte voor zero-emissie stadslogistiek', voortbouwend op het Convenant Duurzame Stadslogistiek Groningen (2018) en de klankbordgroep Stedelijke Logistiek. Resulteerde in het verkeersbesluit (28 november 2024) voor een zero-emissiezone in de binnenstad (Diepenring, Sledemennerbuurt, Westerhaven) vanaf april 2025, met dezelfde grens als het bestaande venstertijdengebied.",
+            "period": null,
+            "period_checked": false
           },
           {
             "doc_type": "SUMP",
@@ -1658,11 +1736,14 @@
             "source_page": "https://gemeente.groningen.nl/mobiliteitsvisie-groningen-goed-op-weg",
             "local_file": "data/raw/groningen_sump.pdf",
             "quotes": [],
-            "summary": "Door de raad vastgesteld (december 2021) gemeentebreed mobiliteitsplan met 9 actielijnen, waaronder 'versterken ketenmobiliteit en hubs'. Geraadpleegd via de publieksmagazine-versie; geen expliciete goederenvervoer/stadslogistiek-passage in dit exemplaar aangetroffen, want dat onderwerp is elders uitgewerkt in de visie 'Ruimte voor zero-emissie stadslogistiek' (zie SULP hierboven)."
+            "summary": "Door de raad vastgesteld (december 2021) gemeentebreed mobiliteitsplan met 9 actielijnen, waaronder 'versterken ketenmobiliteit en hubs'. Geraadpleegd via de publieksmagazine-versie; geen expliciete goederenvervoer/stadslogistiek-passage in dit exemplaar aangetroffen, want dat onderwerp is elders uitgewerkt in de visie 'Ruimte voor zero-emissie stadslogistiek' (zie SULP hierboven).",
+            "period": null,
+            "period_checked": false
           }
         ],
         "notes": "De volledige PDF van de Mobiliteitsvisie stond achter een JS-beveiligingscontrole op gemeente.groningen.nl en gemeenteraad.groningen.nl; archive.org gaf herhaaldelijk 429 (rate limit). Alleen de publieksmagazine-versie (via een derde site) was bereikbaar."
-      }
+      },
+      "urban_node": true
     },
     {
       "municipality": "Haarlem",
@@ -1713,11 +1794,14 @@
                 "text": "Actieagenda stedelijke distributie/ZE logistiek (2023)."
               }
             ],
-            "summary": "Uitvoeringsagenda (september 2021) van het Mobiliteitsbeleid Haarlem 2040, met maatregel 5b 'Actieagenda stedelijke distributie/ZE logistiek': Haarlem heeft de Green Deal Zero Emissie Stadslogistiek ondertekend met de intentie om in 2025 ZE stadslogistiek te hebben, verder uit te werken in een actieagenda (gepland 2023) in samenwerking met het bedrijfsleven."
+            "summary": "Uitvoeringsagenda (september 2021) van het Mobiliteitsbeleid Haarlem 2040, met maatregel 5b 'Actieagenda stedelijke distributie/ZE logistiek': Haarlem heeft de Green Deal Zero Emissie Stadslogistiek ondertekend met de intentie om in 2025 ZE stadslogistiek te hebben, verder uit te werken in een actieagenda (gepland 2023) in samenwerking met het bedrijfsleven.",
+            "period": null,
+            "period_checked": false
           }
         ],
         "notes": "Quote op p.40 gereconstrueerd uit een PDF met kolomvermenging (twee kolommen door elkaar geextraheerd); betekenis is duidelijk maar exacte zinsvolgorde kan afwijken van het origineel. Geen apart Haarlems SULP-document (los van deze uitvoeringsagenda) gevonden."
-      }
+      },
+      "urban_node": true
     },
     {
       "municipality": "Haarlemmermeer",
@@ -1770,11 +1854,14 @@
                 "text": "5.1. Truckparkeren beter organiseren. In onze gemeente met Schiphol als logistiek knooppunt vinden veel logistieke ontwikkelingen plaats. Logistieke functies trekken vrachtwagens aan die niet alleen rijden maar ook stil staan. Wij spannen ons in om het parkeren en rusten in openbaar gebied te voorkomen [...] door het invoeren van vrachtwagenparkeernormen."
               }
             ],
-            "summary": "Mobiliteitsvisie met een volledig eigen hoofdstuk 5 'Goederenvervoer' (5.1 truckparkeren beter organiseren via vrachtwagenparkeernormen, 5.2 vaste hoofdroutes voor vrachtverkeer) en paragraaf 10.5 over laad- en losgelegenheid bij winkelcentra. Schiphol wordt als logistiek knooppunt en ~30% van het Metropoolregio Amsterdam-goederenvervoer als voedselgerelateerd genoemd; regionale bevoorrading via bundeling/overslagcentra en dagranddistributie loopt via de Vervoerregio Amsterdam."
+            "summary": "Mobiliteitsvisie met een volledig eigen hoofdstuk 5 'Goederenvervoer' (5.1 truckparkeren beter organiseren via vrachtwagenparkeernormen, 5.2 vaste hoofdroutes voor vrachtverkeer) en paragraaf 10.5 over laad- en losgelegenheid bij winkelcentra. Schiphol wordt als logistiek knooppunt en ~30% van het Metropoolregio Amsterdam-goederenvervoer als voedselgerelateerd genoemd; regionale bevoorrading via bundeling/overslagcentra en dagranddistributie loopt via de Vervoerregio Amsterdam.",
+            "period": null,
+            "period_checked": false
           }
         ],
         "notes": "Geraadpleegd via CVDR-publicatie (volledige tekst embedded); geen los PDF gedownload, geen exacte vaststellingsdatum gevonden. Geen apart Haarlemmermeers SULP gevonden; goederenvervoer heeft hier ongewoon veel gewicht binnen het SUMP zelf."
-      }
+      },
+      "urban_node": false
     },
     {
       "municipality": "Heerlen",
@@ -1816,7 +1903,9 @@
             "source_page": null,
             "local_file": "data/raw/heerlen_sump2.pdf",
             "quotes": [],
-            "summary": "In juni 2019 unaniem door de raad vastgesteld mobiliteitsprogramma, gericht op een geintegreerd duurzaam mobiliteitssysteem met mobiliteitshubs die auto, fiets en OV verknopen. Geen expliciete passage over goederenvervoer, stadslogistiek, vrachtverkeer of bevoorrading aangetroffen; de focus ligt volledig op personenmobiliteit."
+            "summary": "In juni 2019 unaniem door de raad vastgesteld mobiliteitsprogramma, gericht op een geintegreerd duurzaam mobiliteitssysteem met mobiliteitshubs die auto, fiets en OV verknopen. Geen expliciete passage over goederenvervoer, stadslogistiek, vrachtverkeer of bevoorrading aangetroffen; de focus ligt volledig op personenmobiliteit.",
+            "period": null,
+            "period_checked": false
           },
           {
             "doc_type": "SUMP",
@@ -1826,11 +1915,14 @@
             "source_page": null,
             "local_file": "data/raw/heerlen_sump.pdf",
             "quotes": [],
-            "summary": "Jaarprogramma 2025 met thema's als werkgeversaanpak, deelmobiliteit en hubs, fietsstimulering; ook hier geen expliciete stadslogistiek/goederenvervoer-passage."
+            "summary": "Jaarprogramma 2025 met thema's als werkgeversaanpak, deelmobiliteit en hubs, fietsstimulering; ook hier geen expliciete stadslogistiek/goederenvervoer-passage.",
+            "period": null,
+            "period_checked": false
           }
         ],
         "notes": "Geen goederenvervoer- of stadslogistiek-inhoud gevonden in de twee doorzochte documenten van Heerlen; geen apart SULP of goederenvervoeragenda gevonden."
-      }
+      },
+      "urban_node": false
     },
     {
       "municipality": "Helmond",
@@ -1894,11 +1986,14 @@
                 "text": "Op termijn wordt de mogelijkheid geboden om via enkele specifieke hubs distributie- en bevoorradingsverkeer en koeriersdiensten centraal te sturen. Wijkhubs functioneren als afhaalpunten voor pakketjes."
               }
             ],
-            "summary": "Op 31 oktober 2023 door de raad aangenomen mobiliteitsvisie. Goederenvervoer krijgt vanwege het belang voor de bedrijvigheid (Helmond is Automotive-stad) een specifieke aanpak: sturing van distributie-, bevoorradings- en koeriersverkeer via specifieke hubs, met wijkhubs die tevens als pakketafhaalpunten functioneren."
+            "summary": "Op 31 oktober 2023 door de raad aangenomen mobiliteitsvisie. Goederenvervoer krijgt vanwege het belang voor de bedrijvigheid (Helmond is Automotive-stad) een specifieke aanpak: sturing van distributie-, bevoorradings- en koeriersverkeer via specifieke hubs, met wijkhubs die tevens als pakketafhaalpunten functioneren.",
+            "period": null,
+            "period_checked": false
           }
         ],
         "notes": "Quote op p.15 gereconstrueerd uit een PDF met kolomvermenging (twee kolommen door elkaar geextraheerd); betekenis is duidelijk maar exacte zinsvolgorde kan iets afwijken van het origineel. Geen apart Helmonds SULP of goederenvervoeragenda gevonden."
-      }
+      },
+      "urban_node": false
     },
     {
       "municipality": "Hengelo",
@@ -1951,11 +2046,14 @@
                 "text": "Onder stadslogistiek wordt verstaan de bevoorrading van winkels en horeca, maar ook bezorging van pakketten en maaltijden aan huis. In 2030 is duurzame bevoorrading van binnensteden een wettelijke verplichting. Hengelo onderzoekt de mogelijkheden om een zero-emissie binnenstad te worden."
               }
             ],
-            "summary": "Koersnota Mobiliteit die het GVVP uit 2003 opvolgt. Onderzoekt een stadsdistributiesysteem in het kader van het landelijke project zero-emissie stadslogistiek (doel: 2030 emissieloze bevoorrading in de 40 grootste steden) en de mogelijkheden voor een zero-emissie binnenstad. Zet daarnaast in op goederenvervoer over water (verruiming Twentekanalen tot klasse Va) en spoor."
+            "summary": "Koersnota Mobiliteit die het GVVP uit 2003 opvolgt. Onderzoekt een stadsdistributiesysteem in het kader van het landelijke project zero-emissie stadslogistiek (doel: 2030 emissieloze bevoorrading in de 40 grootste steden) en de mogelijkheden voor een zero-emissie binnenstad. Zet daarnaast in op goederenvervoer over water (verruiming Twentekanalen tot klasse Va) en spoor.",
+            "period": null,
+            "period_checked": false
           }
         ],
         "notes": "Geen exacte vaststellingsdatum gevonden; geen apart Hengelose SULP of goederenvervoeragenda gevonden."
-      }
+      },
+      "urban_node": false
     },
     {
       "municipality": "'s-Hertogenbosch",
@@ -2013,11 +2111,14 @@
                 "text": "Als uitwerking van de hoofdkeuzes in de omgevingsvisie werken we aan een gemeentebrede mobiliteitsvisie. De resultaten hiervan verwerken we bij de eerstvolgende actualisatie van de omgevingsvisie."
               }
             ],
-            "summary": "Via de beleidsreferentielijst van de Omgevingsvisie 's-Hertogenbosch (vastgesteld door B&W 25 maart 2025) teruggevonden: op 19 januari 2021 nam het college een principebesluit over de omvang van de zero-emissiezone stadslogistiek 2025 en tekende de gemeente de Landelijke Uitvoeringsagenda Stadslogistiek. Dit sluit aan bij de eerder via de coalitieakkoord-analyse en nieuwsberichten bekende 'Bossche Green Deal Zero Emissie Stadslogistiek' (30 partners, doel: schone en slimme bevoorrading binnenstad in 2025)."
+            "summary": "Via de beleidsreferentielijst van de Omgevingsvisie 's-Hertogenbosch (vastgesteld door B&W 25 maart 2025) teruggevonden: op 19 januari 2021 nam het college een principebesluit over de omvang van de zero-emissiezone stadslogistiek 2025 en tekende de gemeente de Landelijke Uitvoeringsagenda Stadslogistiek. Dit sluit aan bij de eerder via de coalitieakkoord-analyse en nieuwsberichten bekende 'Bossche Green Deal Zero Emissie Stadslogistiek' (30 partners, doel: schone en slimme bevoorrading binnenstad in 2025).",
+            "period": null,
+            "period_checked": false
           }
         ],
         "notes": "De omgevingsvisie zelf meldt expliciet dat een gemeentebrede mobiliteitsvisie (SUMP) nog in ontwikkeling was op het moment van vaststellen (maart 2025) en nog niet gereed is; die kan bij een volgende poging apart opgezocht worden zodra gepubliceerd."
-      }
+      },
+      "urban_node": true
     },
     {
       "municipality": "Hilversum",
@@ -2059,11 +2160,14 @@
                 "text": "De gefaseerde realisatie van mogelijk een drietal multimodale hubs voor o.a. goederenvervoer aan de randen van Hilversum op strategisch gelegen locaties bij invalswegen."
               }
             ],
-            "summary": "Raadsbesluit tot vaststelling van de Mobiliteitsvisie Hilversum 2040 (voorstel B&W 23 maart 2021). Het raadsbesluit zelf bevat een amendement/opdracht om de gefaseerde realisatie van mogelijk drie multimodale hubs voor onder meer goederenvervoer, aan de randen van de stad bij invalswegen, mee te nemen in een tweede uitvoeringsprogramma Mobiliteit."
+            "summary": "Raadsbesluit tot vaststelling van de Mobiliteitsvisie Hilversum 2040 (voorstel B&W 23 maart 2021). Het raadsbesluit zelf bevat een amendement/opdracht om de gefaseerde realisatie van mogelijk drie multimodale hubs voor onder meer goederenvervoer, aan de randen van de stad bij invalswegen, mee te nemen in een tweede uitvoeringsprogramma Mobiliteit.",
+            "period": null,
+            "period_checked": false
           }
         ],
         "notes": "Alleen het 3 pagina's tellende raadsbesluit was direct toegankelijk, niet de volledige Mobiliteitsvisie-tekst zelf; geen apart Hilversums SULP of goederenvervoeragenda gevonden."
-      }
+      },
+      "urban_node": false
     },
     {
       "municipality": "Hoorn",
@@ -2116,11 +2220,14 @@
                 "text": "Om Roode Steen en Kerkplein autovrij en als voetgangersgebied in te richten worden voor bevoorrading subtiel routes aangegeven."
               }
             ],
-            "summary": "Door de raad op 6 juli 2021 vastgestelde mobiliteitsvisie (26 mei 2021, Studio Bereikbaar). Naast personenmobiliteit onderzoekt Hoorn goederenvervoer en stadslogistiek, met de mogelijkheid van een ZE-zone voor bestel- en vrachtauto's vanaf 2025; 'Uitwerking Zero Emissie-zone en schone bevoorrading in binnenstad en wijken' staat als actie gepland voor 2022-2026, en bij het autovrij maken van Roode Steen/Kerkplein worden subtiele bevoorradingsroutes aangehouden."
+            "summary": "Door de raad op 6 juli 2021 vastgestelde mobiliteitsvisie (26 mei 2021, Studio Bereikbaar). Naast personenmobiliteit onderzoekt Hoorn goederenvervoer en stadslogistiek, met de mogelijkheid van een ZE-zone voor bestel- en vrachtauto's vanaf 2025; 'Uitwerking Zero Emissie-zone en schone bevoorrading in binnenstad en wijken' staat als actie gepland voor 2022-2026, en bij het autovrij maken van Roode Steen/Kerkplein worden subtiele bevoorradingsroutes aangehouden.",
+            "period": null,
+            "period_checked": false
           }
         ],
         "notes": "Geen apart Hoorns SULP of goederenvervoeragenda gevonden; stadslogistiek is een onderzoeksthema binnen dit gemeentebrede mobiliteitsvisie."
-      }
+      },
+      "urban_node": false
     },
     {
       "municipality": "Leeuwarden",
@@ -2183,11 +2290,14 @@
                 "text": "Voor stadslogistiek over water gaat de gemeente de potenties onderzoeken voor een logistieke stadsrandhub in de omgeving Swettehus (overslag op emissievrije voertuigen en water). Voor de stadslogistiek over weg heeft de gemeente Leeuwarden samen met diverse Leeuwarder bedrijven de Green Deal Zero-Emissie Stadslogistiek (GDZES) ondertekend. We onderzoeken een Zero-Emissie zone in de binnenstad per 2028."
               }
             ],
-            "summary": "Door de raad op 16 oktober 2024 vastgesteld beleidskader (opgesteld door Goudappel, 26 maart 2024), expliciet bedoeld om te voldoen aan de EU-SUMP-verplichting per 2027. Stadslogistiek over water via een mogelijke logistieke stadsrandhub bij Swettehus (overslag op emissievrije voertuigen), en over de weg via de ondertekende Green Deal Zero-Emissie Stadslogistiek met een te onderzoeken zero-emissiezone in de binnenstad per 2028."
+            "summary": "Door de raad op 16 oktober 2024 vastgesteld beleidskader (opgesteld door Goudappel, 26 maart 2024), expliciet bedoeld om te voldoen aan de EU-SUMP-verplichting per 2027. Stadslogistiek over water via een mogelijke logistieke stadsrandhub bij Swettehus (overslag op emissievrije voertuigen), en over de weg via de ondertekende Green Deal Zero-Emissie Stadslogistiek met een te onderzoeken zero-emissiezone in de binnenstad per 2028.",
+            "period": null,
+            "period_checked": false
           }
         ],
         "notes": "Let op: een eerder gevonden CVDR-document 'Beleidskader Mobiliteit en uitvoeringsagenda 2024-2028' met vergelijkbare Friese watertransport-inhoud bleek bij verificatie van de gemeente Smallingerland (Drachten) te zijn, niet van Leeuwarden – terecht genegeerd. Geen apart Leeuwarders SULP of goederenvervoeragenda gevonden naast dit SUMP."
-      }
+      },
+      "urban_node": true
     },
     {
       "municipality": "Leiden",
@@ -2234,11 +2344,14 @@
                 "text": "Stedelijke distributie: een belangrijk instrument voor het verminderen en verschonen van het goederenvervoer is stedelijke distributie. Leiden onderzoekt momenteel samen met een aantal ondernemers waar en op welke manier de stedelijke distributie kan worden verduurzaamd."
               }
             ],
-            "summary": "Mobiliteitsnota (ter inzage versie december 2019, opvolgend vastgesteld) met Ambitie 6 volledig gewijd aan emissieloze stadsdistributie: convenant Zero Emissie Stadsdistributie getekend (doel 2025), zwaar vrachtverkeer uit het centrum weren, en onderzoek met ondernemers naar verduurzaming van stedelijke distributie gekoppeld aan de milieuzone."
+            "summary": "Mobiliteitsnota (ter inzage versie december 2019, opvolgend vastgesteld) met Ambitie 6 volledig gewijd aan emissieloze stadsdistributie: convenant Zero Emissie Stadsdistributie getekend (doel 2025), zwaar vrachtverkeer uit het centrum weren, en onderzoek met ondernemers naar verduurzaming van stedelijke distributie gekoppeld aan de milieuzone.",
+            "period": null,
+            "period_checked": false
           }
         ],
         "notes": "PDF is de versie voor ter inzage legging (december 2019); de definitief vastgestelde versie kon niet apart worden teruggevonden maar de inhoud is naar verwachting grotendeels gelijk. Geen apart Leids SULP of goederenvervoeragenda gevonden."
-      }
+      },
+      "urban_node": true
     },
     {
       "municipality": "Lelystad",
@@ -2306,11 +2419,14 @@
                 "text": "Flevokust-Haven voor goederenvervoer aangesloten op het spoorwegnet."
               }
             ],
-            "summary": "Door de raad vastgestelde mobiliteitsvisie (december 2020) met de ambitie om Lelystad te positioneren als circulaire, multimodale logistieke hub. Zet in op vrachtwagenparkeren (incl. overnachtingsplekken), emissievrije stadslogistiek in het Stadshart vanaf 2025 (Green Deal ZES) en een goederenspoorverbinding naar Flevokust-Haven."
+            "summary": "Door de raad vastgestelde mobiliteitsvisie (december 2020) met de ambitie om Lelystad te positioneren als circulaire, multimodale logistieke hub. Zet in op vrachtwagenparkeren (incl. overnachtingsplekken), emissievrije stadslogistiek in het Stadshart vanaf 2025 (Green Deal ZES) en een goederenspoorverbinding naar Flevokust-Haven.",
+            "period": null,
+            "period_checked": false
           }
         ],
         "notes": "Geen apart Lelystads SULP of goederenvervoeragenda gevonden; goederenvervoer is een eigen modaliteit binnen dit mobiliteitsvisie/-agenda-document."
-      }
+      },
+      "urban_node": false
     },
     {
       "municipality": "Maastricht",
@@ -2375,11 +2491,14 @@
                 "text": "Daarnaast is het denkbaar dat de terreinen ook gebruikt worden voor een logistieke hub of opwekking van zonne-energie, als bijdrage aan de energietransitie."
               }
             ],
-            "summary": "Raadsinformatiebrief/spoorboekje met een reeks programma's voor luchtkwaliteit en bereikbaarheid, waaronder het programma 'Emissieloze stadslogistiek Maastricht': een zero-emissiezone (ZES) voor vracht- en bestelverkeer per 1 januari 2025 (raadsbesluit 30 maart 2021), conform de Green Deal Zero Emission Stadslogistiek, met potentie voor logistieke hubs op nieuwe P+R/P+B/P+W-locaties."
+            "summary": "Raadsinformatiebrief/spoorboekje met een reeks programma's voor luchtkwaliteit en bereikbaarheid, waaronder het programma 'Emissieloze stadslogistiek Maastricht': een zero-emissiezone (ZES) voor vracht- en bestelverkeer per 1 januari 2025 (raadsbesluit 30 maart 2021), conform de Green Deal Zero Emission Stadslogistiek, met potentie voor logistieke hubs op nieuwe P+R/P+B/P+W-locaties.",
+            "period": null,
+            "period_checked": false
           }
         ],
         "notes": "Geen apart Maastrichts SUMP-document gevonden naast dit programma-overzicht en de Omgevingsvisie Maastricht 2040 (niet apart gedownload)."
-      }
+      },
+      "urban_node": true
     },
     {
       "municipality": "Nijmegen",
@@ -2436,11 +2555,14 @@
                 "text": "Het accent ligt idealiter op (a) een multi-client stadslogistieke hub, van waaruit bevoorrading voor (een van) de zero-emissiezones en/of voor heel Nijmegen kan plaatsvinden en (b) op een bouwhub, passend bij de enorme bouwopgave van Nijmegen."
               }
             ],
-            "summary": "Door het college op 11 juni 2024 vastgestelde beleidsaanpak, een uitwerking van het Uitvoeringsprogramma Luchtkwaliteit 2020-2030 (maatregelen 'Toevoegen logistieke groene hubs' en 'Invoeren Zero Emissiezones Stadslogistiek'). Wijst het Engie-terrein en bedrijventerrein De Grift aan als voorkeurslocaties voor een multi-client stadslogistieke hub en een bouwhub, en ondersteunt microhubs zoals pakketkluizen."
+            "summary": "Door het college op 11 juni 2024 vastgestelde beleidsaanpak, een uitwerking van het Uitvoeringsprogramma Luchtkwaliteit 2020-2030 (maatregelen 'Toevoegen logistieke groene hubs' en 'Invoeren Zero Emissiezones Stadslogistiek'). Wijst het Engie-terrein en bedrijventerrein De Grift aan als voorkeurslocaties voor een multi-client stadslogistieke hub en een bouwhub, en ondersteunt microhubs zoals pakketkluizen.",
+            "period": null,
+            "period_checked": false
           }
         ],
         "notes": "Geen apart Nijmeegs SUMP-document gedownload (het Mobiliteitsplan/Ambitiedocument voor Mobiliteit 2019-2030 wordt wel genoemd als context, maar niet apart geraadpleegd)."
-      }
+      },
+      "urban_node": true
     },
     {
       "municipality": "Oss",
@@ -2508,11 +2630,14 @@
                 "text": "Zekerstellen en bevorderen goederenvervoer per spoor en over water. Zorgdragen voor betrouwbare routes voor het vrachtvervoer over de weg."
               }
             ],
-            "summary": "Opinienota fase 1 (6 september 2022) van het Mobiliteitsplan Oss, voortbouwend op de Sturingsnota Mobiliteit (2023) met 31 projecten. Zet in op energietransitie in goederenvervoer (elektrisch, synchromodaliteit), elektrificatie van distributie met een milieuzone, lokale mobiliteitshubs met pakketmuren, en het bevorderen van goederenvervoer per spoor en over water naast betrouwbare wegroutes voor vrachtverkeer."
+            "summary": "Opinienota fase 1 (6 september 2022) van het Mobiliteitsplan Oss, voortbouwend op de Sturingsnota Mobiliteit (2023) met 31 projecten. Zet in op energietransitie in goederenvervoer (elektrisch, synchromodaliteit), elektrificatie van distributie met een milieuzone, lokale mobiliteitshubs met pakketmuren, en het bevorderen van goederenvervoer per spoor en over water naast betrouwbare wegroutes voor vrachtverkeer.",
+            "period": null,
+            "period_checked": false
           }
         ],
         "notes": "Betreft de fase 1-opinienota (basis leggen), niet het definitief vastgestelde Mobiliteitsplan/Uitvoeringsprogramma zelf. Geen apart Ossers SULP of goederenvervoeragenda gevonden. Sluit aan bij de coalitieakkoord-bevinding over de trimodale haven Elzenburg."
-      }
+      },
+      "urban_node": false
     },
     {
       "municipality": "Roosendaal",
@@ -2565,11 +2690,14 @@
                 "text": "Onderzoek naar het ontwikkelen van logistieke hubs aan de stadsranden. Onderzoeken en ontwikkelen van innovatieve alternatieven via buisleidingen en/of watertransport."
               }
             ],
-            "summary": "Op 17 april 2025 door de raad vastgestelde mobiliteitsvisie met een eigen paragraaf 2.2 'Kenschets Roosendaal Goederenvervoer'. Zet in op het weren van doorgaand vrachtverkeer uit het centrum, onderzoek naar logistieke hubs aan de stadsranden (bevoorrading met kleinschalige emissievrije voertuigen), innovatieve alternatieven via buisleidingen/watertransport, en het regionale innovatieproject 'Samen digitaal op weg!' (digital twin-technologie voor goederenstromen, met Bergen op Zoom)."
+            "summary": "Op 17 april 2025 door de raad vastgestelde mobiliteitsvisie met een eigen paragraaf 2.2 'Kenschets Roosendaal Goederenvervoer'. Zet in op het weren van doorgaand vrachtverkeer uit het centrum, onderzoek naar logistieke hubs aan de stadsranden (bevoorrading met kleinschalige emissievrije voertuigen), innovatieve alternatieven via buisleidingen/watertransport, en het regionale innovatieproject 'Samen digitaal op weg!' (digital twin-technologie voor goederenstromen, met Bergen op Zoom).",
+            "period": null,
+            "period_checked": false
           }
         ],
         "notes": "PDF heeft ernstige kolomvermenging bij extractie (twee kolommen door elkaar); quotes zijn beperkt tot fragmenten die desondanks eenduidig leesbaar zijn. Geen apart Roosendaals SULP of goederenvervoeragenda gevonden."
-      }
+      },
+      "urban_node": false
     },
     {
       "municipality": "Schiedam",
@@ -2632,11 +2760,14 @@
                 "text": "Ingezet wordt op het versterken van het gebruik van fiets en openbaar vervoer en het stimuleren van duurzame mobiliteit en logistiek. Voor scheepvaart wordt het gebruik van walstroom onderzocht."
               }
             ],
-            "summary": "Door de raad op 3 november 2020 vastgestelde mobiliteitsvisie (bevestigd en samengevat via de Schiedamse Omgevingsvisie, ontwerp vastgesteld door B&W 10 december 2024). Zet in op de transitie naar emissieloze logistiek en vracht-/autoverkeer en op duurzame mobiliteit en logistiek in het kader van het Schone Lucht Akkoord (doel: 50% gezondheidswinst in 2030 t.o.v. 2016)."
+            "summary": "Door de raad op 3 november 2020 vastgestelde mobiliteitsvisie (bevestigd en samengevat via de Schiedamse Omgevingsvisie, ontwerp vastgesteld door B&W 10 december 2024). Zet in op de transitie naar emissieloze logistiek en vracht-/autoverkeer en op duurzame mobiliteit en logistiek in het kader van het Schone Lucht Akkoord (doel: 50% gezondheidswinst in 2030 t.o.v. 2016).",
+            "period": null,
+            "period_checked": false
           }
         ],
         "notes": "De volledige Mobiliteitsvisie-PDF zelf is niet direct gevonden (alleen via schiedam.nl-verwijzingen); inhoud hier bevestigd via de Schiedamse Omgevingsvisie, die de Mobiliteitsvisie als vastgesteld sectoraal beleid citeert en samenvat. Geen apart Schiedams SULP of goederenvervoeragenda gevonden."
-      }
+      },
+      "urban_node": false
     },
     {
       "municipality": "Sittard-Geleen",
@@ -2694,11 +2825,14 @@
                 "text": "(Raadsvraag CDA:) Sittard-Geleen zou vanuit de logistiek actief kunnen meewerken aan een verschuiving van wegvervoer naar meer vervoer per water, spoor en ondergronds. Wordt dat ook een actielijn?"
               }
             ],
-            "summary": "Kaderstellend document, vastgesteld door de raad als bouwsteen voor de Omgevingsvisie Sittard-Geleen 2023. Uit de raadscommissiebehandeling (samengevoegde vragen) blijkt de wens om net als Maastricht (via Zuid-Limburg Bereikbaar) zero-emissie stadslogistiek te realiseren, aansluitend bij binnenstadondernemers, en de politieke wens (CDA) om goederenvervoer te verschuiven van weg naar water/spoor/ondergronds (buisleidingen). Sluit aan bij de eerder via coalitieakkoorden gevonden focus op Chemelot-spoorterminal en de haven-spoorterminal-verbinding bij Holtum/Swentibold."
+            "summary": "Kaderstellend document, vastgesteld door de raad als bouwsteen voor de Omgevingsvisie Sittard-Geleen 2023. Uit de raadscommissiebehandeling (samengevoegde vragen) blijkt de wens om net als Maastricht (via Zuid-Limburg Bereikbaar) zero-emissie stadslogistiek te realiseren, aansluitend bij binnenstadondernemers, en de politieke wens (CDA) om goederenvervoer te verschuiven van weg naar water/spoor/ondergronds (buisleidingen). Sluit aan bij de eerder via coalitieakkoorden gevonden focus op Chemelot-spoorterminal en de haven-spoorterminal-verbinding bij Holtum/Swentibold.",
+            "period": null,
+            "period_checked": false
           }
         ],
         "notes": "De volledige Mobiliteitsaanpak-tekst zelf is niet gedownload, alleen het raadsvoorstel (5 pag.) en de samengevoegde raadsvragen+toelichting (7 pag.). Geen apart Sittard-Geleens SULP of goederenvervoeragenda gevonden."
-      }
+      },
+      "urban_node": false
     },
     {
       "municipality": "Tilburg",
@@ -2771,11 +2905,14 @@
                 "text": "De regio Hart van Brabant is een (inter)nationale logistieke hotspot op een belangrijke logistieke corridor in Europa. Binnen Tilburg zijn de bedrijventerreinen Vossenberg (grote logistieke dienstverleners) en Loven (logistieke en watergebonden bedrijven) de belangrijkste concentratiepunten van logistieke activiteiten."
               }
             ],
-            "summary": "Mobiliteitsaanpak (14 november 2016, later uitgewerkt in het Mobiliteitsplan 2040 'Slim, Schoon en Veilig') met een uitgebreide sectie over goederenvervoer: trimodale hub Loven (weg/water/spoor) en bimodale hub Vossenberg als belangrijkste logistieke bedrijventerreinen, Rail Terminal en Barge Terminal Tilburg, en toekomstige binnenstadsbevoorrading met kleine schone voertuigen vanaf hubs aan de stadsrand, mede voor e-commercelevering in woonwijken."
+            "summary": "Mobiliteitsaanpak (14 november 2016, later uitgewerkt in het Mobiliteitsplan 2040 'Slim, Schoon en Veilig') met een uitgebreide sectie over goederenvervoer: trimodale hub Loven (weg/water/spoor) en bimodale hub Vossenberg als belangrijkste logistieke bedrijventerreinen, Rail Terminal en Barge Terminal Tilburg, en toekomstige binnenstadsbevoorrading met kleine schone voertuigen vanaf hubs aan de stadsrand, mede voor e-commercelevering in woonwijken.",
+            "period": null,
+            "period_checked": false
           }
         ],
         "notes": "Geen apart Tilburgs SULP of goederenvervoeragenda gevonden; goederenvervoer/stadslogistiek is uitgebreid meegenomen in dit gemeentebrede mobiliteitsdocument. Sluit aan bij de coalitieakkoord-bevinding over het weren van doorgaand vrachtverkeer op de Ringbaan West."
-      }
+      },
+      "urban_node": true
     },
     {
       "municipality": "Venlo",
@@ -2822,11 +2959,14 @@
                 "text": "We bewegen naar een situatie waarbij verplaatsing met het openbaar vervoer, de fiets en te voet als norm maximaal gefaciliteerd wordt, inclusief slimme koppelingen met deelmobiliteit. Dit komt samen in mobiliteitshubs in de wijken."
               }
             ],
-            "summary": "De Omgevingsvisie Venlo 2040 beschrijft Venlo's strategische positie als vervoersknooppunt over weg, spoor en water, met een ambitie tot verplaatsing van het spoorwegemplacement buiten de stad en modal shift in het goederenvervoer. Voor het centrum wordt (via een separaat raadsvoorstel van april) zero-emissie stadslogistiek vanaf 2025 en mogelijk een logistieke hub op langere termijn voorgesteld."
+            "summary": "De Omgevingsvisie Venlo 2040 beschrijft Venlo's strategische positie als vervoersknooppunt over weg, spoor en water, met een ambitie tot verplaatsing van het spoorwegemplacement buiten de stad en modal shift in het goederenvervoer. Voor het centrum wordt (via een separaat raadsvoorstel van april) zero-emissie stadslogistiek vanaf 2025 en mogelijk een logistieke hub op langere termijn voorgesteld.",
+            "period": null,
+            "period_checked": false
           }
         ],
         "notes": "Geraadpleegd via CVDR-publicatie (embedded volledige tekst); geen los PDF gedownload. Het separate raadsvoorstel over zero-emissie stadslogistiek (april, ingangsjaar 2025) is niet als los document teruggevonden, alleen via secundaire bronnen bevestigd. Geen apart Venlo's SULP-document gevonden."
-      }
+      },
+      "urban_node": true
     },
     {
       "municipality": "Zaanstad",
@@ -2891,11 +3031,14 @@
                 "text": "Wij zetten in op Zero Emissie Zones voor bestel- en vrachtvoertuigen in de kernwinkelgebieden van Zaandam, Krommenie en Wormerveer, per 2025 of kort daarna. En we werken samen met bedrijven aan hubs voor stadslogistiek en de bouw en aan het uitbouwen van vervoer over water."
               }
             ],
-            "summary": "Door de raad vastgesteld mobiliteitsplan (definitieve versie 4 november 2021), opvolger van het Zaans Verkeer- en Vervoerplan 2009. Bevat een volledig hoofdstuk 'Goederenvervoer over de weg' met een kwaliteitsnet goederenvervoer, Zero Emissie Zones voor kernwinkelgebieden vanaf 2025, hubs voor stadslogistiek en bouwlogistiek op bedrijventerreinen, en het beter benutten van de Zaan/het IJ voor goederenvervoer over water."
+            "summary": "Door de raad vastgesteld mobiliteitsplan (definitieve versie 4 november 2021), opvolger van het Zaans Verkeer- en Vervoerplan 2009. Bevat een volledig hoofdstuk 'Goederenvervoer over de weg' met een kwaliteitsnet goederenvervoer, Zero Emissie Zones voor kernwinkelgebieden vanaf 2025, hubs voor stadslogistiek en bouwlogistiek op bedrijventerreinen, en het beter benutten van de Zaan/het IJ voor goederenvervoer over water.",
+            "period": null,
+            "period_checked": false
           }
         ],
         "notes": "Geen apart Zaans SULP-document gevonden; goederenvervoer/stadslogistiek is uitgebreid als eigen modaliteit opgenomen in dit gemeentebrede mobiliteitsplan."
-      }
+      },
+      "urban_node": false
     },
     {
       "municipality": "Zoetermeer",
@@ -2947,11 +3090,14 @@
                 "text": "Uitgangspunt is dat de multimodale bereikbaarheid van Zoetermeer geborgd blijft, zowel voor bezoekers als voor bevoorrading."
               }
             ],
-            "summary": "Door de raad vastgestelde mobiliteitsvisie (2017) met de ambitie 'de best bereikbare stad'. Benoemt de groeiende goederenstroom in de stad en de kans die logistieke innovatie biedt voor slimme stadsdistributie/stadslogistiek, en waarborgt multimodale bereikbaarheid mede voor bevoorrading."
+            "summary": "Door de raad vastgestelde mobiliteitsvisie (2017) met de ambitie 'de best bereikbare stad'. Benoemt de groeiende goederenstroom in de stad en de kans die logistieke innovatie biedt voor slimme stadsdistributie/stadslogistiek, en waarborgt multimodale bereikbaarheid mede voor bevoorrading.",
+            "period": null,
+            "period_checked": false
           }
         ],
         "notes": "Quote op p.13 gereconstrueerd uit een PDF met kolomvermenging (twee kolommen door elkaar geextraheerd); betekenis is duidelijk maar exacte zinsvolgorde kan afwijken van het origineel. Een opvolgend 'Omgevingsprogramma Mobiliteit Zoetermeer 2040' was volgens secundaire bronnen nog in ontwikkeling; niet apart gevonden. Geen apart Zoetermeers SULP of goederenvervoeragenda gevonden."
-      }
+      },
+      "urban_node": true
     },
     {
       "municipality": "Zwolle",
@@ -3020,10 +3166,28 @@
                 "text": "We dagen onszelf en de sector uit met slimme logistiek om zo de druk op het wegennet te verminderen en de leefbaarheid in het centrum, de wijken, de buurten en het buitengebied te vergroten."
               }
             ],
-            "summary": "Door de raad op 16 december 2019 vastgestelde mobiliteitsvisie (opgesteld met bijna veertig organisaties), met drie pijlers: een gastvrije en bereikbare stad, een veilige en bereikbare stad, en een innovatieve en vitale wereldfietsstad. Verwijst naar het actieplan Stadslogistiek en de Green Deal Zero Emissie Stadslogistiek, met als doel zero-emissie stadslogistiek in 2025."
+            "summary": "Door de raad op 16 december 2019 vastgestelde mobiliteitsvisie (opgesteld met bijna veertig organisaties), met drie pijlers: een gastvrije en bereikbare stad, een veilige en bereikbare stad, en een innovatieve en vitale wereldfietsstad. Verwijst naar het actieplan Stadslogistiek en de Green Deal Zero Emissie Stadslogistiek, met als doel zero-emissie stadslogistiek in 2025.",
+            "period": null,
+            "period_checked": false
           }
         ],
         "notes": "Alleen de publieksvriendelijke samenvatting/infographic-versie was gedownload; de volledige Mobiliteitsvisie-tekst zelf niet apart geraadpleegd. Geen apart Zwols SULP-document gevonden naast het genoemde actieplan Stadslogistiek."
+      },
+      "urban_node": true
+    }
+  ],
+  "additional_urban_nodes": [
+    {
+      "municipality": "Middelburg",
+      "slug": "middelburg",
+      "group": "Urban Node (TEN-T, geen G4/G40)",
+      "urban_node": true,
+      "logistics_plans": {
+        "status": "todo",
+        "retries": 0,
+        "last_checked": null,
+        "documents": [],
+        "notes": "Toegevoegd omdat Middelburg een Urban Node is onder Bijlage II van Verordening (EU) 2024/1679 (TEN-T), maar geen lid is van G4/G40. Geen coalitieakkoord-onderzoek voor deze gemeente (buiten scope van index.html); alleen SUMP/SULP-onderzoek."
       }
     }
   ]
