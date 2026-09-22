@@ -2777,11 +2777,33 @@
       "economy_summary": null,
       "notes": "Coalitieakkoord 'Vertrouwen, Verbinden, Versterken' (CDA, PRO Venlo, EEN Lokaal, D66, VSP; gepresenteerd 29 mei 2026) geïdentificeerd, maar het enige gevonden PDF-adres (gemeenteraad.venlo.nl/Documenten/Coalitieakkoord-2026-2030.pdf) is niet bereikbaar: curl geeft consequent SSL_ERROR_SYSCALL op het hele domein (ook op andere paden), en WebFetch geeft ECONNRESET op dezelfde URL. Geen alternatieve hostingslocatie gevonden (venlo.nl/app/uploads-paden gaven 404, nu.venlo.nl-artikel toonde geen documentlink). Opnieuw proberen met een andere aanpak (bijv. via Chrome-browserautomatisering als beschikbaar) of later. Tweede poging: ook een browser-gebaseerde proxy (r.jina.ai, gebruikt een headless browser) kreeg ERR_CONNECTION_CLOSED op exact dezelfde URL, wat erop wijst dat de server de verbinding actief sluit op dit pad, niet een client-fingerprint-probleem. Geen alternatieve bron gevonden (venlo.nl toont alleen deze ene link, geen mirror bij CDA/PvdA/EEN Lokaal-partijsites). Derde controle: geen aanvullende bronnen gevonden. Definitief niet-bereikbaar vanuit deze omgeving; het document bestaat wel (gepresenteerd 29 mei 2026, CDA/PRO Venlo/EEN Lokaal/D66/VSP) maar kon niet worden opgehaald.",
       "logistics_plans": {
-        "status": "todo",
+        "status": "found",
         "retries": 0,
-        "last_checked": null,
-        "documents": [],
-        "notes": ""
+        "last_checked": "2026-09-22",
+        "documents": [
+          {
+            "doc_type": "SUMP",
+            "title": "Omgevingsvisie Venlo 2040 (mobiliteits- en goederenvervoeronderdeel)",
+            "date": null,
+            "url": "https://lokaleregelgeving.overheid.nl/CVDR740383/1",
+            "source_page": null,
+            "local_file": null,
+            "quotes": [
+              {
+                "term": "goederenvervoer",
+                "page": null,
+                "text": "We bouwden voort op de kernkwaliteit die Venlo al eeuwenlang heeft: de strategische ligging op een vervoersknooppunt over de weg, het spoor en het water. [...] Zo hebben we bijvoorbeeld het emplacement weten af te bouwen en werken we inmiddels aan een volledige verplaatsing buiten de stad. Het goederenvervoer heeft een stevige stap voorwaarts gezet in de modal shift."
+              },
+              {
+                "term": "hub",
+                "page": null,
+                "text": "We bewegen naar een situatie waarbij verplaatsing met het openbaar vervoer, de fiets en te voet als norm maximaal gefaciliteerd wordt, inclusief slimme koppelingen met deelmobiliteit. Dit komt samen in mobiliteitshubs in de wijken."
+              }
+            ],
+            "summary": "De Omgevingsvisie Venlo 2040 beschrijft Venlo's strategische positie als vervoersknooppunt over weg, spoor en water, met een ambitie tot verplaatsing van het spoorwegemplacement buiten de stad en modal shift in het goederenvervoer. Voor het centrum wordt (via een separaat raadsvoorstel van april) zero-emissie stadslogistiek vanaf 2025 en mogelijk een logistieke hub op langere termijn voorgesteld."
+          }
+        ],
+        "notes": "Geraadpleegd via CVDR-publicatie (embedded volledige tekst); geen los PDF gedownload. Het separate raadsvoorstel over zero-emissie stadslogistiek (april, ingangsjaar 2025) is niet als los document teruggevonden, alleen via secundaire bronnen bevestigd. Geen apart Venlo's SULP-document gevonden."
       }
     },
     {
