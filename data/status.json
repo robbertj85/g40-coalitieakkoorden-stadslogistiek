@@ -1906,11 +1906,33 @@
       "economy_summary": "Hengelo positioneert zich als knooppunt van Oost-Nederland waar spoorlijnen, energienetten, wegen en water (het Twentekanaal) samenkomen, met station, A1/A35 en het Twentekanaal als strategische ligging. Het Omgevingsprogramma Toekomstbestendige Bedrijventerreinen (OTB) richt zich op profilering en efficiënter benutten van bestaande bedrijventerreinen; nieuwe werklocaties worden gezocht op Twentse schaal voor maakindustrie, techniek, chiptech, medische technologie, defensie en energie. Gebiedsontwikkeling Spoorzone Hengelo Enschede (SHE) is het vliegwiel voor talent, creativiteit en ondernemerschap (p. 10-11).",
       "notes": "Geen stadslogistiek/goederenvervoer-termen aangetroffen. De vermelding van het Twentekanaal en spoorlijnen betreft de strategische ligging/knooppuntfunctie van Hengelo in algemene zin, niet goederenvervoer of binnenvaart specifiek.",
       "logistics_plans": {
-        "status": "todo",
+        "status": "found",
         "retries": 0,
-        "last_checked": null,
-        "documents": [],
-        "notes": ""
+        "last_checked": "2026-09-22",
+        "documents": [
+          {
+            "doc_type": "SUMP",
+            "title": "Koersnota Mobiliteit – Hengelo knooppunt van Twente",
+            "date": null,
+            "url": "https://www.hengelo.nl/bestanden/documenten/projecten%20en%20plannen/mobiliteitsvisie/Koersnota%20mobiliteit%20Hengelo%20knooppunt%20van%20Twente.pdf",
+            "source_page": null,
+            "local_file": "data/raw/hengelo_sump.pdf",
+            "quotes": [
+              {
+                "term": "stadslogistiek",
+                "page": 6,
+                "text": "Er wordt onderzoek gedaan naar een stadsdistributiesysteem in het kader van het landelijke project 'zero emissie stadslogistiek' met als doel in 2030 de 40 grootste steden emissieloos te bevoorraden."
+              },
+              {
+                "term": "stadslogistiek",
+                "page": 20,
+                "text": "Onder stadslogistiek wordt verstaan de bevoorrading van winkels en horeca, maar ook bezorging van pakketten en maaltijden aan huis. In 2030 is duurzame bevoorrading van binnensteden een wettelijke verplichting. Hengelo onderzoekt de mogelijkheden om een zero-emissie binnenstad te worden."
+              }
+            ],
+            "summary": "Koersnota Mobiliteit die het GVVP uit 2003 opvolgt. Onderzoekt een stadsdistributiesysteem in het kader van het landelijke project zero-emissie stadslogistiek (doel: 2030 emissieloze bevoorrading in de 40 grootste steden) en de mogelijkheden voor een zero-emissie binnenstad. Zet daarnaast in op goederenvervoer over water (verruiming Twentekanalen tot klasse Va) en spoor."
+          }
+        ],
+        "notes": "Geen exacte vaststellingsdatum gevonden; geen apart Hengelose SULP of goederenvervoeragenda gevonden."
       }
     },
     {
