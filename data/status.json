@@ -1603,11 +1603,43 @@
       "economy_summary": "Hoofdstuk 'De economie in evenwicht' koppelt economie aan sociaal-maatschappelijke vraagstukken en zet in op ruimte voor ondernemers in de duurzame en circulaire maakindustrie. De bouw- en textielhub (voor hergebruik van materialen) wordt mogelijk behouden; foodhubs met distributiepunten voor lokaal voedsel versterken de korte voedselketen (p. 56, 60). Groningen versterkt via het World Energy Cities Partnership zijn positie als energiehub in samenwerking met Noordzeelanden (p. 68).",
       "notes": "Geen stadslogistiek/goederenvervoer-termen aangetroffen; alle 'hub'-treffers betreffen voedselhubs, een bouw-/textielhub voor circulaire economie, mobiliteitshubs voor personenvervoer en een regionale energiehub, niet goederenlogistiek. gemeente.groningen.nl blokkeerde WebFetch (403); curl met browserheaders en het specifieke /file/-pad werkte.",
       "logistics_plans": {
-        "status": "todo",
+        "status": "found",
         "retries": 0,
-        "last_checked": null,
-        "documents": [],
-        "notes": ""
+        "last_checked": "2026-09-22",
+        "documents": [
+          {
+            "doc_type": "SULP",
+            "title": "Visie 'Ruimte voor zero-emissie stadslogistiek' (uitgewerkt in het Verkeersbesluit zero-emissiezone binnenstad Groningen)",
+            "date": "2021-03",
+            "url": "https://groningendoethetzero.nl/media/1/Definitief-verkeersbesluit.pdf?v=1732808638",
+            "source_page": "https://gemeente.groningen.nl/zero-emissiezone",
+            "local_file": "data/raw/groningen_sulp.pdf",
+            "quotes": [
+              {
+                "term": "stadslogistiek",
+                "page": 2,
+                "text": "In 2021 heeft de gemeenteraad met het vaststellen van de visie 'Ruimte voor zero-emissie stadslogistiek' besloten het voormalige venstertijdengebied te verruimen en een zero-emissiezone in 2025 met dezelfde zonegrens in te voeren in de gemeente Groningen."
+              },
+              {
+                "term": "stadslogistiek",
+                "page": 2,
+                "text": "Samen met vertegenwoordigers van alle belangenorganisaties in de Groningse stadslogistiek is in 2018 het Convenant Duurzame Stadslogistiek Groningen opgesteld en ondertekend. Hierin is vastgelegd hoe wordt toegewerkt naar een leefbare, veilige, bereikbare en aantrekkelijke binnenstad, met als eindresultaat emissievrije stadslogistiek in 2025."
+              }
+            ],
+            "summary": "Door de raad op 30 maart 2021 vastgestelde visie 'Ruimte voor zero-emissie stadslogistiek', voortbouwend op het Convenant Duurzame Stadslogistiek Groningen (2018) en de klankbordgroep Stedelijke Logistiek. Resulteerde in het verkeersbesluit (28 november 2024) voor een zero-emissiezone in de binnenstad (Diepenring, Sledemennerbuurt, Westerhaven) vanaf april 2025, met dezelfde grens als het bestaande venstertijdengebied."
+          },
+          {
+            "doc_type": "SUMP",
+            "title": "Mobiliteitsvisie Groningen – Goed op weg",
+            "date": "2021-12",
+            "url": "https://www.sunnyselwerd.nl/wp-content/uploads/2021/07/MOBILITEITSVISIE-MAGAZINE-DEF-30-04-2021.pdf",
+            "source_page": "https://gemeente.groningen.nl/mobiliteitsvisie-groningen-goed-op-weg",
+            "local_file": "data/raw/groningen_sump.pdf",
+            "quotes": [],
+            "summary": "Door de raad vastgesteld (december 2021) gemeentebreed mobiliteitsplan met 9 actielijnen, waaronder 'versterken ketenmobiliteit en hubs'. Geraadpleegd via de publieksmagazine-versie; geen expliciete goederenvervoer/stadslogistiek-passage in dit exemplaar aangetroffen, want dat onderwerp is elders uitgewerkt in de visie 'Ruimte voor zero-emissie stadslogistiek' (zie SULP hierboven)."
+          }
+        ],
+        "notes": "De volledige PDF van de Mobiliteitsvisie stond achter een JS-beveiligingscontrole op gemeente.groningen.nl en gemeenteraad.groningen.nl; archive.org gaf herhaaldelijk 429 (rate limit). Alleen de publieksmagazine-versie (via een derde site) was bereikbaar."
       }
     },
     {
