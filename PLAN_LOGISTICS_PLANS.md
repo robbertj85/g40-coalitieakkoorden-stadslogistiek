@@ -25,8 +25,13 @@ niet uit 2026 te zijn. Een geldige visie uit bv. 2020 telt mee — er is **geen*
 | `data/status.json` | Bron van waarheid. Elk record heeft nu ook een `logistics_plans`-veld. Zoektermen per doc_type staan onder `search_terms.logistics_plan_types`. |
 | `data/raw/<slug>_<doctype>.pdf/.html/.txt` | Gedownloade plannen en geëxtraheerde tekst. Doctype-suffix (bv. `_sump`, `_sulp`, `_goederenvervoer`) voorkomt botsing met het al gedownloade coalitieakkoord (`data/raw/<slug>.pdf`). |
 | `tools/fetch_and_grep.py` | **Ongewijzigd hergebruikt.** Download + grep; de meegegeven slug bepaalt alleen de bestandsnaam, dus `<slug>_sump` werkt zonder codewijziging. |
-| `tools/build_html.py` | Bouwt `index.html`. Toont nu ook `logistics_plans.documents` per gemeente. Altijd draaien na elke wijziging. |
+| `tools/build_logistics_html.py` | Bouwt `logistics.html` (los van `index.html`/`tools/build_html.py`, die alleen over de coalitieakkoorden gaan). Altijd draaien na elke wijziging. |
 | `LOOP_PROMPT_LOGISTICS.md` | De exacte prompt voor de `/loop`-run van deze pass. |
+
+Bewust gescheiden van de coalitieakkoord-pagina: `index.html` (coalitieakkoorden)
+en `logistics.html` (SUMP/SULP/goederenvervoerplannen) zijn losse bestanden,
+gebouwd door losse scripts uit dezelfde `data/status.json`. Eventueel worden ze
+later samengevoegd, maar dat is nu niet aan de orde.
 
 ## Statuswaarden per gemeente (`logistics_plans.status`)
 
@@ -85,7 +90,7 @@ niet uit 2026 te zijn. Een geldige visie uit bv. 2020 telt mee — er is **geen*
    wegschrijft met `indent=2, ensure_ascii=False`. Nooit het hele bestand met de
    hand overtypen. Raak het bestaande `agreement`/`quotes`/coalitieakkoord-veld
    van het record niet aan.
-6. **Bouw de HTML**: `python3 tools/build_html.py`.
+6. **Bouw de HTML**: `python3 tools/build_logistics_html.py` (niet `build_html.py` &ndash; dat blijft uitsluitend voor de coalitieakkoorden in `index.html`).
 7. **Rapporteer** in één regel: gemeente, gevonden doc_types (of "geen"),
    resterend aantal `todo`.
 
