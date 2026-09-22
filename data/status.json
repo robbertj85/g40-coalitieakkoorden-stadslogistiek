@@ -2330,11 +2330,33 @@
       "economy_summary": "De portefeuilleverdeling koppelt economie expliciet aan binnenstad en campusontwikkeling (inclusief acquisitie), naast toerisme, evenementen, horeca en hotel. Het MKB-actieprogramma stimuleert onder meer het gebruik van de elektrische goederenhubs voor bevoorrading. De nieuwe stads-as Spoorzone GRAND MSTRG verbindt Campus-Stationsomgeving, Griendkwartier-Sphinxkwartier en Geusselt, met een mogelijke vervanging van de spoorbrug over de Maas door een loop- en fietsbrug (p. 15, 25).",
       "notes": "Explicit en herhaald beleid voor (elektrische) goederenhubs voor stadsbevoorrading, gekoppeld aan het MKB-actieprogramma en aan het duurzame mobiliteitsbeleid.",
       "logistics_plans": {
-        "status": "todo",
+        "status": "found",
         "retries": 0,
-        "last_checked": null,
-        "documents": [],
-        "notes": ""
+        "last_checked": "2026-09-22",
+        "documents": [
+          {
+            "doc_type": "SULP",
+            "title": "Spoorboekje verbeteren luchtkwaliteit en bereikbaarheid Maastricht (raadsinformatiebrief, met o.a. het programma Emissieloze stadslogistiek)",
+            "date": "2023-07",
+            "url": "https://112.wpcdnnode.com/bewonersjekerkwartier.nl/wp-content/uploads/2023/07/rib-spoorboekje-verbeteren-luchtkwaliteit-en-bereikbaarheid-maastricht-0.3.pdf",
+            "source_page": null,
+            "local_file": "data/raw/maastricht_sulp.pdf",
+            "quotes": [
+              {
+                "term": "stadslogistiek",
+                "page": 24,
+                "text": "Emissieloze stadslogistiek: het instellen van een emissieloze zone voor vracht- en bestelverkeer. Stimuleren van emissieloze stadslogistiek volgens de afspraken van de Green Deal Zero Emission Stadslogistiek voor het centrum exclusief singels."
+              },
+              {
+                "term": "hub",
+                "page": 28,
+                "text": "Daarnaast is het denkbaar dat de terreinen ook gebruikt worden voor een logistieke hub of opwekking van zonne-energie, als bijdrage aan de energietransitie."
+              }
+            ],
+            "summary": "Raadsinformatiebrief/spoorboekje met een reeks programma's voor luchtkwaliteit en bereikbaarheid, waaronder het programma 'Emissieloze stadslogistiek Maastricht': een zero-emissiezone (ZES) voor vracht- en bestelverkeer per 1 januari 2025 (raadsbesluit 30 maart 2021), conform de Green Deal Zero Emission Stadslogistiek, met potentie voor logistieke hubs op nieuwe P+R/P+B/P+W-locaties."
+          }
+        ],
+        "notes": "Geen apart Maastrichts SUMP-document gevonden naast dit programma-overzicht en de Omgevingsvisie Maastricht 2040 (niet apart gedownload)."
       }
     },
     {
