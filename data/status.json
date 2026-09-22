@@ -1170,11 +1170,33 @@
       "economy_summary": "Hoofdstuk 1.5 'Economie' kiest voor een sterke, innovatieve en bestendige economie die bijdraagt aan brede welvaart, in samenhang met leefbaarheid, duurzaamheid, wonen, voorzieningen en mobiliteit. Smart Energy Hubs en een waterstofnetwerk op bedrijventerreinen pakken netcongestie aan; detailhandel, horeca en toerisme in binnenstad en wijkwinkelcentra blijven belangrijk voor de economische vitaliteit (p. 21, 23).",
       "notes": "Zeer expliciete en gedetailleerde stadslogistiek-paragraaf: zero-emissiezone eind 2027, pakketkluizen, logistieke hubs met elektrische (fiets)bezorging, plus goederenvervoer over spoor (lobby voor andere routes) en over water (Beroepshaven Port of Deventer, modernisering Prins Bernhardsluis voor binnenvaartschepen).",
       "logistics_plans": {
-        "status": "todo",
+        "status": "found",
         "retries": 0,
-        "last_checked": null,
-        "documents": [],
-        "notes": ""
+        "last_checked": "2026-09-22",
+        "documents": [
+          {
+            "doc_type": "SUMP",
+            "title": "Tussenproduct Mobiliteitsplan Binnenstad en Periferie – Duurzaam op weg naar een leefbare en gastvrije binnenstad",
+            "date": "2025-03",
+            "url": "https://www.deventer.nl/fileadmin/deventer_website/Verkeer-vervoer/mobiliteitsplan-binnenstad-periferie.pdf",
+            "source_page": "https://www.deventer.nl/verkeer-en-vervoer/mobiliteit-binnenstad-en-periferie",
+            "local_file": "data/raw/deventer_sump.pdf",
+            "quotes": [
+              {
+                "term": "stadslogistiek",
+                "page": 13,
+                "text": "Om de luchtkwaliteit te verbeteren voert de gemeente Deventer uiterlijk op 31 december 2027 een 'nul-emissiezone' voor bestel- en vrachtvoertuigen in. Het verduurzamen van stadslogistiek gaat om schonere voertuigen, bijvoorbeeld elektrisch. Maar ook om slimme bevoorrading, zoals het bundelen van leveringen."
+              },
+              {
+                "term": "bevoorrading",
+                "page": 13,
+                "text": "We gaan onderzoeken hoe bevoorrading op een slimme en duurzame wijze plaats kan vinden. [...] Het aanbrengen van een knip kan bijvoorbeeld belemmerend werken ten aanzien van bevoorrading van de binnenstad."
+              }
+            ],
+            "summary": "Door de raad vastgesteld tussenproduct (maart 2025) met een eigen paragraaf 3.2.6 'slimme en duurzame stadslogistiek': nul-emissiezone voor bestel- en vrachtvoertuigen uiterlijk 31 december 2027, gecombineerde inzet op schonere voertuigen en gebundelde/slimme bevoorrading, met aandacht voor de wisselwerking met verkeersknips in de binnenstad."
+          }
+        ],
+        "notes": "Geen apart Deventers SULP of goederenvervoeragenda gevonden; stadslogistiek is een eigen programmalijn binnen dit mobiliteitsplan. Bevestigt de eerdere coalitieakkoord-bevinding (nul-emissiezone eind 2027)."
       }
     },
     {
