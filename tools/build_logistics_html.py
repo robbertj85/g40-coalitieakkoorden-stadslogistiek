@@ -44,8 +44,6 @@ def flags_html(m):
         parts.append(f'<span class="flag flag-g4g40">{e(m["group"])}</span>')
     if is_urban_node(m):
         parts.append('<span class="flag flag-node">Urban Node (TEN-T)</span>')
-    if is_g4g40(m) and is_urban_node(m):
-        parts.append('<span class="flag flag-both">&#9873; G4/G40 &amp; Urban Node</span>')
     return " ".join(parts)
 
 def actuality(period):
@@ -63,14 +61,13 @@ def actuality(period):
     if end_year is None:
         return None
     if end_year >= THIS_YEAR:
-        return ("naar verwachting nog vigerend (tot " + str(end_year) + ")", "green")
-    return ("looptijd verstreken (tot " + str(end_year) + ") &ndash; controleer op opvolger", "red")
+        return ("naar verwachting nog vigerend (tot " + str(end_year) + ")", "ok")
+    return ("looptijd verstreken (tot " + str(end_year) + ") &ndash; controleer op opvolger", "warn")
 
 counts = {}
 for m in munis:
     counts[lp(m)["status"]] = counts.get(lp(m)["status"], 0) + 1
 n_urban_node = sum(1 for m in munis if is_urban_node(m))
-n_both = sum(1 for m in munis if is_g4g40(m) and is_urban_node(m))
 
 rows = []
 for m in munis:
@@ -142,11 +139,11 @@ table{{border-collapse:collapse;width:100%;font-size:.9rem}} th,td{{border-botto
 .grey{{background:#888}} .amber{{background:#c78a00}} .green{{background:#2e8b57}} .red{{background:#b23a3a}}
 .flags{{margin:.2rem 0 .6rem}}
 .flag{{display:inline-block;padding:1px 8px;border-radius:10px;font-size:.75rem;margin-right:4px;border:1px solid var(--line);color:var(--fg)}}
-.flag-g4g40{{background:#e6f0fa}} .flag-node{{background:#fdf0dc}} .flag-both{{background:#fde8e8;font-weight:600}}
-@media (prefers-color-scheme: dark){{.flag-g4g40{{background:#1c3a52}} .flag-node{{background:#4a3a1c}} .flag-both{{background:#4a1c1c}}}}
+.flag-g4g40{{background:#e6f0fa}} .flag-node{{background:#fdf0dc}}
+@media (prefers-color-scheme: dark){{.flag-g4g40{{background:#1c3a52}} .flag-node{{background:#4a3a1c}}}}
 .muni{{background:var(--card);border:1px solid var(--line);border-radius:8px;padding:16px;margin:16px 0}}
 .meta{{font-size:.9rem;color:var(--muted);word-break:break-word}}
-.period{{font-size:.9rem}} .actuality{{font-size:.85rem;font-weight:600}} .actuality.green{{color:#2e8b57}} .actuality.red{{color:#b23a3a}}
+.period{{font-size:.9rem}} .actuality{{font-size:.85rem;font-weight:600}} .actuality.ok{{color:#2e8b57}} .actuality.warn{{color:#b23a3a}}
 .quotes li{{margin-bottom:.6rem}} q{{font-style:italic}} .ref,.term{{font-size:.8rem;color:var(--muted)}} .term{{font-weight:600}}
 .none{{color:var(--muted);font-style:italic}} .checked{{font-size:.75rem;color:var(--muted)}}
 .summary{{display:flex;gap:16px;flex-wrap:wrap;margin:12px 0}} .summary div{{background:var(--card);border:1px solid var(--line);border-radius:8px;padding:8px 14px}}
@@ -154,7 +151,7 @@ table{{border-collapse:collapse;width:100%;font-size:.9rem}} th,td{{border-botto
 .small{{font-size:.9rem}}
 </style></head><body>
 <h1>Mobiliteits- en goederenvervoerplannen (SUMP/SULP) &ndash; G4 + G40 + Urban Nodes</h1>
-<p>Los van de coalitieakkoorden: formele beleidsdocumenten die de visie/strategie op mobiliteit en/of goederenvervoer beschrijven &ndash; Sustainable Urban Mobility Plans (SUMP/mobiliteitsvisie), Sustainable Urban Logistics Plans (SULP/stadslogistiek-visie) en goederenvervoeragenda's/-strategie&euml;n. De SUMP/SULP-verplichting geldt onder de TEN-T-verordening (EU 2024/1679, Bijlage II) voor <b>Urban Nodes</b> &ndash; dat zijn niet altijd G4/G40-gemeenten. Gemeenten die zowel G4/G40 als Urban Node zijn krijgen een extra vlaggetje. Gesorteerd op gemeentenaam. Bijgewerkt: {e(datetime.date.today())}.</p>
+<p>Los van de coalitieakkoorden: formele beleidsdocumenten die de visie/strategie op mobiliteit en/of goederenvervoer beschrijven &ndash; Sustainable Urban Mobility Plans (SUMP/mobiliteitsvisie), Sustainable Urban Logistics Plans (SULP/stadslogistiek-visie) en goederenvervoeragenda's/-strategie&euml;n. De SUMP/SULP-verplichting geldt onder de TEN-T-verordening (EU 2024/1679, Bijlage II) voor <b>Urban Nodes</b> &ndash; dat zijn niet altijd G4/G40-gemeenten. Gesorteerd op gemeentenaam. Bijgewerkt: {e(datetime.date.today())}.</p>
 <p class="small"><a href="index.html">&larr; Coalitieakkoorden 2026 (apart bestand)</a></p>
 <div class="summary">
 <div><b>{len(munis)}</b> gemeenten</div>
@@ -162,11 +159,10 @@ table{{border-collapse:collapse;width:100%;font-size:.9rem}} th,td{{border-botto
 <div><b>{counts.get("not_found",0)}</b> nog niet gevonden</div>
 <div><b>{counts.get("todo",0) + counts.get("in_progress",0)}</b> nog te onderzoeken</div>
 <div><b>{n_urban_node}</b> Urban Node (TEN-T)</div>
-<div><b>{n_both}</b> G4/G40 &amp; Urban Node</div>
 </div>
 <div class="overflow"><table><thead><tr><th>Gemeente</th><th>Vlaggen</th><th>Status</th><th>#documenten</th><th>Type(n)</th></tr></thead>
 <tbody>{"".join(rows)}</tbody></table></div>
 {"".join(sections)}
 </body></html>"""
 (ROOT / "logistics.html").write_text(page, encoding="utf-8")
-print(f"logistics.html written: {len(munis)} municipalities, {counts}, urban_node={n_urban_node}, both={n_both}")
+print(f"logistics.html written: {len(munis)} municipalities, {counts}, urban_node={n_urban_node}")
