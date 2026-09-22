@@ -1487,11 +1487,33 @@
       "economy_summary": "Hoofdstuk 8 'Economie, werk, innovatie en ondernemerschap' zet in op een Strategische Investeringsagenda voor herstructurering, transformatie en schuifruimte op werklocaties, met een mogelijk revolverend herstructureringsfonds. Nieuwe en bestaande bedrijventerreinen worden veiliger, aantrekkelijker en duurzamer gemaakt; betaalbare werkplekken voor starters komen via transformatie van kantoorpanden en bedrijfshallen, gericht op techniek, innovatie en sleuteltechnologieën. Maximaal behoud van de maakindustrie is een expliciet doel (p. 30-31).",
       "notes": "Geen stadslogistiek/goederenvervoer-paragraaf; de enige relevante vermelding is dat een nieuwe stadsontsluitingsweg expliciet niet bedoeld is voor doorgaand vrachtverkeer, een uitsluiting eerder dan een stadslogistiek-maatregel. enschede.nl blokkeerde WebFetch (403); curl met volledige browserheaders en het specifieke /file/-pad werkte wel.",
       "logistics_plans": {
-        "status": "todo",
+        "status": "found",
         "retries": 0,
-        "last_checked": null,
-        "documents": [],
-        "notes": ""
+        "last_checked": "2026-09-22",
+        "documents": [
+          {
+            "doc_type": "SULP",
+            "title": "Actieplan Zero Emissie zone stadslogistiek Enschede / Lokale Actieagenda Slimme & Schone Stadslogistiek",
+            "date": "2021-06",
+            "url": "https://zoek.officielebekendmakingen.nl/gmb-2025-154132.pdf",
+            "source_page": null,
+            "local_file": "data/raw/enschede_sulp.pdf",
+            "quotes": [
+              {
+                "term": "stadslogistiek",
+                "page": 3,
+                "text": "Deze rapportage 'Actieplan Zero Emissie zone stadslogistiek Enschede' is door de raad vastgesteld op 21 juni 2021."
+              },
+              {
+                "term": "stadslogistiek",
+                "page": 3,
+                "text": "In de 'Lokale Actieagenda Slimme & Schone Stadslogistiek' van de gemeente Enschede is een flankerend maatregelenpakket uitgewerkt, gericht op 3 actielijnen: lokale ondernemers ondersteunen bij emissievrije logistiek, laadinfrastructuur voor stadslogistiek op orde maken, en samenwerking en informatie delen tussen publieke en private sector."
+              }
+            ],
+            "summary": "Op 21 juni 2021 door de raad vastgesteld actieplan voor een zero-emissiezone stadslogistiek, met de voetgangerszone binnenstad als eerste stap en het Binnensingelgebied als stip op de horizon voor een groter maatschappelijk rendement. De Lokale Actieagenda Slimme & Schone Stadslogistiek werkt een flankerend maatregelenpakket uit langs drie actielijnen (ondernemersondersteuning, laadinfrastructuur, publiek-private samenwerking). Het definitieve verkeersbesluit voor de nul-emissiezone volgde op 9 april 2025."
+          }
+        ],
+        "notes": "De bredere Mobiliteitsvisie Enschede 'Leefbaar, Aantrekkelijk en Bereikbaar' (SUMP) is wel vastgesteld, maar alleen de bijbehorende nota van beantwoording zienswijzen (2019) en het raadsbesluit-aanbiedingsbrief waren downloadbaar, niet de hoofdtekst zelf; vandaar geen apart SUMP-record voor Enschede."
       }
     },
     {
