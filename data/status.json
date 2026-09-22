@@ -562,11 +562,22 @@
       "economy_summary": "Hoofdstuk 'de economie van morgen' zet in op Businesspark XL2: minimaal 75% technologisch gedreven maakindustrie en maximaal 25% ondersteunende logistiek, gericht op kavels van drie hectare of groter. Watergebonden bedrijfskavels bieden kansen voor duurzame logistiek en innovatieve bedrijvigheid. Smart energy hubs op bedrijventerreinen worden aangejaagd om netcongestie tegen te gaan, en regeldruk voor ondernemers wordt verminderd via een Ondernemersloket met vaste accountmanagers. Hoofdstuk 'bruisende binnenstad' zet in op levendigheid en bereikbaarheid, met een mogelijke nieuwe locatie voor de weekmarkt (p. 8-11).",
       "notes": "Geen expliciete passages over stadslogistiek, goederenvervoer, bevoorrading of laden-en-lossen. 'Ondersteunende logistiek' wordt alleen genoemd als economische sector op bedrijventerrein XL2 en in relatie tot watermobiliteit/goederenvervoer over water, niet als stedelijke distributie/last-mile thema. Document gevonden via de raadsvergadering-agenda (almelo.bestuurlijkeinformatie.nl), niet via de coalitieakkoord-pagina zelf die geen directe PDF-link toonde.",
       "logistics_plans": {
-        "status": "todo",
+        "status": "found",
         "retries": 0,
-        "last_checked": null,
-        "documents": [],
-        "notes": ""
+        "last_checked": "2026-09-22",
+        "documents": [
+          {
+            "doc_type": "SUMP",
+            "title": "Uitgangspunten Mobiliteitsvisie Almelo 2050",
+            "date": "2024",
+            "url": "https://almelo.bestuurlijkeinformatie.nl/Document/View/179c27c9-6658-4023-bd54-2b390c1bf72c",
+            "source_page": "https://almelo.nl/almelo-presenteert-toekomstvisie-voor-mobiliteit-en-openbare-ruimte-binnenstad",
+            "local_file": "data/raw/almelo_sump.pdf",
+            "quotes": [],
+            "summary": "Uitgangspuntendocument voor de Mobiliteitsvisie Almelo 2050 (2024), met drie ambities: een bereikbare en vitale stad, een gezonde en veilige leefomgeving, en een leefbare en aantrekkelijke stad. Focus op lopen/fietsen op korte en middellange afstand en autoverkeer meer op hoofdroutes; geen expliciete passage over goederenvervoer of stadslogistiek. Concrete keuzes (mogelijk inclusief goederenvervoer) volgen later in een uit te werken mobiliteitsplan."
+          }
+        ],
+        "notes": "Dit is het uitgangspuntendocument, niet de definitief vastgestelde visie/het vervolg-mobiliteitsplan; geen apart SULP/goederenvervoeragenda gevonden voor Almelo."
       }
     },
     {
