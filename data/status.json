@@ -158,8 +158,8 @@
               }
             ],
             "summary": "Stadsbrede logistieke strategie (januari 2022) die de balans zoekt tussen bevoorrading en leefbaarheid: schone, lichte, veilige en efficiente stadslogistiek via bouwhubs, transport over water, micro-/buurthubs en samenwerking met de sector via platform Logistiek 020.",
-            "period": null,
-            "period_checked": false
+            "period": "vanaf januari 2022, geen einddatum genoemd (bevat wel de gemeentelijke ambitie om in 2025 een emissieloze stadslogistiek te hebben)",
+            "period_checked": true
           },
           {
             "doc_type": "SUMP",
@@ -181,8 +181,8 @@
               }
             ],
             "summary": "Gemeentebrede mobiliteitsagenda (vastgesteld door de raad, 30 september 2015) over bereikbaarheid, ruimte en doorstroming; goederenvervoer is een van de meegenomen vervoerstromen, met een specifieke maatregel (m45) voor doorstroming en handhaving van goederenvervoer op drukke routes.",
-            "period": null,
-            "period_checked": false
+            "period": "vanaf 30 september 2015, geen einddatum genoemd",
+            "period_checked": true
           }
         ],
         "notes": "Amsterdam heeft geen apart gelabeld 'SUMP'/'SULP', maar de Uitvoeringsagenda Mobiliteit (2015) en de Logistieke strategie (2022) vervullen die functie inhoudelijk."

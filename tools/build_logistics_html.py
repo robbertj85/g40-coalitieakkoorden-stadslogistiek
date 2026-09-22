@@ -49,13 +49,19 @@ def flags_html(m):
     return " ".join(parts)
 
 def actuality(period):
-    """Best-effort 'is dit nog vigerend' hint based on an end year found in the period text."""
+    """Best-effort 'is dit nog vigerend' hint based on an EXPLICIT end year in the period
+    text (a year range, or 'tot'/'horizon' + year) - never just any lone year mentioned
+    (e.g. a start year in "vanaf 2015, geen einddatum genoemd" is not an end year)."""
     if not period:
         return None
-    years = [int(y) for y in re.findall(r"(19|20)\d{2}", period)]
-    if not years:
+    m = re.search(r"(20\d{2})\s*[-–—]\s*(20\d{2})", period)
+    if not m:
+        m = re.search(r"(?:tot(?: en met)?|horizon)\s+(20\d{2})", period, re.IGNORECASE)
+        end_year = int(m.group(1)) if m else None
+    else:
+        end_year = int(m.group(2))
+    if end_year is None:
         return None
-    end_year = max(years)
     if end_year >= THIS_YEAR:
         return ("naar verwachting nog vigerend (tot " + str(end_year) + ")", "green")
     return ("looptijd verstreken (tot " + str(end_year) + ") &ndash; controleer op opvolger", "red")
