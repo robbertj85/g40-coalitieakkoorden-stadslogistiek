@@ -1366,11 +1366,43 @@
       "economy_summary": "Het akkoord benadrukt de Brainportregio als motor van een innovatieve en steeds schonere economie van wereldklasse, met triple-helix samenwerking (Brainport voor Elkaar, Sociale Brainport Agenda) en energiecollectieven op bedrijventerreinen om netcongestie tegen te gaan. Er is geen apart hoofdstuk stedelijke economie of binnenstad; economische ontwikkeling wordt vooral via de Brainport-samenwerking en de Metropoolregio Eindhoven (MRE) vormgegeven (p. 4, 7, 10).",
       "notes": "Eenmalige, niet-uitgewerkte vermelding van 'logistiek verkeer' als modaliteit; geen stadslogistiek/goederenvervoer-paragraaf. De genoemde zero-emissiezone betreft expliciet personenauto's, niet bestel- of vrachtverkeer.",
       "logistics_plans": {
-        "status": "todo",
+        "status": "found",
         "retries": 0,
-        "last_checked": null,
-        "documents": [],
-        "notes": ""
+        "last_checked": "2026-09-22",
+        "documents": [
+          {
+            "doc_type": "SULP",
+            "title": "Uitvoeringskader Duurzame Logistiek Eindhoven",
+            "date": "2026-02",
+            "url": "https://zoek.officielebekendmakingen.nl/gmb-2026-46193.pdf",
+            "source_page": "https://www.eindhoven.nl/projecten/zero-emissiezone/stadslogistiek",
+            "local_file": "data/raw/eindhoven_sulp.pdf",
+            "quotes": [
+              {
+                "term": "stadslogistiek",
+                "page": 1,
+                "text": "Vanuit Europa is namelijk de eis gesteld dat een aantal steden voor 2028 een SUMP (Sustainable Urban Mobility Plan) hebben, dat ook een praktisch plan voor de stadslogistiek dient te bevatten."
+              },
+              {
+                "term": "stadslogistiek",
+                "page": 1,
+                "text": "In 2021 heeft gemeente Eindhoven samen met andere Nederlandse gemeentes, het ministerie van Infrastructuur en Waterstaat en belangenorganisaties en initiatiefnemers uit de logistieke sector de Green Deal Stadslogistiek 2021-2025 getekend. Dit kunnen we zien als de voorloper van dit document."
+              }
+            ],
+            "summary": "Uitvoeringskader (gemeenteblad 3 februari 2026) dat het onderwerp stadslogistiek uit het Masterplan Mobiliteit 2050 verdiepend uitwerkt, als vervolg op de Green Deal Stadslogistiek 2021-2025. Onderscheidt zes hoofdsegmenten van stadslogistiek (facilitair/service grootste met ~1/3 van de ritten, stukgoed ~28%, vers ~23%) en werkt naar de zero-emissiezone voor vracht- en bestelwagens (2025) en langetermijndoelen voor 2050, uitgewerkt in een actieplan 2026-2027/2028-2030/2031+."
+          },
+          {
+            "doc_type": "SUMP",
+            "title": "Masterplan Mobiliteit 2050",
+            "date": "2024-03",
+            "url": "https://www.openeindhoven.nl/project/masterplan-mobiliteit",
+            "source_page": "https://www.eindhoven.nl/bestuur-en-beleid/beleid/visies-plannen-en-verordeningen",
+            "local_file": null,
+            "quotes": [],
+            "summary": "Op 12 maart 2024 door de gemeenteraad vastgesteld overkoepelend mobiliteitsplan voor Eindhoven tot 2050 (na dertig ingediende moties alsnog aangenomen). Stadslogistiek is een van de onderdelen; het Uitvoeringskader Duurzame Logistiek (zie SULP hierboven) is de verdiepende uitwerking van dit onderdeel."
+          }
+        ],
+        "notes": "Primaire PDF van het Masterplan Mobiliteit zelf niet direct gevonden (alleen bijlagen als Facts & Figures op openeindhoven.nl); metadata (vaststellingsdatum) bevestigd via meerdere bronnen en via verwijzing in het Uitvoeringskader Duurzame Logistiek zelf."
       }
     },
     {
