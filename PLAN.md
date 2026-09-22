@@ -107,3 +107,116 @@ heeft, is geen fout: status `not_found`, in `notes` de stand van de formatie
 
 Utrecht (`slug: utrecht`) is volledig ingevuld als voorbeeld van het gewenste
 detailniveau. Bekijk dat record in `data/status.json` voordat je begint.
+
+---
+
+# Deel 2: thema-analyse over alle akkoorden (`themes.html`)
+
+Naast het stadslogistiek-rapport staat een tweede rapport dat het hele corpus als
+één geheel leest: het algemene beeld (18 thema's) plus een doorsnede op de zeven
+DMI-thema's (gebiedsontwikkeling, woningbouw, mobiliteit, energietransitie,
+bodem & ondergrond, digitalisering, AI).
+
+## Bestanden
+
+| Pad | Rol |
+|---|---|
+| `tools/theme_config.json` | Themataxonomie. Drie groepen: `general` (18 algemene thema's), `dmi` (de eerste doorsnede van 7) en `dmi_formeel` (de 7 officiele DMI-thema's). Plus `subtopics` en `scope`. Enige plek waar de taxonomie staat. |
+| `tools/theme_scan.py` | Scant `data/raw/*.txt` en schrijft `data/themes.json` (meting) + `data/theme_extracts.json` (leesmateriaal). |
+| `data/themes.json` | **Gegenereerd** – niet met de hand bewerken. |
+| `data/analysis.json` | **Handgeschreven** duiding + geselecteerde letterlijke citaten. |
+| `tools/build_themes_html.py` | Rendert `themes.html`. |
+| `tools/quote.py` | Toont volledige zinnen rond een zoekterm, met paginanummer – om citaten te kiezen. |
+| `tools/verify_quotes.py` | Faalt als een citaat niet letterlijk op de opgegeven pagina staat. |
+
+## Vaste volgorde na elke wijziging
+
+```
+python3 tools/theme_scan.py          # meting bijwerken
+python3 tools/build_themes_html.py   # themes.html bouwen
+python3 tools/verify_quotes.py       # citaatcontrole (exit 1 bij afwijking)
+```
+
+## Twee DMI-indelingen naast elkaar
+
+Het rapport telt hetzelfde corpus langs twee indelingen, die allebei blijven staan:
+
+- **Deel B** &ndash; de eerste doorsnede (`dmi`): gebiedsontwikkeling, woningbouw,
+  mobiliteit, energietransitie, bodem & ondergrond, digitalisering, AI.
+- **Deel C** &ndash; de officiele DMI-indeling (`dmi_formeel`): ruimte op
+  uiteenlopende schaalniveaus, woningbouw, digitaal, energie, water/bodem/
+  ondergrond, bereikbaarheid, parkeren & stedelijk-regionaal verkeer.
+
+Ze snijden het corpus bewust anders aan: in deel C hoort water bij bodem en
+ondergrond (waardoor dat thema van 216 naar 674 vermeldingen gaat), valt
+mobiliteit uiteen in twee thema's en vormen digitalisering en AI er samen een.
+
+## De scope-meting
+
+`scope` in `theme_config.json` bevat vijf groepen (data & ontsluiting,
+intelligentie & analytics, visualisatie & modellering, monitoring & meten,
+kennis & disseminatie). Die worden **per thema gemeten binnen de passages van dat
+thema zelf** (±250 tekens rond elke treffer). Zo meet je niet of een akkoord
+uberhaupt over data gaat, maar of het over data gaat *op dit onderwerp*. Het
+scherpste resultaat: binnen water/bodem/ondergrond komt in alle 41 akkoorden
+samen geen enkel woord uit 'data & ontsluiting' voor.
+
+Het thema Digitaal scoort per definitie hoog (thema-termen en scope-termen
+overlappen daar) en dient als ijkpunt, niet als bevinding.
+
+## Meetregels
+
+- Overlappende treffers tellen als één vermelding (`merge_spans`), zodat
+  'woningbouw' in 'woningbouwopgave' niet dubbel telt.
+- Terugkerende kop-/voetregels (op ≥30% van de pagina's) worden eerst verwijderd
+  (`strip_boilerplate`). Zonder die stap telde de paginavoet van Deventer 55 keer
+  mee als vermelding van laadinfrastructuur.
+- Deelonderwerpen tellen alleen *binnen* de passages van het thema zelf (±250
+  tekens rond elke treffer), zodat 'ethiek' alleen bij AI meetelt als het ook
+  echt over AI gaat.
+- Documenten onder `MIN_WORDS_FOR_RATE` (3.000 woorden) blijven buiten de
+  ranglijsten per 10.000 woorden; dat betreft nu alleen Haarlem.
+- Nieuwe term toevoegen? Altijd eerst de treffers bekijken met `tools/quote.py`
+  vóór je hem in `theme_config.json` zet. Zo zijn 'profilering' (stadsprofilering,
+  geen AI), 'zorgen' (werkwoord) en 'ondergrondse container/parkeergarage'
+  als valse treffers eruit gehaald. In de formele indeling gold dat ook voor
+  `ring` (zat in 'verandering', 'inrichting' &ndash; 3.695 valse treffers),
+  `doorstroming` (gaat meestal over de woningmarkt) en het kale `toegankelijk`
+  (meestal digitaal of sociaal, niet fysiek bereikbaar).
+- De DMI-instrumenten (DSGO, GIM, SIM, NDS/FDS, ZoN, DSFL, Talking Traffic,
+  ROMO, SPS) zijn apart nageteld en komen niet voor. De treffers op BIM, DSM en
+  grondbank zijn gecontroleerd en vals: respectievelijk de Bossche Investerings
+  Maatschappij, het chemiebedrijf DSM en een budgetregel van een ontwikkelbedrijf.
+
+## Citaatregels
+
+Citaten zijn letterlijk en staan aantoonbaar op de genoemde pagina. Een aantal
+PDF's is in kolommen opgemaakt, waardoor `pdftotext` zinnen door elkaar haalt
+(o.a. Alphen aan den Rijn, Amstelveen, Breda, Enschede, Utrecht). Uit die
+documenten alleen citeren waar de passage aaneengesloten loopt; in de overige
+gevallen de inhoud beschrijven in plaats van citeren.
+
+## Deployment
+
+Beide rapporten draaien als eigen container op de Hetzner-host, op het
+docker-netwerk `web`, zonder gepubliceerde poorten. Nginx Proxy Manager
+(proxy host `prototype.transportlab.app`) heeft per rapport een custom location
+die zonder URI-rewrite doorzet naar de containernaam, dus het pad moet ook in de
+container bestaan.
+
+| Rapport | Bron | Build-context | Container | URL |
+| --- | --- | --- | --- | --- |
+| Stadslogistiek | `index.html` | `Dockerfile` | `g40-stadslogistiek` | `/g40-stadslogistiek/` |
+| SUMP/SULP-plannen | `logistics.html` | `Dockerfile` (zelfde container) | `g40-stadslogistiek` | `/g40-sump-sulp/` |
+| Thema's | `themes.html` | `deploy/g40-themas/` | `g40-themas` | `/g40-themas/` |
+
+Themarapport uitrollen (bouwt en vervangt de container over SSH, host `hetzner`
+uit `~/.ssh/config`):
+
+```bash
+python3 tools/build_themes_html.py
+./deploy/g40-themas/deploy.sh
+```
+
+Het themarapport bevat geen verwijzingen naar het stadslogistiekrapport; beide
+zijn los te openen.
