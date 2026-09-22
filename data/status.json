@@ -134,11 +134,54 @@
       "economy_summary": "Hoofdstuk 4 'Werk, ondernemen en bestaanszekerheid' zet in op ruimte voor bedrijven, innovatieve werkplekken, duurzame maakindustrie en logistiek naast lokaal ondernemerschap, met gerichte ruimte voor AI & Tech, Life Sciences & Health, creatieve industrie en duurzame maakindustrie. Extra aandacht voor sociale economie, ondernemershubs in Nieuw-West, Zuidoost en Noord, verhoging toeristenbelasting naar 16% in 2027, en verduurzaming van havenbedrijvigheid richting 'Green Port Amsterdam' (p. 32-35).",
       "notes": "Uitstootvrije zone voor bestel- en vrachtverkeer (p.28) en venstertijden/bevoorrading (p.52) zijn de meest concrete stadslogistiek-passages; geen apart hoofdstuk stadslogistiek.",
       "logistics_plans": {
-        "status": "todo",
+        "status": "found",
         "retries": 0,
-        "last_checked": null,
-        "documents": [],
-        "notes": ""
+        "last_checked": "2026-09-22",
+        "documents": [
+          {
+            "doc_type": "SULP",
+            "title": "Logistieke strategie – Samen werken aan balans tussen bevoorrading en leefbaarheid",
+            "date": "2022-01",
+            "url": "https://assets.amsterdam.nl/publish/pages/1071270/logistieke-strategie.pdf",
+            "source_page": null,
+            "local_file": "data/raw/amsterdam_sulp.pdf",
+            "quotes": [
+              {
+                "term": "bevoorrading",
+                "page": 4,
+                "text": "Logistiek neemt naar verhouding veel ruimte in en heeft grote impact op de verkeersveiligheid, luchtkwaliteit, leefbaarheid en bereikbaarheid."
+              },
+              {
+                "term": "hub",
+                "page": 8,
+                "text": "Zo’n 30% van het vracht- en bestelverkeer in de stad komt voort uit bouwactiviteiten. Bouwlogistiek is de grootste en meest urgente logistieke stroom."
+              }
+            ],
+            "summary": "Stadsbrede logistieke strategie (januari 2022) die de balans zoekt tussen bevoorrading en leefbaarheid: schone, lichte, veilige en efficiente stadslogistiek via bouwhubs, transport over water, micro-/buurthubs en samenwerking met de sector via platform Logistiek 020."
+          },
+          {
+            "doc_type": "SUMP",
+            "title": "Uitvoeringsagenda Mobiliteit",
+            "date": "2015-09",
+            "url": "https://openresearch.amsterdam/image/2023/7/19/uitvoeringsagenda_mobiliteit_1.pdf",
+            "source_page": null,
+            "local_file": "data/raw/amsterdam_sump.pdf",
+            "quotes": [
+              {
+                "term": "goederenvervoer",
+                "page": 7,
+                "text": "Bereikbaarheid betekent dat alle soorten en typen reizigers (inclusief goederenvervoer) goede mogelijkheden hebben om én de stad te bereiken én zich veilig en snel door de stad te verplaatsen."
+              },
+              {
+                "term": "goederenvervoer",
+                "page": 30,
+                "text": "Samen met de stevige groei van het aantal bewoners, bezoekers en bedrijven groeit ook het goederenvervoer in de stad. Naast de bevoorrading van winkels en horeca neemt ook het bezorgverkeer naar particulieren toe door de populariteit van online shoppen. Goede doorstroming en geschikte faciliteiten voor goederenvervoer zijn daarom essentieel vanwege het grote economisch belang van goede bevoorrading maar ook om overlast, een verslechtering van de luchtkwaliteit en onveiligheid te voorkomen."
+              }
+            ],
+            "summary": "Gemeentebrede mobiliteitsagenda (vastgesteld door de raad, 30 september 2015) over bereikbaarheid, ruimte en doorstroming; goederenvervoer is een van de meegenomen vervoerstromen, met een specifieke maatregel (m45) voor doorstroming en handhaving van goederenvervoer op drukke routes."
+          }
+        ],
+        "notes": "Amsterdam heeft geen apart gelabeld 'SUMP'/'SULP', maar de Uitvoeringsagenda Mobiliteit (2015) en de Logistieke strategie (2022) vervullen die functie inhoudelijk."
       }
     },
     {
