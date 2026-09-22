@@ -1849,11 +1849,33 @@
       "economy_summary": "Het akkoord noemt het creëren van een stedelijk werkmilieu, het realiseren van een OV-hub en verbeterde bereikbaarheid en parkeercapaciteit als onderdeel van de centrumontwikkeling, met aandacht voor het laagdrempeliger maken van aanbestedingen voor bedrijven (p. 11).",
       "notes": "Expliciete, beargumenteerde keuze om GEEN zero-emissiezones in te voeren, met als reden geringe meerwaarde tegenover problemen voor ondernemers. Vracht- en autoverkeer worden samen als grootvervuilers benoemd voor luchtkwaliteit, aanpak volgt in de herziene mobiliteitsvisie (nog niet uitgewerkt in dit akkoord).",
       "logistics_plans": {
-        "status": "todo",
+        "status": "found",
         "retries": 0,
-        "last_checked": null,
-        "documents": [],
-        "notes": ""
+        "last_checked": "2026-09-22",
+        "documents": [
+          {
+            "doc_type": "SUMP",
+            "title": "Mobiliteitsvisie Helmond 2040",
+            "date": "2023-10",
+            "url": "https://www.helmond.nl/Media%20Helmond.nl/Documenten%20Helmond/Stad/Mobiliteitsvisie/Mobiliteitsvisie%20Helmond%202040%20webversie.pdf",
+            "source_page": "https://www.helmond.nl/1/stad/alle-onderwerpen/mobiliteitsvisie",
+            "local_file": "data/raw/helmond_sump.pdf",
+            "quotes": [
+              {
+                "term": "goederenvervoer",
+                "page": 22,
+                "text": "Het goederenvervoer krijgt vanwege het belang voor de bedrijvigheid een specifieke aanpak."
+              },
+              {
+                "term": "hub",
+                "page": 15,
+                "text": "Op termijn wordt de mogelijkheid geboden om via enkele specifieke hubs distributie- en bevoorradingsverkeer en koeriersdiensten centraal te sturen. Wijkhubs functioneren als afhaalpunten voor pakketjes."
+              }
+            ],
+            "summary": "Op 31 oktober 2023 door de raad aangenomen mobiliteitsvisie. Goederenvervoer krijgt vanwege het belang voor de bedrijvigheid (Helmond is Automotive-stad) een specifieke aanpak: sturing van distributie-, bevoorradings- en koeriersverkeer via specifieke hubs, met wijkhubs die tevens als pakketafhaalpunten functioneren."
+          }
+        ],
+        "notes": "Quote op p.15 gereconstrueerd uit een PDF met kolomvermenging (twee kolommen door elkaar geextraheerd); betekenis is duidelijk maar exacte zinsvolgorde kan iets afwijken van het origineel. Geen apart Helmonds SULP of goederenvervoeragenda gevonden."
       }
     },
     {
