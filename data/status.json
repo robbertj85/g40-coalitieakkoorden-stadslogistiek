@@ -2138,11 +2138,33 @@
       "economy_summary": "Fryslân en Leeuwarden als hoofdstad bouwen de koppositie in circulaire economie verder uit via de Vereniging Circulair Fryslân, met koppeling aan economische speerpunten watertechnologie, bodem en agri-food. Een strategische investeringsagenda versnelt woningbouw, verbetert leefbaarheid en jaagt de kenniseconomie aan, met ontwikkelgebieden zoals de Weaze, Prinsentuin, Vlietzone en Spoorzone/Spoordok (p. 18, 21).",
       "notes": "Expliciete, beargumenteerde keuze om GEEN emissievrije zones in te voeren deze bestuursperiode; in plaats daarvan wordt ingezet op laadinfrastructuur en mobiliteitshubs. Dit patroon (bewust afzien van ZE-zones) komt ook voor bij Dordrecht, Ede en Helmond.",
       "logistics_plans": {
-        "status": "todo",
+        "status": "found",
         "retries": 0,
-        "last_checked": null,
-        "documents": [],
-        "notes": ""
+        "last_checked": "2026-09-22",
+        "documents": [
+          {
+            "doc_type": "SUMP",
+            "title": "Beleidskader Mobiliteit 2040 – Naar een gezonde, duurzame en veilige mobiliteit",
+            "date": "2024-10",
+            "url": "https://www.leeuwarden.nl/wp-content/uploads/2023/12/Mobiliteitscafe-Leeuwarden-beleidskader-mobiliteit.pdf",
+            "source_page": "https://www.leeuwarden.nl/en/parking-traffic-and-transport/mobiliteit/",
+            "local_file": "data/raw/leeuwarden_sump2.pdf",
+            "quotes": [
+              {
+                "term": "SUMP",
+                "page": 8,
+                "text": "Per 1 januari 2027 zijn alle grote steden in de Europese Unie verplicht op een Sustainable Urban Mobility Plan (SUMP) op te stellen. Ook de gemeente Leeuwarden hoort bij dit rijtje. [...] Met dit plan voldoen wij aan de normen van de SUMP."
+              },
+              {
+                "term": "stadslogistiek",
+                "page": 45,
+                "text": "Voor stadslogistiek over water gaat de gemeente de potenties onderzoeken voor een logistieke stadsrandhub in de omgeving Swettehus (overslag op emissievrije voertuigen en water). Voor de stadslogistiek over weg heeft de gemeente Leeuwarden samen met diverse Leeuwarder bedrijven de Green Deal Zero-Emissie Stadslogistiek (GDZES) ondertekend. We onderzoeken een Zero-Emissie zone in de binnenstad per 2028."
+              }
+            ],
+            "summary": "Door de raad op 16 oktober 2024 vastgesteld beleidskader (opgesteld door Goudappel, 26 maart 2024), expliciet bedoeld om te voldoen aan de EU-SUMP-verplichting per 2027. Stadslogistiek over water via een mogelijke logistieke stadsrandhub bij Swettehus (overslag op emissievrije voertuigen), en over de weg via de ondertekende Green Deal Zero-Emissie Stadslogistiek met een te onderzoeken zero-emissiezone in de binnenstad per 2028."
+          }
+        ],
+        "notes": "Let op: een eerder gevonden CVDR-document 'Beleidskader Mobiliteit en uitvoeringsagenda 2024-2028' met vergelijkbare Friese watertransport-inhoud bleek bij verificatie van de gemeente Smallingerland (Drachten) te zijn, niet van Leeuwarden – terecht genegeerd. Geen apart Leeuwarders SULP of goederenvervoeragenda gevonden naast dit SUMP."
       }
     },
     {
