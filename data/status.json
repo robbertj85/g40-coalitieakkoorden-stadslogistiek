@@ -228,11 +228,54 @@
       "economy_summary": "Doorbraak 2 'De sterkste en groenste economie van Europa' zet zwaar in op de Rotterdamse haven: een Haventransitieplan richting 2050, verduurzaming van de industrie, en samenwerking tussen Havenbedrijf, industrie en logistieke sector. Daarnaast circulaire maakindustrie (Rotterdam als Europese grondstoffenhub/Raw Materials Hub, jaarlijks 1 miljoen ton secundaire grondstoffen in 2030), Life Sciences & Health Tech, en aandacht voor het MKB als ruggengraat van de stedelijke economie (p. 21-22, 28-29).",
       "notes": "Geen expliciete termen stadslogistiek, goederenvervoer, bevoorrading of laden-en-lossen aangetroffen. Wel relevante passages over leveranciers in autoluwe straten en modal shift naar vervoer over water/logistiek bij infrastructuuronderhoud.",
       "logistics_plans": {
-        "status": "todo",
+        "status": "found",
         "retries": 0,
-        "last_checked": null,
-        "documents": [],
-        "notes": ""
+        "last_checked": "2026-09-22",
+        "documents": [
+          {
+            "doc_type": "SULP",
+            "title": "Stappenplan ZES – Stappen richting Zero Emissie Stadslogistiek (ZES) in Rotterdam in 2025",
+            "date": "2019-06",
+            "url": "https://logistiek010.nl/app/uploads/2020/11/Stappenplan-ZES.pdf",
+            "source_page": "https://logistiek010.nl/logistiek-010/",
+            "local_file": "data/raw/rotterdam_sulp.pdf",
+            "quotes": [
+              {
+                "term": "goederenvervoer",
+                "page": 3,
+                "text": "Het Stappenplan Zero Emissie Stadslogistiek (ZES) is gericht op de vervoerscategorie goederenvervoer en bevat een aanpak uitgevoerd door zero emissie (ZE) voertuigen."
+              },
+              {
+                "term": "stadslogistiek",
+                "page": 4,
+                "text": "De gemeente Rotterdam werkt al jaren samen met het bedrijfsleven aan het reduceren van het aantal logistieke bewegingen in de stad, door slimme logistiek zoals bundeling van goederenstromen, en het verschonen van de vrachtvoertuigen die de stad in moeten."
+              }
+            ],
+            "summary": "Door de gemeenteraad vastgesteld stappenplan (juni 2019) naar een zero-emissiezone voor stadslogistiek in 2025, met een aanpak langs de Trias Mobilica (volumebeheersing, veranderen, verschonen) en een specifieke aanpak per goederensegment (vers, bouw, pakketten, afval)."
+          },
+          {
+            "doc_type": "SUMP",
+            "title": "Rotterdamse Mobiliteitsaanpak (RMA)",
+            "date": "2020-02",
+            "url": "https://www.rotterdam.nl/media/1077",
+            "source_page": "https://www.rotterdam.nl/klimaatdoelen-duurzame-mobiliteit",
+            "local_file": "data/raw/rotterdam_sump.pdf",
+            "quotes": [
+              {
+                "term": "stadslogistiek",
+                "page": 20,
+                "text": "De e-lane is een rijstrook die uitsluitend bestemd is elektrisch hoogwaardig openbaar vervoer, emissievrije stadslogistiek en nood- en hulpdiensten."
+              },
+              {
+                "term": "stadslogistiek",
+                "page": 20,
+                "text": "De zero emissie zone voor stadslogistiek bestaat grofweg uit het gebied binnen de Ruit van Rotterdam. [...] Ze zijn tevens kansrijk voor het realiseren van (grote) logistieke hubs gebundeld met binnenstedelijke zero emissie transporten."
+              }
+            ],
+            "summary": "Door de gemeenteraad vastgestelde mobiliteitsaanpak (februari 2020) met sturingsprincipes en maatregelen tot 2030; voor goederenvervoer onder meer een zero-emissiezone voor stadslogistiek binnen de Ruit van Rotterdam, logistieke hubs aan de rand en een schone-logistiek-rijstrook (e-lane) op de Maastunnelcorridor."
+          }
+        ],
+        "notes": "Niet te verwarren met de landelijke 'Uitvoeringsagenda Stadslogistiek' (2021), een gezamenlijk convenant van VNG/IenW/G4/Tilburg dat geen Rotterdam-specifiek document is."
       }
     },
     {
