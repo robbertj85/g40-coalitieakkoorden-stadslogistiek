@@ -2902,11 +2902,33 @@
       "economy_summary": "Hoofdstuk 'Onderwijs en economie' zet in op ruimte voor lokale ondernemers, MKB, starters, zzp'ers, familiebedrijven en de maakindustrie, met minder regels en betere dienstverlening. Het Dutch Innovation Park wordt verder ontwikkeld als regionale innovatiecampus voor startups en scale-ups; de Innovatieprijs voor ondernemers wordt voortgezet. Voor een nieuwe actieagenda Economie en circulaire economie wordt jaarlijks €200.000 beschikbaar gesteld tot en met 2030. Het stadscentrum wordt samen met ondernemers en vastgoedeigenaren toekomstbestendig, groen, levendig en bereikbaar gehouden (p. 13-14).",
       "notes": "Geen stadslogistiek/goederenvervoer-termen aangetroffen. zoetermeer.nl was traag/tijdelijk onbereikbaar op specifieke paden (curl timeouts), maar de hoofdpagina en het correcte CDN-pad (cuatro.sim-cdn.nl) werkten na een herhaalde poging.",
       "logistics_plans": {
-        "status": "todo",
+        "status": "found",
         "retries": 0,
-        "last_checked": null,
-        "documents": [],
-        "notes": ""
+        "last_checked": "2026-09-22",
+        "documents": [
+          {
+            "doc_type": "SUMP",
+            "title": "Mobiliteitsvisie Zoetermeer 2030 – Zoetermeer: de best bereikbare stad",
+            "date": "2017",
+            "url": "https://www.zoetermeer.nl/_flysystem/media/mobiliteitsvisie-zoetermeer-2030.pdf",
+            "source_page": "https://zoetermeer.bestuurlijkeinformatie.nl/Document/View/322444e8-7743-43c9-8afa-127d12d7b43d",
+            "local_file": "data/raw/zoetermeer_sump.pdf",
+            "quotes": [
+              {
+                "term": "stadsdistributie",
+                "page": 13,
+                "text": "De goederenstroom in de stad neemt toe. Logistieke innovatie kan een bijdrage leveren aan slimme stadsdistributie en stadslogistiek, en kan helpen om in- en uitgaande stromen slimmer te organiseren."
+              },
+              {
+                "term": "bevoorrading",
+                "page": 11,
+                "text": "Uitgangspunt is dat de multimodale bereikbaarheid van Zoetermeer geborgd blijft, zowel voor bezoekers als voor bevoorrading."
+              }
+            ],
+            "summary": "Door de raad vastgestelde mobiliteitsvisie (2017) met de ambitie 'de best bereikbare stad'. Benoemt de groeiende goederenstroom in de stad en de kans die logistieke innovatie biedt voor slimme stadsdistributie/stadslogistiek, en waarborgt multimodale bereikbaarheid mede voor bevoorrading."
+          }
+        ],
+        "notes": "Quote op p.13 gereconstrueerd uit een PDF met kolomvermenging (twee kolommen door elkaar geextraheerd); betekenis is duidelijk maar exacte zinsvolgorde kan afwijken van het origineel. Een opvolgend 'Omgevingsprogramma Mobiliteit Zoetermeer 2040' was volgens secundaire bronnen nog in ontwikkeling; niet apart gevonden. Geen apart Zoetermeers SULP of goederenvervoeragenda gevonden."
       }
     },
     {
@@ -2953,11 +2975,33 @@
       "economy_summary": "Het onderwijs maakt de verbinding met ondernemers concreet via stageplekken, leerwerktrajecten en innovatieprojecten met het MKB, de maakindustrie, techniek, logistiek en zorg, gericht op het binden van talent aan Regio Zwolle (p. 30). Bedrijventerreinen krijgen verbeterde bereikbaarheid inclusief logistieke ontsluiting (p. 34).",
       "notes": "Zeer concreet: expliciete verwijzing naar de wettelijke verplichting voor een zero-emissiezone in 2030 (verplicht vanuit het Rijk), met verlenging van ondernemersontheffingen van 2028 naar 2030. Herhaalde aandacht voor 'logistiek' als belang naast ondernemers bij parkeerbeleid en bedrijventerreinen.",
       "logistics_plans": {
-        "status": "todo",
+        "status": "found",
         "retries": 0,
-        "last_checked": null,
-        "documents": [],
-        "notes": ""
+        "last_checked": "2026-09-22",
+        "documents": [
+          {
+            "doc_type": "SUMP",
+            "title": "Mobiliteitsvisie – Mobiliteit brengt Zwolle verder 2020-2030",
+            "date": "2019-12",
+            "url": "https://zwolle.bestuurlijkeinformatie.nl/Document/View/8b40dc58-e2fa-4ebe-b6cc-05a2a7c06ee1",
+            "source_page": "https://www.zwolle.nl/mobiliteitsvisie",
+            "local_file": "data/raw/zwolle_sump.pdf",
+            "quotes": [
+              {
+                "term": "stadslogistiek",
+                "page": null,
+                "text": "We willen toe naar minder, kleinschaliger, stiller en schoner vrachtvervoer in de stad (actieplan Stadslogistiek en de Green Deal Zero Emissie Stadslogistiek: ZES): Zwolle streeft naar zero emissie van stadslogistiek in 2025."
+              },
+              {
+                "term": "logistiek",
+                "page": null,
+                "text": "We dagen onszelf en de sector uit met slimme logistiek om zo de druk op het wegennet te verminderen en de leefbaarheid in het centrum, de wijken, de buurten en het buitengebied te vergroten."
+              }
+            ],
+            "summary": "Door de raad op 16 december 2019 vastgestelde mobiliteitsvisie (opgesteld met bijna veertig organisaties), met drie pijlers: een gastvrije en bereikbare stad, een veilige en bereikbare stad, en een innovatieve en vitale wereldfietsstad. Verwijst naar het actieplan Stadslogistiek en de Green Deal Zero Emissie Stadslogistiek, met als doel zero-emissie stadslogistiek in 2025."
+          }
+        ],
+        "notes": "Alleen de publieksvriendelijke samenvatting/infographic-versie was gedownload; de volledige Mobiliteitsvisie-tekst zelf niet apart geraadpleegd. Geen apart Zwols SULP-document gevonden naast het genoemde actieplan Stadslogistiek."
       }
     }
   ]
