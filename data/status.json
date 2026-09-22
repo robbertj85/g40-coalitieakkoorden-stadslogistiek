@@ -2391,11 +2391,33 @@
       "economy_summary": "Hoofdstuk 'Economie' zet in op een sterkere profilering als health- en hightechregio (Lifeport, Semicon) via een triple-helix-aanpak, met €1,1 miljoen extra vrijgemaakt voor vier jaar plus structureel €0,7 miljoen per jaar. Het ondernemersloket ondersteunt extra coöperatief en duurzaam ondernemerschap. De binnenstad krijgt structureel €250.000 per jaar extra voor vergroening en verblijfskwaliteit, met voortzetting van de financiering van het Huis voor de Binnenstad (p. 34).",
       "notes": "Concrete garantie dat laden en lossen mogelijk blijft bij het verminderen van straatparkeren binnen de singels; geen apart stadslogistiek-beleid of zero-emissiezone genoemd.",
       "logistics_plans": {
-        "status": "todo",
+        "status": "found",
         "retries": 0,
-        "last_checked": null,
-        "documents": [],
-        "notes": ""
+        "last_checked": "2026-09-22",
+        "documents": [
+          {
+            "doc_type": "SULP",
+            "title": "Beleidsaanpak Stadslogistiek Nijmegen",
+            "date": "2024-06",
+            "url": "https://nijmegen.bestuurlijkeinformatie.nl/Document/View/872ab722-c88a-41a1-8ed2-2fb2dcaacafe",
+            "source_page": "https://nijmegen-oost.nl/uitgelicht/gemeente-nijmegen-keuzes-en-vervolgstappen-voor-schone-en-efficiente-stadslogistiek",
+            "local_file": "data/raw/nijmegen_sulp.pdf",
+            "quotes": [
+              {
+                "term": "stadslogistiek",
+                "page": 1,
+                "text": "Ondersteunen van de realisatie van microhubs zoals pakketkluizen en afhaalpunten voor goederen; logistiek borgen in gebiedsontwikkelingen en, waar nodig, logistieke eisen opnemen in anterieure overeenkomsten."
+              },
+              {
+                "term": "hub",
+                "page": 2,
+                "text": "Het accent ligt idealiter op (a) een multi-client stadslogistieke hub, van waaruit bevoorrading voor (een van) de zero-emissiezones en/of voor heel Nijmegen kan plaatsvinden en (b) op een bouwhub, passend bij de enorme bouwopgave van Nijmegen."
+              }
+            ],
+            "summary": "Door het college op 11 juni 2024 vastgestelde beleidsaanpak, een uitwerking van het Uitvoeringsprogramma Luchtkwaliteit 2020-2030 (maatregelen 'Toevoegen logistieke groene hubs' en 'Invoeren Zero Emissiezones Stadslogistiek'). Wijst het Engie-terrein en bedrijventerrein De Grift aan als voorkeurslocaties voor een multi-client stadslogistieke hub en een bouwhub, en ondersteunt microhubs zoals pakketkluizen."
+          }
+        ],
+        "notes": "Geen apart Nijmeegs SUMP-document gedownload (het Mobiliteitsplan/Ambitiedocument voor Mobiliteit 2019-2030 wordt wel genoemd als context, maar niet apart geraadpleegd)."
       }
     },
     {
