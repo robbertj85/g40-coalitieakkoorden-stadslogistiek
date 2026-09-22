@@ -21,6 +21,7 @@ for m in munis:
     counts[m["status"]] = counts.get(m["status"], 0) + 1
 with_cl = sum(1 for m in munis if m.get("city_logistics_found") is True)
 without_cl = sum(1 for m in munis if m.get("city_logistics_found") is False)
+with_plans = sum(1 for m in munis if (m.get("logistics_plans") or {}).get("status") == "found")
 
 rows = []
 for m in munis:
@@ -57,6 +58,25 @@ for m in munis:
         parts.append("</ul>")
     elif m["status"] == "found_analysed":
         parts.append('<p class="none">Geen expliciete passages over stadslogistiek of goederenvervoer gevonden.</p>')
+    lp_docs = (m.get("logistics_plans") or {}).get("documents") or []
+    if lp_docs:
+        parts.append("<h3>Mobiliteits- en goederenvervoerplannen</h3>")
+        for doc in lp_docs:
+            dmeta = [f'<b>{e(doc.get("doc_type") or "Other")}</b>']
+            if doc.get("title"): dmeta.append(e(doc["title"]))
+            if doc.get("date"): dmeta.append(e(doc["date"]))
+            if doc.get("url"): dmeta.append(f'<a href="{e(doc["url"])}" target="_blank">document</a>')
+            parts.append('<p class="meta">' + " &middot; ".join(dmeta) + "</p>")
+            if doc.get("summary"):
+                parts.append(f'<p>{e(doc["summary"])}</p>')
+            dquotes = doc.get("quotes") or []
+            if dquotes:
+                parts.append("<ul class='quotes'>")
+                for q in dquotes:
+                    ref = f' <span class="ref">(p. {e(q["page"])})</span>' if q.get("page") else ""
+                    term = f'<span class="term">{e(q["term"])}</span> ' if q.get("term") else ""
+                    parts.append(f'<li>{term}<q>{e(q["text"])}</q>{ref}</li>')
+                parts.append("</ul>")
     if m.get("mobility_summary"):
         parts.append(f'<h3>Mobiliteit / bereikbaarheid</h3><p>{e(m["mobility_summary"])}</p>')
     if m.get("economy_summary"):
@@ -100,6 +120,7 @@ table{{border-collapse:collapse;width:100%;font-size:.9rem}} th,td{{border-botto
 <div><b>{with_cl}</b> met expliciete stadslogistiek</div>
 <div><b>{without_cl}</b> zonder</div>
 <div><b>{counts.get("not_found",0) + counts.get("todo",0) + counts.get("in_progress",0)}</b> open</div>
+<div><b>{with_plans}</b> met mobiliteits-/goederenvervoerplan (SUMP/SULP/agenda)</div>
 </div>
 <section class="overview">
 <h2>Overzicht: gemeenschappelijke lijnen in de akkoorden</h2>
