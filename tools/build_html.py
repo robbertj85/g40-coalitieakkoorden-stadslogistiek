@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """Render data/status.json to index.html (sorted by municipality name)."""
-import json, html, datetime, pathlib
+import json, pathlib, html, datetime
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 data = json.load(open(ROOT / "data" / "status.json", encoding="utf-8"))
@@ -16,50 +16,7 @@ STATUS_LABEL = {
 def e(s):
     return html.escape(str(s)) if s is not None else ""
 
-INSIGHTS_HTML = """
-<details class="insights">
-<summary>Analyse: matches tussen gemeenten &amp; koppeling met DMI Slimme Logistiek</summary>
-<div class="insights-body">
-<p class="small">Analyse van de stadslogistiek-passages in de coalitieakkoorden hierboven, gecombineerd met de werkgroepen en projecten van <a href="https://dmi-ecosysteem.nl/groepen/slimme-logistiek/" target="_blank">DMI Slimme Logistiek</a>. Laat zien welke gemeenten ongeveer hetzelfde willen, en waar DMI al aansluit of zou kunnen aansluiten.</p>
-
-<h3>Thematische clusters &ndash; welke gemeenten willen ongeveer hetzelfde</h3>
-<ol>
-<li><b>Zero-emissiezone: pauzeren/uitstellen/afwijzen</b> (grootste cluster) &mdash; Den Haag (pauzeert), Utrecht (uitstel), Almere (geen ZE in buitenwijken), Assen (behoud bestaand, geen uitbreiding), Leeuwarden, Helmond, Dordrecht, Schiedam (allen <i>bewust geen</i> ZE-zone), Ede (stopt ZES), Zaanstad (uitgesteld). Vaak expliciet als reden: netcongestie, effect vs. inspanning, ondernemersdruk. Tegenover: Arnhem (heeft al ZE bestel/vracht), Deventer (invoert eind 2027), Alphen aan den Rijn (nieuw, wordt gemonitord), Zwolle (bereidt zich voor op de wettelijke verplichting in 2030).</li>
-<li><b>Hubs</b> (mobiliteit/logistiek/wijk) &mdash; Alkmaar, Apeldoorn, Arnhem, Deventer, Leeuwarden, Maastricht, Alphen aan den Rijn, Breda, Zwolle, 's-Hertogenbosch, Nijmegen.</li>
-<li><b>Pakketlogistiek/lockers</b> &mdash; Den Haag, Deventer, Zwolle, Ede (analoog: white-labeling bedrijfsafval).</li>
-<li><b>Ruimte voor logistiek in gebiedsontwikkeling</b> &mdash; Amsterdam, Rotterdam, Utrecht, Den Haag (dit zijn letterlijk de vier steden achter DMI's rekenmodel Ruimte voor Logistiek); vergelijkbare ambitie bij Alphen aan den Rijn, 's-Hertogenbosch, Alkmaar, Maastricht.</li>
-<li><b>ANPR / data / digital twin / ZE-monitoring</b> &mdash; 's-Hertogenbosch en Utrecht (pilotgemeenten CBS-keten), Tilburg (contract met Brickyard), Groningen (veel interesse), gesprekken met Amsterdam, Rotterdam, Arnhem.</li>
-<li><b>Bouwlogistiek/BLVC</b> &mdash; Amsterdam (vervoer over water, regiekamer), Utrecht (uitvoeringsprogramma goederenvervoer), Eindhoven (BLVC-kader vroeg uitvragen) &mdash; precies de drie praktijkvoorbeelden die DMI's werkgroep Bouwlogistiek al gebruikt.</li>
-<li><b>Vrachtwagenparkeren op bedrijventerreinen</b> &mdash; Alphen aan den Rijn, Schiedam (regionale samenwerking), Lelystad (herinrichting parkeerplaatsen beroepsvervoer). Geen van de 8 DMI-werkgroepen heeft dit als primair thema.</li>
-<li><b>Vrachtverkeer weren/routeren</b> &mdash; Tilburg (verbod Ringbaan West), Arnhem (gevaarlijke stoffen), Deventer (lobby tegen goederenvervoer over spoor), Alkmaar (zwaar verkeer dorpen).</li>
-<li><b>Modal shift naar water/spoor</b> (buiten DMI-scope, meer havens/Topsector Logistiek) &mdash; Rotterdam, Deventer (Port of Deventer), Oss (trimodale haven Elzenburg), Sittard-Geleen (spoor/water/buisleidingen).</li>
-</ol>
-
-<h3>Waar DMI al aansluit &ndash; en waar een kans ligt</h3>
-<div class="overflow"><table>
-<thead><tr><th>DMI-werkgroep/project</th><th>Al aangesloten</th><th>Kansrijke kandidaten uit de coalitieakkoorden</th></tr></thead>
-<tbody>
-<tr><td>Model Ruimte voor Logistiek</td><td>Amsterdam, Rotterdam, Utrecht, Den Haag</td><td>Alphen aan den Rijn, Alkmaar, Maastricht, 's-Hertogenbosch</td></tr>
-<tr><td>RAAK-Publiek Microhubs <span class="tag">kick-off 16-09-2026</span></td><td>Amsterdam, Den Haag, Utrecht, Leiden, Arnhem, Alphen aan den Rijn</td><td>Deventer, Leeuwarden, Apeldoorn</td></tr>
-<tr><td>Pakketlogistiek</td><td>Utrecht/Den Haag (trekker); vraag ligt er al of Zwolle kan aansluiten</td><td>Deventer (pakketkluizen), Ede</td></tr>
-<tr><td>Laden en Lossen</td><td>Amsterdam, Utrecht, Groningen, Rotterdam, Den Haag</td><td>Nijmegen, Maastricht</td></tr>
-<tr><td>Inzicht in logistiek/ANPR</td><td>'s-Hertogenbosch, Utrecht, Tilburg, (interesse Groningen); gesprekken Amsterdam/Rotterdam/Arnhem</td><td>Zwolle, Deventer (voeren nu net een ZE-zone in en hebben meetbaar bewijs nodig)</td></tr>
-<tr><td>Bereikbaarheidskaart</td><td>Utrecht, Amsterdam, 's-Hertogenbosch, Almere, Zwolle, Eindhoven, Rotterdam, Dordrecht, Haarlem, Den Haag</td><td>Tilburg, Arnhem, Deventer, Alkmaar (vrachtverbod-routering en E7 laad-losplekken)</td></tr>
-<tr><td>Horecabundeling</td><td>Utrecht, Den Haag, Dordrecht (HubKlup-pilots)</td><td>Amsterdam (noemt al "minder lege bestelbussen")</td></tr>
-<tr><td>Bouwlogistiek</td><td>Amsterdam, Utrecht, Eindhoven</td><td>grotendeels al gedekt</td></tr>
-<tr><td><i>Geen DMI-werkgroep dekt dit</i></td><td>&mdash;</td><td>Vrachtwagenparkeren (Alphen aan den Rijn, Schiedam, Lelystad) en modal shift water/spoor (Rotterdam, Deventer, Oss, Sittard-Geleen) &mdash; eerder iets voor Topsector Logistiek/provincie</td></tr>
-</tbody>
-</table></div>
-
-<h3>Drie beste haakjes voor DMI nu</h3>
-<ol>
-<li><b>Zwolle</b> wordt al genoemd in DMI's eigen pakketlogistiek-notulen als mogelijke nieuwe deelnemer &ndash; en heeft in het coalitieakkoord zelf ook een concrete pakketpunten-ambitie. Makkelijke match, alleen nog geen bevestigde koppeling.</li>
-<li><b>RAAK-Publiek Microhubs</b> start net (kick-off 16 september 2026) en zoekt nog vorm &ndash; een goed moment om Deventer, Leeuwarden of Apeldoorn (alle drie met eigen hub-plannen in het coalitieakkoord) uit te nodigen v&oacute;&oacute;r het consortium dichtklapt.</li>
-<li>De grote groep gemeenten die ZE-zones <b>pauzeert/afwijst</b> (Den Haag, Helmond, Leeuwarden, Dordrecht, Schiedam, Ede) deelt hetzelfde probleem: onvoldoende bewijs van effect/netcongestie-risico. DMI's ANPR/inzicht-werkgroep levert precies de monitoringsdata die zo'n besluit evidence-based zou kunnen maken.</li>
-</ol>
-</div>
-</details>
-"""
+INSIGHTS_HTML = (pathlib.Path(__file__).parent / "insights.html").read_text(encoding="utf-8")
 
 counts = {}
 for m in munis:

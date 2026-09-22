@@ -15,6 +15,8 @@ gesorteerd op gemeente, met bronlinks en paginaverwijzingen.
 | `data/raw/<slug>.pdf/.html/.txt` | Gedownloade akkoorden en de geëxtraheerde tekst. |
 | `tools/fetch_and_grep.py` | Download een akkoord, extraheert tekst, print treffers met paginanummer. |
 | `tools/build_html.py` | Bouwt `index.html` uit `status.json`. Altijd draaien na elke wijziging. |
+| `tools/insights.html` | De clusteranalyse: welke akkoorden iets over stadslogistiek zeggen en welke gemeenten ongeveer hetzelfde willen (uitklapbaar blok bovenaan `index.html`). Handgeschreven; elk „citaat” moet letterlijk in een bron staan. |
+| `tools/verify_insights.py` | Controleert dat elk „citaat” in `insights.html` letterlijk voorkomt in `status.json`, `data/raw/*.txt`, de DMI-stukken (`../dmi-slimmelogistiek`) of de vorige versie, en dat alle `#anker`-links bestaan. Draaien vóór `build_html.py`. |
 | `LOOP_PROMPT.md` | De exacte prompt voor de `/loop`-run. |
 | `index.html` | Het eindresultaat. |
 
