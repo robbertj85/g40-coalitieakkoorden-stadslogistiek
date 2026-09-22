@@ -505,11 +505,33 @@
       "economy_summary": "Hoofdstuk 14 'Economie, evenementen en digitalisering' zet in op toekomstbestendige bedrijventerreinen (circa 40 hectare netto uitbreiding), behoud van ruimte voor maakindustrie, logistiek en hogere milieucategorieën, en energyhubs op bedrijventerreinen. De coalitie is kritisch op ruimte-intensieve functies met beperkte toegevoegde waarde of negatief effect op de openbare ruimte, zoals maaltijdbezorging (p. 43).",
       "notes": "Downloadpad afwijkend van de eerste zoekresultaten: correcte URL gebruikt /app/uploads/ i.p.v. /wp-content/uploads/ (die gaf een 404). Expliciete paragraaf 'Stadslogistiek' onder Mobiliteit en parkeren (p.28).",
       "logistics_plans": {
-        "status": "todo",
+        "status": "found",
         "retries": 0,
-        "last_checked": null,
-        "documents": [],
-        "notes": ""
+        "last_checked": "2026-09-22",
+        "documents": [
+          {
+            "doc_type": "SUMP",
+            "title": "Stedelijke Mobiliteitsvisie Alkmaar (vastgesteld als Sustainable Urban Mobility Plan)",
+            "date": "2024-07",
+            "url": "https://alkmaar.bestuurlijkeinformatie.nl/Document/View/d4d3a842-f82b-4102-9b7b-753f75d7f8aa",
+            "source_page": null,
+            "local_file": "data/raw/alkmaar_sump.pdf",
+            "quotes": [
+              {
+                "term": "vastgesteld",
+                "page": 2,
+                "text": "De Stedelijke Mobiliteitsvisie vast te stellen als Sustainable Urban Mobility Plan (SUMP) om zo aan de Europese verplichting te voldoen om uiterlijk per 2027 een SUMP te hebben vastgesteld."
+              },
+              {
+                "term": "goederenvervoer",
+                "page": 5,
+                "text": "Daarom is de visie zo opgezet dat de netwerken voor alle modaliteiten, de auto, de fiets, het openbaar vervoer, de voetganger, deelmobiliteit en goederenvervoer, worden (door)ontwikkeld."
+              }
+            ],
+            "summary": "Door de raad op 15 juli 2024 expliciet vastgesteld als het formele SUMP van Alkmaar, om te voldoen aan de EU-verplichting voor 'urban nodes' (stedelijke gebieden met >100.000 inwoners) om uiterlijk 2027 een Sustainable Urban Mobility Plan te hebben. Goederenvervoer is een van de meegenomen modaliteiten/netwerken."
+          }
+        ],
+        "notes": "Geen apart Alkmaars SULP of goederenvervoeragenda gevonden; stadslogistiek/hub-initiatieven lopen via de regionale Agenda Mobiliteit Regio Alkmaar 2023-2025 en het Actieprogramma Economie, niet via een eigen Alkmaars document."
       }
     },
     {
