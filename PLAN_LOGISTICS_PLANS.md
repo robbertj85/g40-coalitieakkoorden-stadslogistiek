@@ -111,4 +111,68 @@ doorgaan, maar probeer dan andere zoektermen/categorieën dan de vorige keer
 - Eén gemeente kan meerdere documenten hebben (bv. een SUMP uit 2021 én een
   losse goederenvervoeragenda uit 2023) — voeg ze allebei toe aan `documents`.
 - Gemeentenaam en slug niet wijzigen; ze zijn de sleutel, ook hier.
-- Voeg geen gemeenten toe. De lijst in `status.json` is leidend.
+- Voeg geen gemeenten toe aan `municipalities` (de 45 G4/G40-leden). De lijst
+  daar is leidend. Urban Nodes die geen G4/G40-lid zijn horen in
+  `data.additional_urban_nodes` (zie §Urban Nodes hieronder) — dat is een
+  bewust apart, klein lijstje, niet de hoofdlijst.
+
+_Status: de 45-gemeenten research-pass hierboven is afgerond (allemaal
+`found`). Onderstaande twee secties zijn losse, latere uitbreidingen op
+dezelfde dataset._
+
+## Urban Nodes (TEN-T) naast G4/G40
+
+SUMP/SULP is geen G4/G40-verplichting maar een **Urban Node**-verplichting
+onder de TEN-T-verordening (Verordening (EU) 2024/1679, Bijlage II). Elk
+gemeente-record heeft een `urban_node`-boolean (bepaald aan de hand van de
+officiële Bijlage II-lijst — kolom "URBAN NODE = X" — 25 van de 45 G4/G40-leden
+zijn ook Urban Node). Gemeenten die wél Urban Node zijn maar geen G4/G40-lid
+staan los in `data["additional_urban_nodes"]`, met hun eigen `logistics_plans`
+maar zonder coalitieakkoord-onderzoek (dat blijft exclusief voor de 45
+G4/G40-leden in `index.html`). Momenteel bevat die lijst alleen Middelburg.
+`tools/build_logistics_html.py` voegt beide lijsten samen voor de weergave en
+toont een vlaggetje per gemeente: `G4`/`G40`, `Urban Node (TEN-T)`, en een
+extra gecombineerd vlaggetje als beide van toepassing zijn.
+
+Als een gemeente in `additional_urban_nodes` nog `logistics_plans.status ==
+"todo"` heeft, doorloop je voor die gemeente exact dezelfde werkwijze als
+hierboven (§Werkwijze per gemeente) om een SUMP/SULP/goederenvervoerdocument
+te vinden.
+
+## Geldigheidsperiode per document
+
+Sommige gevonden documenten zijn al wat ouder, waardoor onduidelijk is of ze
+nog vigerend zijn. Elk item in `documents` heeft daarom twee extra velden:
+
+- `period`: vrije tekst met het tijdsvak waarover het document zelf zegt
+  geldig te zijn (bv. `"2022–2030"`, `"vanaf 2024, geen einddatum genoemd"`),
+  of `null` als er echt niets te vinden is.
+- `period_checked`: `true` zodra je dit voor dat document hebt onderzocht
+  (ook als de uitkomst `null` is) — zo weet de volgende loop-iteratie welke
+  documenten nog niet bekeken zijn.
+
+Werkwijze om `period` te bepalen voor een document met `period_checked ==
+false`:
+1. Kijk eerst naar de eigen `title` — veel titels bevatten het tijdvak al
+   (bv. "Mobiliteitsvisie Almere 2020-2030"). Gebruik dat als het duidelijk
+   over de looptijd van *dit* document gaat (en niet over een ander,
+   aangehaald beleidsstuk).
+2. Zo niet: doorzoek het lokale bestand (`data/raw/<slug>_<sump|sulp|
+   goederenvervoer>.txt`, als het bestaat) op "looptijd", "planperiode",
+   "geldig tot/van", "horizon", "tot en met 20XX", of een jaartal-range
+   dicht bij het begin van het document (titelpagina/samenvatting).
+   Let op: een jaartal-range in een *citaat van een ander plan*
+   (bijvoorbeeld een verwijzing naar het coalitieakkoord) is niet de
+   geldigheidsperiode van dít document — alleen gebruiken als het duidelijk
+   over het onderzochte document zelf gaat.
+3. Vind je niets duidelijks: zet `period` op `null` en `period_checked` op
+   `true`. Dat is een prima, eerlijke uitkomst — niet gokken.
+4. Schrijf terug met een klein Python-script (zelfde patroon als eerder),
+   en draai `python3 tools/build_logistics_html.py`. De pagina toont dan
+   zelf, op basis van het eindjaar in `period`, een "nog vigerend" of
+   "looptijd verstreken"-indicatie — dat hoef je niet los te bepalen.
+
+Kies bij deze pass per iteratie **één gemeente** en verwerk daarvan alle
+documenten met `period_checked == false` in één keer (meestal 1-2 stuks).
+Stopcriterium: geen document meer met `period_checked == false`, én
+`additional_urban_nodes` heeft geen `todo`/`in_progress` meer.
