@@ -2071,11 +2071,33 @@
       "economy_summary": "Hoofdstuk 'Economie' streeft naar Hoorn als sterke werkstad en centrumstad van West-Friesland, met ruimte voor banen, bedrijven, onderwijs, innovatie en voorzieningen naast woningbouw. Minder regeldruk en duidelijkere vergunningsprocedures voor ondernemers, met betere ondernemersdienstverlening. Een levendige binnenstad en sterke wijkwinkelcentra krijgen prioriteit, met aanpak van leegstand en verrommeling. Toekomstbestendige bedrijventerreinen (waaronder Hoorn 80 en 't Zevenhuis) worden beter benut en verder ontwikkeld. De Talent Academy en de Regio Deal Noord-Holland Noord verbinden onderwijs, talent en arbeidsmarkt; kwaliteitstoerisme en gastvrije havens versterken de economische vitaliteit.",
       "notes": "Document is een interactieve Foleon-webpublicatie (JavaScript-gerenderd), geen downloadbare PDF; tekst geëxtraheerd via WebFetch omdat curl/pdftotext geen inhoud konden ophalen uit de client-side gerenderde pagina. Geen stadslogistiek/goederenvervoer-termen aangetroffen.",
       "logistics_plans": {
-        "status": "todo",
+        "status": "found",
         "retries": 0,
-        "last_checked": null,
-        "documents": [],
-        "notes": ""
+        "last_checked": "2026-09-22",
+        "documents": [
+          {
+            "doc_type": "SUMP",
+            "title": "Mobiliteitsvisie Hoorn 2030 (doorkijk naar 2040) – Meer stad met Mobiliteit",
+            "date": "2021-05",
+            "url": "https://www.studiobereikbaar.nl/assets/uploads/2024/03/MobiliteitsvisieHoorn.pdf",
+            "source_page": "https://www.hoorn.nl/nieuws/Mobiliteitsvisie-met-nieuwe-toegangsweg-richting-binnenstad-Grote-Waal-en-stadsstrand.html",
+            "local_file": "data/raw/hoorn_sump.pdf",
+            "quotes": [
+              {
+                "term": "stadslogistiek",
+                "page": 42,
+                "text": "Naast verduurzaming van personenmobiliteit wordt er ook onderzoek gedaan naar goederenvervoer en stadslogistiek. Gemeenten krijgen vanaf 2025 de mogelijkheid om een nul-emissie zone voor bestel- en vrachtauto's in te stellen, ook wel 'ZE-zones' (zero-emissiezones) genoemd."
+              },
+              {
+                "term": "bevoorrading",
+                "page": 55,
+                "text": "Om Roode Steen en Kerkplein autovrij en als voetgangersgebied in te richten worden voor bevoorrading subtiel routes aangegeven."
+              }
+            ],
+            "summary": "Door de raad op 6 juli 2021 vastgestelde mobiliteitsvisie (26 mei 2021, Studio Bereikbaar). Naast personenmobiliteit onderzoekt Hoorn goederenvervoer en stadslogistiek, met de mogelijkheid van een ZE-zone voor bestel- en vrachtauto's vanaf 2025; 'Uitwerking Zero Emissie-zone en schone bevoorrading in binnenstad en wijken' staat als actie gepland voor 2022-2026, en bij het autovrij maken van Roode Steen/Kerkplein worden subtiele bevoorradingsroutes aangehouden."
+          }
+        ],
+        "notes": "Geen apart Hoorns SULP of goederenvervoeragenda gevonden; stadslogistiek is een onderzoeksthema binnen dit gemeentebrede mobiliteitsvisie."
       }
     },
     {
