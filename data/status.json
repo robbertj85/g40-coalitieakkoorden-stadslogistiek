@@ -1099,11 +1099,33 @@
       "economy_summary": "Hoofdstuk 'Werk' zet in op het innovatie-ecosysteem via het Uitvoeringsprogramma Innovatiedistrict Delft (TU Delft Campus, Schieoevers, Biotech Campus Delft), met een nieuwe Ruimtelijke Economische Visie (REV) tot 2045. Minimaal 10% van gebiedsontwikkelingen blijft gereserveerd voor werkfuncties; er komt meer betaalbare bedrijfsruimte en herstructurering van verouderde winkelcentra (met onder meer mobiliteitshubs). De circulaire economie wordt versterkt (reparateurs, fietsenmakers, Circle Lab) en de bezoekerseconomie en autoluwe binnenstad blijven speerpunten, met toeristenbelasting voor een aantrekkelijke en schone binnenstad (p. 14, 26-29).",
       "notes": "Geen stadslogistiek/goederenvervoer-termen aangetroffen. Alle 'hub'-treffers betreffen mobiliteitshubs (autodelen/parkeren) of smart energy hubs, niet goederenlogistiek.",
       "logistics_plans": {
-        "status": "todo",
+        "status": "found",
         "retries": 0,
-        "last_checked": null,
-        "documents": [],
-        "notes": ""
+        "last_checked": "2026-09-22",
+        "documents": [
+          {
+            "doc_type": "SUMP",
+            "title": "Mobiliteitsprogramma Delft 2040 – Ons Delft, duurzaam bereikbaar",
+            "date": "2021-01",
+            "url": "https://web.archive.org/web/20210923064113/https://www.delft.nl/sites/default/files/2020-07/Mobiliteitsplan-Delft-2040.pdf",
+            "source_page": "https://www.delft.nl/mobiliteitsprogramma",
+            "local_file": "data/raw/delft_sump.pdf",
+            "quotes": [
+              {
+                "term": "hub",
+                "page": 6,
+                "text": "Daarom gaan we een milieuzone instellen voor heel Delft en scherpen we gefaseerd de milieu-eisen voor de logistieke zone in de binnenstad aan. Er worden voor het vrachtverkeer ook logistieke hubs ingericht buiten de binnenstad waar de vracht wordt overgeladen op kleinere elektrische voertuigen die de goederen naar de binnenstad vervoeren."
+              },
+              {
+                "term": "hub",
+                "page": 45,
+                "text": "Met het instellen van de milieuzone en nulemissie in de binnenstad voor vracht- en bestelverkeer in 2025 is een logistieke hub essentieel."
+              }
+            ],
+            "summary": "Door de raad vastgesteld mobiliteitsprogramma (28 januari 2021, definitief) met een aparte paragraaf 'Vernieuwende logistiek'. Zet in op een milieuzone voor heel Delft, aangescherpte milieueisen voor de logistieke zone in de binnenstad, nulemissie vracht-/bestelverkeer vanaf 2025, logistieke hubs met overslag op kleinere elektrische voertuigen en concentratie van binnenvaart-overslag op Schieoevers-Zuid."
+          }
+        ],
+        "notes": "PDF alleen via web.archive.org beschikbaar; de oorspronkelijke delft.nl-link en ris.delft.nl-link gaven 404. Geen apart Delfts SULP of goederenvervoeragenda gevonden."
       }
     },
     {
