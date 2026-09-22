@@ -1782,11 +1782,32 @@
       "economy_summary": "De economie zet in op medische logistiek, zorginnovatie en de Einstein Telescoop, naast AI en data via Brightlands, om de economische positie van Heerlen in Parkstad en de Euregio te versterken. Werkhubs worden regionaal ontwikkeld voor duurzaam werk in zorg, techniek, bouw en digitalisering; leegstaande kantoorruimte en bedrijventerreinen worden getransformeerd naar nieuwe economische functies (p. 21-22).",
       "notes": "Geen stadslogistiek/goederenvervoer-termen aangetroffen; 'medische logistiek' betreft een economische nichesector (medische toelevering/onderzoek), niet stedelijke distributie. heerlen.nl-URL's uit zoekresultaten gaven 404's; het volledige document werd gevonden via de partijsite van OPH (op-h.nl).",
       "logistics_plans": {
-        "status": "todo",
+        "status": "found",
         "retries": 0,
-        "last_checked": null,
-        "documents": [],
-        "notes": ""
+        "last_checked": "2026-09-22",
+        "documents": [
+          {
+            "doc_type": "SUMP",
+            "title": "Programma Mobiliteit – Heerlen in beweging",
+            "date": "2019-06",
+            "url": "https://heerlen.bestuurlijkeinformatie.nl/Document/View/bf36c943-4535-4b89-937d-0b9dd739ffda",
+            "source_page": null,
+            "local_file": "data/raw/heerlen_sump2.pdf",
+            "quotes": [],
+            "summary": "In juni 2019 unaniem door de raad vastgesteld mobiliteitsprogramma, gericht op een geintegreerd duurzaam mobiliteitssysteem met mobiliteitshubs die auto, fiets en OV verknopen. Geen expliciete passage over goederenvervoer, stadslogistiek, vrachtverkeer of bevoorrading aangetroffen; de focus ligt volledig op personenmobiliteit."
+          },
+          {
+            "doc_type": "SUMP",
+            "title": "Uitvoeringsprogramma Mobiliteit 2025 (jaarlijkse uitwerking van Heerlen in beweging)",
+            "date": "2025",
+            "url": "https://heerlen.bestuurlijkeinformatie.nl/Document/View/8ae51d56-2b44-4dfd-80b4-8cbc935f7536",
+            "source_page": null,
+            "local_file": "data/raw/heerlen_sump.pdf",
+            "quotes": [],
+            "summary": "Jaarprogramma 2025 met thema's als werkgeversaanpak, deelmobiliteit en hubs, fietsstimulering; ook hier geen expliciete stadslogistiek/goederenvervoer-passage."
+          }
+        ],
+        "notes": "Geen goederenvervoer- of stadslogistiek-inhoud gevonden in de twee doorzochte documenten van Heerlen; geen apart SULP of goederenvervoeragenda gevonden."
       }
     },
     {
