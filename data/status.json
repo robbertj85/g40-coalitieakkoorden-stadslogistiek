@@ -326,10 +326,53 @@
       "economy_summary": "Het akkoord reserveert ruimte op bedrijventerreinen (ZKD, Fruitweg, Uitenhagestraat, Binckhorst) voor werkgelegenheid, logistiek, maakindustrie, offshore en innovatieve bedrijvigheid, en stimuleert vestiging in plinten en bedrijfsverzamelgebouwen. Voor de haven van Scheveningen komt extra geld voor de visserijsector en maritieme veiligheid (Havenvisie, Campus@Sea); de haven blijft uitgezonderd van de zero-emissiezone. Ondernemers die problemen ervaren door milieu- of zero-emissiezones worden ruimhartig ondersteund bij ontheffingen (p. 25).",
       "notes": "Meest concrete stadslogistiek-akkoord tot nu toe: expliciete paragraaf 'Pauzeren zero-emissiezone' met pakketpunten, gebundelde horeca-/afvallogistiek, laad- en loszones en overslagplekken voor vrachtwagens naar kleinere bakwagens. Pagina 17 vereiste pdftotext -layout voor leesbare kolommen.",
       "logistics_plans": {
-        "status": "todo",
+        "status": "found",
         "retries": 0,
-        "last_checked": null,
-        "documents": [],
+        "last_checked": "2026-09-22",
+        "documents": [
+          {
+            "doc_type": "SULP",
+            "title": "Actieprogramma Stadslogistiek – Groen bezig, werken aan de logistiek van morgen",
+            "date": "2026-05",
+            "url": "https://denhaag.raadsinformatie.nl/document/17081476/1/RIS325525+Bijlage+Actieprogramma_Stadslogistiek",
+            "source_page": "https://denhaag.raadsinformatie.nl/modules/13/overige_bestuurlijke_stukken/641927",
+            "local_file": "data/raw/denhaag_sulp.pdf",
+            "quotes": [
+              {
+                "term": "stadslogistiek",
+                "page": 4,
+                "text": "Onder stadslogistiek verstaan wij: alle vervoer van goederen (inclusief afval- en retourstromen) dat plaatsvindt binnen de stad."
+              },
+              {
+                "term": "Sustainable Urban Logistics Plan",
+                "page": 17,
+                "text": "Dit geldt bijvoorbeeld in het kader van de Europese verplichting voor grote steden om een SULP (Sustainable Urban Logistics Plan) op te stellen vóór 2028 als onderdeel van de SUMP (Sustainable Urban Mobility Plan). Dit Actieprogramma geeft hiervoor de ingrediënten op het moment dat hier meer duidelijkheid over is."
+              }
+            ],
+            "summary": "Concretisering (mei 2026) van het door het College in juli 2025 vastgestelde Programmaplan Duurzame Stadslogistiek, met maatregelen 2026-2030 rond bundelen, gebiedsgerichte aanpak, modal shift/laadinfrastructuur en slimme logistiek. Het document benoemt zelf expliciet de EU-verplichting om voór 2028 een formeel SULP op te stellen (als onderdeel van een SUMP) en positioneert zichzelf als opstap daarnaartoe."
+          },
+          {
+            "doc_type": "SUMP",
+            "title": "Strategie mobiliteitstransitie Den Haag 2022-2040",
+            "date": "2022",
+            "url": "https://denhaag.raadsinformatie.nl/document/10801100/2/RIS310664+Voorstel+van+het+college+inzake+Strategie+mobiliteitstransitie+Den+Haag+2022+-+2040",
+            "source_page": "https://denhaag.raadsinformatie.nl/modules/13/overige_bestuurlijke_stukken/710964",
+            "local_file": "data/raw/denhaag_sump.pdf",
+            "quotes": [
+              {
+                "term": "bevoorrading",
+                "page": 2,
+                "text": "De bestaande ruimte wordt efficienter benut, onder meer met logistieke mobiliteitshubs en efficientere laad- en lostijden en bevoorrading van horeca en detailhandel."
+              },
+              {
+                "term": "bevoorrading",
+                "page": 4,
+                "text": "In goed overleg met Haagse ondernemers en werkgevers zetten we in op stadvriendelijke logistiek en bevoorrading, waarbij verkeersveiligheid voorop staat. Het is belangrijk dat er nieuwe faciliteiten komen voor duurzame- en waar mogelijk kleinschaligere bevoorrading."
+              }
+            ],
+            "summary": "Vervangt de Haagse Nota Mobiliteit (2011) als leidend mobiliteitsbeleid tot de Omgevingsvisie klaar is; volgens het STOMP-principe (voetganger/fiets/OV/deelmobiliteit voor privéauto) met logistieke mobiliteitshubs en stadvriendelijke bevoorrading als aandachtspunt."
+          }
+        ],
         "notes": ""
       }
     },
