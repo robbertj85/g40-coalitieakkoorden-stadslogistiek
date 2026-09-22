@@ -89,6 +89,8 @@ table{{border-collapse:collapse;width:100%;font-size:.9rem}} th,td{{border-botto
 .none{{color:var(--muted);font-style:italic}} .checked{{font-size:.75rem;color:var(--muted)}}
 .summary{{display:flex;gap:16px;flex-wrap:wrap;margin:12px 0}} .summary div{{background:var(--card);border:1px solid var(--line);border-radius:8px;padding:8px 14px}}
 .overflow{{overflow-x:auto}}
+.overview{{background:var(--card);border:1px solid var(--line);border-radius:8px;padding:16px 20px;margin:16px 0}}
+.overview li{{margin-bottom:.7rem}}
 </style></head><body>
 <h1>Stadslogistiek en goederenvervoer in coalitieakkoorden 2026 (G4 + G40)</h1>
 <p>Overzicht van de coalitie-/bestuursakkoorden na de gemeenteraadsverkiezingen van 18 maart 2026, met letterlijke passages over stadslogistiek en goederenvervoer. Waar die ontbreken: samenvatting van mobiliteits- en economieplannen. Gesorteerd op gemeentenaam. Bijgewerkt: {e(datetime.date.today())}.</p>
@@ -99,6 +101,19 @@ table{{border-collapse:collapse;width:100%;font-size:.9rem}} th,td{{border-botto
 <div><b>{without_cl}</b> zonder</div>
 <div><b>{counts.get("not_found",0) + counts.get("todo",0) + counts.get("in_progress",0)}</b> open</div>
 </div>
+<section class="overview">
+<h2>Overzicht: gemeenschappelijke lijnen in de akkoorden</h2>
+<p>Van de 45 gemeenten zijn er 42 akkoorden geanalyseerd. In 25 daarvan staat een expliciete passage over stadslogistiek of goederenvervoer; de overige geanalyseerde akkoorden behandelen het onderwerp niet apart (wel vaak impliciet via mobiliteitsbeleid). Zeven terugkerende lijnen:</p>
+<ul>
+<li><b>Zero-emissiezones: verdeeld beeld.</b> Ongeveer tien gemeenten pauzeren, vertragen of schrappen de invoering &ndash; Den Haag stelt emissieklasse 6 en zero-emissie uit naar 2035, Utrecht stelt de uitbreiding uit, Ede stopt de invoering volledig, Helmond, Schiedam en Zaanstad zien af van een zone, Dordrecht en Leeuwarden voeren deze bestuursperiode geen zone in, Assen handhaaft de bestaande zone zonder uitbreiding en Almere houdt de buitenwijken erbuiten. Netcongestie en de gevolgen voor het verdienvermogen van ondernemers zijn de meest genoemde redenen. Daartegenover houden vijf gemeenten vast aan invoering of uitbreiding: Amsterdam breidt uit in 2028, Arnhem benut de maximale ruimte binnen de landelijke regels, Deventer voert eind 2027 in, Alphen aan den Rijn evalueert de recent ingevoerde zone en Zwolle bereidt zich voor op de wettelijke verplichting in 2030.</li>
+<li><b>Logistieke hubs zijn het meest genoemde alternatief.</b> Alkmaar, Apeldoorn, Arnhem, Deventer, Dordrecht (bouwhubs), Leeuwarden (stadsrandshub en wijkhubs), Maastricht (elektrische goederenhubs), Sittard-Geleen (distributiehubs), Den Haag (overslagplekken op bedrijventerreinen) en Alphen aan den Rijn (vrachtwagenparkeren bij de eigen hubfunctie) zetten in op bundeling van bevoorrading aan de stadsrand of in wijken.</li>
+<li><b>Vrachtwagenparkeren en bereikbare bedrijventerreinen</b> komen terug bij Alphen aan den Rijn, Lelystad, Schiedam, Zwolle en Oss.</li>
+<li><b>Gerichte weringsmaatregelen voor zwaar verkeer</b> op specifieke straten of in dorpskernen: Tilburg verbiedt doorgaand vrachtverkeer op de Ringbaan West, Arnhem agendeert de toename van transport van gevaarlijke stoffen, Dordrecht wil vrachtverkeer in de binnenstad verminderen en Alkmaar weert landbouw- en zwaar verkeer uit de dorpen.</li>
+<li><b>Vervoer over water en spoor als duurzaam alternatief</b> speelt vooral in de havensteden: Rotterdam zet in op modal shift naar water, Deventer wil de Prins Bernhardsluis moderniseren voor de binnenvaart, Oss werkt aan een trimodale haven op Elzenburg en Sittard-Geleen noemt spoor, water en buisleidingen naast distributiehubs.</li>
+<li><b>Pakketbezorging</b> wordt slechts door enkele gemeenten benoemd: Den Haag wil pakketpunten in de wijken en bundelt horeca- en afvallogistiek, Deventer onderzoekt pakketkluizen, terwijl Alkmaar juist kritisch is op de ruimtelijke impact van maaltijdbezorging.</li>
+<li><b>Terughoudendheid bij ruimte-intensieve logistiek:</b> Almere weert distributiecentra en datacenters die niet aan de lokale economie dienen, en Alkmaar is kritisch op functies met beperkte toegevoegde waarde of negatieve effecten op de openbare ruimte.</li>
+</ul>
+</section>
 <div class="overflow"><table><thead><tr><th>Gemeente</th><th>Groep</th><th>Status</th><th>Stadslogistiek?</th><th>#passages</th><th>Akkoord</th></tr></thead>
 <tbody>{"".join(rows)}</tbody></table></div>
 {"".join(sections)}
