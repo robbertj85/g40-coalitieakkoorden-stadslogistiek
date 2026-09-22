@@ -989,11 +989,33 @@
       "economy_summary": "Hoofdstuk 'Ondernemen, Werken & Leren' zet in op een sterke economie als voorwaarde voor kwaliteit van leven, met een aantrekkelijke binnenstad, trots op het MKB en gebiedsontwikkeling (Stadskwartier, Zorg- en Innovatiecampus, Veiligheidscampus Assen). De Asser Ambitie Agenda geeft de stad nieuwe energie met zichtbare resultaten; ondernemers worden gestimuleerd tot maatschappelijk verantwoord ondernemen en het bieden van stages en leerwerkplekken (p. 8-9).",
       "notes": "Geen stadslogistiek/goederenvervoer-termen aangetroffen buiten de bestaande zero-emissiezone. Document gevonden via het patroon /file/<slug>pdf op assen.nl, nadat losse zoekopdrachten geen directe link opleverden; assen.nl blokkeert eenvoudige curl-requests zonder volledige browser-headers.",
       "logistics_plans": {
-        "status": "todo",
+        "status": "found",
         "retries": 0,
-        "last_checked": null,
-        "documents": [],
-        "notes": ""
+        "last_checked": "2026-09-22",
+        "documents": [
+          {
+            "doc_type": "SUMP",
+            "title": "Assen toekomstgericht op weg – Visie mobiliteit 2040",
+            "date": "2024",
+            "url": "https://lokaleregelgeving.overheid.nl/CVDR742510/1",
+            "source_page": "https://www.assen.nl/assen-toekomstgericht-op-de-weg",
+            "local_file": null,
+            "quotes": [
+              {
+                "term": "zero-emissie",
+                "page": null,
+                "text": "Zero-emissiezone en vergroenen (stads)logistiek. In 2025 starten we met de zero-emissiezone in de binnenstad. Het voetgangersgebied is dan alleen nog toegankelijk voor vrachtauto's en bestelbussen die geen vervuilende uitstoot hebben."
+              },
+              {
+                "term": "stadslogistiek",
+                "page": null,
+                "text": "Vergroenen van onze stadslogistiek vraagt daarnaast om het nadenken over andere logistieke concepten. Op dit moment lijkt het een optie te gaan werken met logistieke hubs waar logistiek dienstverleners hun vracht afleveren en overladen op elektrische cargo-bikes of andere Light Electric Freight Vehicles (LEFV's)."
+              }
+            ],
+            "summary": "Actualisatie van de mobiliteitsvisie (opvolger van de visie uit 2017, aansluitend op de omgevingsvisie 'Assen nog mooier' 2021 en de Asser Ambitie Agenda 2024). Introduceert in 2025 een zero-emissiezone in de binnenstad (volledig van kracht vanaf 2030) en verkent logistieke hubs met overslag op elektrische cargobikes/LEFV's."
+          }
+        ],
+        "notes": "Document geraadpleegd via de CVDR-publicatie (lokaleregelgeving.overheid.nl); geen los PDF-bestand gedownload. Geen apart Assens SULP of goederenvervoeragenda gevonden. Let op: dit lijkt in spanning met de coalitieakkoord-analyse ('Assen handhaaft de bestaande zone zonder uitbreiding') – deze visie spreekt zelf van invoering vanaf 2025."
       }
     },
     {
