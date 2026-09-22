@@ -2846,11 +2846,33 @@
       "economy_summary": null,
       "notes": "Expliciete uitstel van de ambities voor zero-emissiezones, conform een aangenomen raadsmotie, met een genoemd financieel voordeel in de begroting (p. 34). Dit sluit aan bij het patroon bij Dordrecht, Ede, Helmond, Leeuwarden en Schiedam.",
       "logistics_plans": {
-        "status": "todo",
+        "status": "found",
         "retries": 0,
-        "last_checked": null,
-        "documents": [],
-        "notes": ""
+        "last_checked": "2026-09-22",
+        "documents": [
+          {
+            "doc_type": "SUMP",
+            "title": "Zaans Mobiliteitsplan 2040 (ZMP)",
+            "date": "2021-11",
+            "url": "https://www.zaanstad.nl/wp-content/uploads/2024/05/bijlage-Zaans-Mobiliteitsplan-2040.pdf",
+            "source_page": "https://www.zaanstad.nl/direct-regelen/parkeren-verkeer-havens-vaarwegen/verkeer-en-vervoer/mobiliteitsplan/",
+            "local_file": "data/raw/zaanstad_sump.pdf",
+            "quotes": [
+              {
+                "term": "goederenvervoer",
+                "page": 7,
+                "text": "Goederenvervoer is cruciaal voor het functioneren van Zaanstad, maar het veroorzaakt ook overlast. Om dit in goede banen te leiden, is een sterk, helder netwerk nodig, een 'kwaliteitsnet goederenvervoer' voor Zaanstad."
+              },
+              {
+                "term": "stadslogistiek",
+                "page": 22,
+                "text": "Wij zetten in op Zero Emissie Zones voor bestel- en vrachtvoertuigen in de kernwinkelgebieden van Zaandam, Krommenie en Wormerveer, per 2025 of kort daarna. En we werken samen met bedrijven aan hubs voor stadslogistiek en de bouw en aan het uitbouwen van vervoer over water."
+              }
+            ],
+            "summary": "Door de raad vastgesteld mobiliteitsplan (definitieve versie 4 november 2021), opvolger van het Zaans Verkeer- en Vervoerplan 2009. Bevat een volledig hoofdstuk 'Goederenvervoer over de weg' met een kwaliteitsnet goederenvervoer, Zero Emissie Zones voor kernwinkelgebieden vanaf 2025, hubs voor stadslogistiek en bouwlogistiek op bedrijventerreinen, en het beter benutten van de Zaan/het IJ voor goederenvervoer over water."
+          }
+        ],
+        "notes": "Geen apart Zaans SULP-document gevonden; goederenvervoer/stadslogistiek is uitgebreid als eigen modaliteit opgenomen in dit gemeentebrede mobiliteitsplan."
       }
     },
     {
