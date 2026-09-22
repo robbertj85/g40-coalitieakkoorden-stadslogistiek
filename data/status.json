@@ -619,11 +619,33 @@
       "economy_summary": "Hoofdstuk 'Economie, werk en onderwijs' richt zich op waardetoevoegende bedrijvigheid; distributiecentra en datacenters passen daar expliciet niet bij, tenzij dienend aan de lokale economie. De High Tech Campus wordt gezien als vliegwiel voor toeleveranciers in de maakindustrie; er komt een ondernemersakkoord met afspraken over groei, minder regeldruk en innovatie, en lokale aanbesteding waar mogelijk (p. 22-23).",
       "notes": "Formeel een hoofdlijnenakkoord (raadsbreed/coalitie op hoofdlijnen), geen traditioneel coalitieakkoord. Distributiecentra-passage is de meest concrete link naar goederenvervoer/logistiek, maar gaat over vestigingsbeleid, niet over stadslogistiek/bevoorrading.",
       "logistics_plans": {
-        "status": "todo",
+        "status": "found",
         "retries": 0,
-        "last_checked": null,
-        "documents": [],
-        "notes": ""
+        "last_checked": "2026-09-22",
+        "documents": [
+          {
+            "doc_type": "SUMP",
+            "title": "Mobiliteitsvisie Almere 2020-2030: verder bouwen op de sterke basis",
+            "date": "2020",
+            "url": "https://www.almere.nl/fileadmin/files/almere/bestuur_en_organisatie/201027_Almere_Mobiliteitsvisie_2030_vastgesteld-170920.pdf",
+            "source_page": "https://www.almere.nl/bestuur-en-organisatie/gemeentelijk-beleid/duurzaam-leefbaar-en-bereikbaar",
+            "local_file": "data/raw/almere_sump.pdf",
+            "quotes": [
+              {
+                "term": "stadslogistiek",
+                "page": 23,
+                "text": "3 De stadslogistiek wordt minder milieubelastend • Opstellen van een richtlijn voor schone stadsdistributie • Uitvoeren van een pilot met een logistieke hub."
+              },
+              {
+                "term": "hub",
+                "page": 23,
+                "text": "In de meer landelijke delen van de stad, zoals in Oosterwold, kan het inrichten van hubs, o.a. voor stadslogistiek, bijdragen aan een afname van het aantal rondrijdende bestelbusjes in woonstraten. Dit bespaart voertuigkilometers en zorgt voor een veiliger woonstraat."
+              }
+            ],
+            "summary": "Door de raad vastgestelde mobiliteitsvisie (2020) met zeven doelen tot 2030; doel 3 is dat stadslogistiek minder milieubelastend wordt, via een richtlijn voor schone stadsdistributie en een pilot met een logistieke hub (met name kansrijk in landelijke delen zoals Oosterwold)."
+          }
+        ],
+        "notes": "De jaarlijkse uitvoeringskeuzes lopen via het Mobiliteits- en Infrastructuur Programma Almere (MIPA); geen apart Almeers SULP/goederenvervoeragenda gevonden."
       }
     },
     {
