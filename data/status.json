@@ -2721,11 +2721,38 @@
       "economy_summary": "Hoofdstuk over de stedelijke economie zet in op circulaire (logistieke) stromen, stadslogistiek en innovatieve maakeconomie met bijzondere aandacht voor textiel, aansluitend bij de kennis-as van Spoorzone tot Tilburg University. Er komt één centraal, integraal en toegankelijk ondernemersloket in regionaal verband; regeldruk die ondernemers als belemmerend ervaren wordt actief geïnventariseerd en waar mogelijk geschrapt (p. 48).",
       "notes": "Combinatie van expliciete 'stadslogistiek'-vermelding in het economiehoofdstuk met een concreet, gedateerd verbod op doorgaand vrachtverkeer op specifieke wegen (Ringbaan West, Burgemeester Baron van Voorst tot Voorstweg), met monitoring van de effecten.",
       "logistics_plans": {
-        "status": "todo",
+        "status": "found",
         "retries": 0,
-        "last_checked": null,
-        "documents": [],
-        "notes": ""
+        "last_checked": "2026-09-22",
+        "documents": [
+          {
+            "doc_type": "SUMP",
+            "title": "Mobiliteitsaanpak Tilburg – Samen op weg naar 2040 (uitgewerkt als Mobiliteitsplan 2040: Slim, Schoon en Veilig)",
+            "date": "2016-11",
+            "url": "https://www.tilburgers.nl/wp-content/uploads/2017/01/mobiliteitsaanpak_2040.pdf",
+            "source_page": "https://www.tilburg.nl/actueel/gebiedsontwikkeling/mobiliteitsplan-2040/",
+            "local_file": "data/raw/tilburg_sump.pdf",
+            "quotes": [
+              {
+                "term": "goederenvervoer",
+                "page": 19,
+                "text": "Met 1,3 miljoen m2 aan distributiecentra is Tilburg een belangrijk logistiek knooppunt. Het meeste (inter)nationale goederenvervoer gaat van west (Rotterdam of Antwerpen) naar oost (achterland EU) v.v. via A58, Wilhelminakanaal of spoor. In 2014 zijn er 120.000 containers in Tilburg overgeslagen op de Rail Terminal Tilburg (Loven) en Barge Terminal Tilburg samen."
+              },
+              {
+                "term": "bevoorrading",
+                "page": 53,
+                "text": "Bevoorrading van winkels en horeca vindt in de toekomst uitsluitend plaats met kleine stille en schone voertuigen die vanaf de rand van de (binnen)stad naar de binnenstad rijden. Deze hubs worden ook gebruikt voor leveringen in de woonwijken (e-commerce)."
+              },
+              {
+                "term": "hub",
+                "page": 58,
+                "text": "De regio Hart van Brabant is een (inter)nationale logistieke hotspot op een belangrijke logistieke corridor in Europa. Binnen Tilburg zijn de bedrijventerreinen Vossenberg (grote logistieke dienstverleners) en Loven (logistieke en watergebonden bedrijven) de belangrijkste concentratiepunten van logistieke activiteiten."
+              }
+            ],
+            "summary": "Mobiliteitsaanpak (14 november 2016, later uitgewerkt in het Mobiliteitsplan 2040 'Slim, Schoon en Veilig') met een uitgebreide sectie over goederenvervoer: trimodale hub Loven (weg/water/spoor) en bimodale hub Vossenberg als belangrijkste logistieke bedrijventerreinen, Rail Terminal en Barge Terminal Tilburg, en toekomstige binnenstadsbevoorrading met kleine schone voertuigen vanaf hubs aan de stadsrand, mede voor e-commercelevering in woonwijken."
+          }
+        ],
+        "notes": "Geen apart Tilburgs SULP of goederenvervoeragenda gevonden; goederenvervoer/stadslogistiek is uitgebreid meegenomen in dit gemeentebrede mobiliteitsdocument. Sluit aan bij de coalitieakkoord-bevinding over het weren van doorgaand vrachtverkeer op de Ringbaan West."
       }
     },
     {
