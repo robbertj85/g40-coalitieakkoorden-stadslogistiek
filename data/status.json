@@ -257,8 +257,8 @@
               }
             ],
             "summary": "Door de gemeenteraad vastgesteld stappenplan (juni 2019) naar een zero-emissiezone voor stadslogistiek in 2025, met een aanpak langs de Trias Mobilica (volumebeheersing, veranderen, verschonen) en een specifieke aanpak per goederensegment (vers, bouw, pakketten, afval).",
-            "period": null,
-            "period_checked": false
+            "period": "vanaf juni 2019, horizon 2025 (eerste mijlpaal: ZES-zone/emissievrije bevoorrading binnenstad), met doorkijk naar 2030 en 2050",
+            "period_checked": true
           },
           {
             "doc_type": "SUMP",
@@ -280,8 +280,8 @@
               }
             ],
             "summary": "Door de gemeenteraad vastgestelde mobiliteitsaanpak (februari 2020) met sturingsprincipes en maatregelen tot 2030; voor goederenvervoer onder meer een zero-emissiezone voor stadslogistiek binnen de Ruit van Rotterdam, logistieke hubs aan de rand en een schone-logistiek-rijstrook (e-lane) op de Maastunnelcorridor.",
-            "period": null,
-            "period_checked": false
+            "period": "vanaf februari 2020, horizon 2040 (gefaseerd opgebouwd: tot 2022, 2022-2025, 2025-2030, doorkijk 2040)",
+            "period_checked": true
           }
         ],
         "notes": "Niet te verwarren met de landelijke 'Uitvoeringsagenda Stadslogistiek' (2021), een gezamenlijk convenant van VNG/IenW/G4/Tilburg dat geen Rotterdam-specifiek document is."
