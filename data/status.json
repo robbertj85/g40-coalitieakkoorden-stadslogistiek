@@ -1431,11 +1431,33 @@
       "economy_summary": "Hoofdstuk 'Economie: Werk maken van groei en toekomstkracht' zet in op een sterke regionale economie met circulaire en biobased plastics en maakindustrie als krachtsectoren, en Greenwise Campus als aanjager voor innovatie en werkgelegenheid. Het MKB wordt ondersteund met proactieve ondernemersdienstverlening en één loketfunctie. Vrijetijdseconomie (Wildlands, ATLAS Theater, Rensenpark) wordt als volwaardig onderdeel van de economie gezien, met citymarketing om Emmen op de kaart te zetten; vitale winkelcentra in dorpen en wijken blijven belangrijk (p. 10-11).",
       "notes": "Geen stadslogistiek/goederenvervoer-termen aangetroffen. Download via gemeente.emmen.nl werd initieel geblokkeerd (bot-detectie, 'Service unavailable'); gelukt met --http1.1 en volledige browser-headers.",
       "logistics_plans": {
-        "status": "todo",
+        "status": "found",
         "retries": 0,
-        "last_checked": null,
-        "documents": [],
-        "notes": ""
+        "last_checked": "2026-09-22",
+        "documents": [
+          {
+            "doc_type": "SUMP",
+            "title": "Mobiliteitsvisie Emmen 2040 – Emmen zet stappen",
+            "date": null,
+            "url": "https://emmen.bestuurlijkeinformatie.nl/Document/View/678d907d-507b-44a9-94e7-ed76a77f1ff1",
+            "source_page": null,
+            "local_file": "data/raw/emmen_sump.pdf",
+            "quotes": [
+              {
+                "term": "stadslogistiek",
+                "page": 23,
+                "text": "Slimmer organiseren van stadslogistiek en pakketbezorging. Het goederenvervoer neemt toe. Door het winkelen via internet zien we dat talloze pakketten in de stad op woon- en winkeladressen worden afgeleverd. En we zien dat winkels frequenter maar met kleinere hoeveelheden worden bevoorraad. Dat levert heel veel bewegingen op met een flinke belasting voor onze wegen, het milieu en de openbare ruimte."
+              },
+              {
+                "term": "hub",
+                "page": 12,
+                "text": "We zien kansen op verdere economische groei en verduurzaming van de logistieke sector door goede regionale samenwerking en door het benutten van de Euroterminal Emmen-Coevorden-Hardenberg te Coevorden als internationale transporthub."
+              }
+            ],
+            "summary": "Mobiliteitsvisie expliciet opgesteld om te voldoen aan de EU-verplichting voor Urban Nodes (SUMP). Eén van de zeven leidende principes is 'we maken logistiek duurzaam en toekomstbestendig met slimme hubs en schone brandstoffen'. Zet in op de Euroterminal Coevorden als internationale transporthub, slimmere/kleinschaligere bevoorrading van winkels en horeca in het centrum, en het beperken van de groei van pakketbezorging."
+          }
+        ],
+        "notes": "Geen apart Emmens SULP of goederenvervoeragenda gevonden; stadslogistiek is een van de zeven leidende principes binnen deze mobiliteitsvisie."
       }
     },
     {
