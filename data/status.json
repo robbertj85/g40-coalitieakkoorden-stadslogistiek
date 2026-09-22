@@ -451,8 +451,8 @@
               }
             ],
             "summary": "Opvolger van het Actieplan Goederenvervoer 2015-2020; uitvoeringsprogramma tot en met 2026 met maatregelen rond toegangsbeleid, modal shift, bundelen en slimme stadslogistiek, gericht op emissievrije bevoorrading van de binnenstad vanaf 2025.",
-            "period": null,
-            "period_checked": false
+            "period": "2023–2026",
+            "period_checked": true
           },
           {
             "doc_type": "SUMP",
@@ -474,8 +474,8 @@
               }
             ],
             "summary": "Door de gemeenteraad vastgesteld mobiliteitsplan (15 juli 2021) met vervoerwijzehiërarchie tot 2040; goederenvervoer wordt via het Kwaliteitsnet efficiënt en schoon afgewikkeld, met inzet op vervoer over water en spoor en bundeling van bevoorrading.",
-            "period": null,
-            "period_checked": false
+            "period": "vanaf juli 2021, horizon 2040",
+            "period_checked": true
           }
         ],
         "notes": "Het oorspronkelijke Actieplan Goederenvervoer 2015-2020 (omgevingsvisie.utrecht.nl) is niet meer online; vervangen door het Uitvoeringsprogramma goederenvervoer 2023-2026."
