@@ -1725,11 +1725,33 @@
       "economy_summary": "Schiphol krijgt een eigen paragraaf 'Schiphol in balans': de coalitie streeft naar een compacte, stille en duurzame luchthaven binnen wettelijke grenzen, met behoud van economische betekenis, werkgelegenheid, de hub-functie en internationale bereikbaarheid (p. 23). Innovatieve en duurzame bedrijvigheid in ICT & technologie, Life Science & Health, Energie & grondstoffen en specialistische zakelijke dienstverlening is speerpunt; nieuwe schuldenindustrie zoals gokbedrijven krijgt geen plek. Diversiteit van bedrijventerreinen wordt gestimuleerd via Bedrijfsinvesteringszones, met behoud van bestaande werklocaties als uitgangspunt (p. 23-24).",
       "notes": "Opvallend: ondanks dat Schiphol (een van de grootste vracht- en cargo-hubs van Europa) in de gemeente ligt, bevat het akkoord geen enkele term over vrachtvervoer, cargo, distributie of stadslogistiek. De Schiphol-paragraaf gaat uitsluitend over de luchthaven als geheel (geluid, duurzaamheid, hub-functie), niet over goederenvervoer specifiek.",
       "logistics_plans": {
-        "status": "todo",
+        "status": "found",
         "retries": 0,
-        "last_checked": null,
-        "documents": [],
-        "notes": ""
+        "last_checked": "2026-09-22",
+        "documents": [
+          {
+            "doc_type": "SUMP",
+            "title": "Mobiliteitsvisie Haarlemmermeer – Vrijheid van bewegen",
+            "date": null,
+            "url": "https://lokaleregelgeving.overheid.nl/CVDR682565",
+            "source_page": "https://haarlemmermeergemeente.nl/mobiliteitsbeleid",
+            "local_file": null,
+            "quotes": [
+              {
+                "term": "goederenvervoer",
+                "page": null,
+                "text": "5 Goederenvervoer. De bevolking van Haarlemmermeer groeit. De economie groeit. Het goederenvervoer neemt daardoor in de komende jaren flink toe. De verwachting is dat deze groei 2% per jaar bedraagt."
+              },
+              {
+                "term": "goederenvervoer",
+                "page": null,
+                "text": "5.1. Truckparkeren beter organiseren. In onze gemeente met Schiphol als logistiek knooppunt vinden veel logistieke ontwikkelingen plaats. Logistieke functies trekken vrachtwagens aan die niet alleen rijden maar ook stil staan. Wij spannen ons in om het parkeren en rusten in openbaar gebied te voorkomen [...] door het invoeren van vrachtwagenparkeernormen."
+              }
+            ],
+            "summary": "Mobiliteitsvisie met een volledig eigen hoofdstuk 5 'Goederenvervoer' (5.1 truckparkeren beter organiseren via vrachtwagenparkeernormen, 5.2 vaste hoofdroutes voor vrachtverkeer) en paragraaf 10.5 over laad- en losgelegenheid bij winkelcentra. Schiphol wordt als logistiek knooppunt en ~30% van het Metropoolregio Amsterdam-goederenvervoer als voedselgerelateerd genoemd; regionale bevoorrading via bundeling/overslagcentra en dagranddistributie loopt via de Vervoerregio Amsterdam."
+          }
+        ],
+        "notes": "Geraadpleegd via CVDR-publicatie (volledige tekst embedded); geen los PDF gedownload, geen exacte vaststellingsdatum gevonden. Geen apart Haarlemmermeers SULP gevonden; goederenvervoer heeft hier ongewoon veel gewicht binnen het SUMP zelf."
       }
     },
     {
