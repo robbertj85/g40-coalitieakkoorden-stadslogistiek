@@ -2256,11 +2256,38 @@
       "economy_summary": "Hoofdstuk 'De Ondernemende Stad' benoemt Lelystad expliciet als 'logistieke stad' met veel parkeerplaatsen voor beroepsvervoer, die samen met werkgevers menselijker worden ingericht met verblijfsruimtes. Lokaal en regionaal inkopen bij het MKB wordt actief gemonitord. De vrijetijdseconomie (natuur, Batavia-kwartier, Stadshart) en lokale samenwerking tussen ondernemers, scholen en overheid krijgen aandacht, met een groeiplan voor het Kenniscentrum Nieuwe Natuur (p. 19).",
       "notes": "Lelystad heeft geen klassiek coalitieakkoord maar een raadsakkoord tussen negen partijen (JongLelystad, PRO, D66, InwonersPartij, CDA, ChristenUnie, Leefbaar Lelystad, SP, Partij voor de Dieren); PVV, Forum voor Democratie, VVD en Mooi Lelystad deden niet mee en sloten een eigen hoofdlijnenakkoord. Expliciete zelfidentificatie als 'logistieke stad' met aandacht voor parkeren/rustvoorzieningen voor vrachtwagenchauffeurs (beroepsvervoer), een vorm van stadslogistiek-gerelateerd beleid.",
       "logistics_plans": {
-        "status": "todo",
+        "status": "found",
         "retries": 0,
-        "last_checked": null,
-        "documents": [],
-        "notes": ""
+        "last_checked": "2026-09-22",
+        "documents": [
+          {
+            "doc_type": "SUMP",
+            "title": "Mobiliteitsvisie Lelystad 2020-2030",
+            "date": "2020-12",
+            "url": "https://www.gemeentelelystad.nl/Documenten/Beleidskaders/MOBILITEITSVISIE%20na%20raadsbehandeling%20210113.pdf",
+            "source_page": "https://ons-lelystad.nl/artikel/2020/12/10/mobiliteitsvisie-2020-2030-en-mobiliteitsagenda-vastgesteld",
+            "local_file": "data/raw/lelystad_sump.pdf",
+            "quotes": [
+              {
+                "term": "hub",
+                "page": 17,
+                "text": "De ambitie: 'Lelystad neemt een stevige positie in als circulaire, multimodale, logistieke hub in de Oostflank van Metropoolregio Amsterdam'."
+              },
+              {
+                "term": "goederenvervoer",
+                "page": 53,
+                "text": "We onderzoeken hoe we het vrachtwagenparkeren in Lelystad kunnen faciliteren, ook voor niet-bestemmingsverkeer (overnachtingsplekken). We gaan met vervoerders en winkeliers na hoe vanaf 2025 de stadslogistiek (o.a. in het Stadshart) emissievrij kan worden gemaakt."
+              },
+              {
+                "term": "goederenvervoer",
+                "page": 53,
+                "text": "Flevokust-Haven voor goederenvervoer aangesloten op het spoorwegnet."
+              }
+            ],
+            "summary": "Door de raad vastgestelde mobiliteitsvisie (december 2020) met de ambitie om Lelystad te positioneren als circulaire, multimodale logistieke hub. Zet in op vrachtwagenparkeren (incl. overnachtingsplekken), emissievrije stadslogistiek in het Stadshart vanaf 2025 (Green Deal ZES) en een goederenspoorverbinding naar Flevokust-Haven."
+          }
+        ],
+        "notes": "Geen apart Lelystads SULP of goederenvervoeragenda gevonden; goederenvervoer is een eigen modaliteit binnen dit mobiliteitsvisie/-agenda-document."
       }
     },
     {
