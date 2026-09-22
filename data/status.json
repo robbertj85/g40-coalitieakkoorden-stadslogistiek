@@ -360,8 +360,8 @@
               }
             ],
             "summary": "Concretisering (mei 2026) van het door het College in juli 2025 vastgestelde Programmaplan Duurzame Stadslogistiek, met maatregelen 2026-2030 rond bundelen, gebiedsgerichte aanpak, modal shift/laadinfrastructuur en slimme logistiek. Het document benoemt zelf expliciet de EU-verplichting om voór 2028 een formeel SULP op te stellen (als onderdeel van een SUMP) en positioneert zichzelf als opstap daarnaartoe.",
-            "period": null,
-            "period_checked": false
+            "period": "vanaf mei 2026, geen einddatum genoemd (spreekt over maatregelen \"de komende jaren\")",
+            "period_checked": true
           },
           {
             "doc_type": "SUMP",
@@ -383,8 +383,8 @@
               }
             ],
             "summary": "Vervangt de Haagse Nota Mobiliteit (2011) als leidend mobiliteitsbeleid tot de Omgevingsvisie klaar is; volgens het STOMP-principe (voetganger/fiets/OV/deelmobiliteit voor privéauto) met logistieke mobiliteitshubs en stadvriendelijke bevoorrading als aandachtspunt.",
-            "period": null,
-            "period_checked": false
+            "period": "2022–2040",
+            "period_checked": true
           }
         ],
         "notes": ""
