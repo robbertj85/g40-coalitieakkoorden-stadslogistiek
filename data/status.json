@@ -3183,11 +3183,35 @@
       "group": "Urban Node (TEN-T, geen G4/G40)",
       "urban_node": true,
       "logistics_plans": {
-        "status": "todo",
+        "status": "found",
         "retries": 0,
-        "last_checked": null,
-        "documents": [],
-        "notes": "Toegevoegd omdat Middelburg een Urban Node is onder Bijlage II van Verordening (EU) 2024/1679 (TEN-T), maar geen lid is van G4/G40. Geen coalitieakkoord-onderzoek voor deze gemeente (buiten scope van index.html); alleen SUMP/SULP-onderzoek."
+        "last_checked": "2026-09-22",
+        "documents": [
+          {
+            "doc_type": "SUMP",
+            "title": "Gemeentelijk Verkeer- en Vervoerplan (GVVP) Middelburg 2030 - Beleidsdeel",
+            "date": "2016",
+            "url": "https://www.middelburg.nl/_flysystem/media/gemeentelijke-verkeer-en-vervoerplan-middelburg-2030.pdf",
+            "source_page": null,
+            "local_file": "data/raw/middelburg_sump.pdf",
+            "period": "2016–2030",
+            "period_checked": true,
+            "quotes": [
+              {
+                "term": "bevoorrading",
+                "page": 49,
+                "text": "Slim bevoorraden De gemeente is groot voorstander van een stadsdistributiesysteem waarbij vanuit een centraal punt de binnenstad bevoorraad kan worden. Groot voordeel hiervan is minder vrachtverkeer in de stad en een overslagpunt van goederen dat niet afhankelijk is van venstertijden."
+              },
+              {
+                "term": "distributie",
+                "page": 56,
+                "text": "Schoon bevoorraden Goederenvervoer vormt een significant deel van alle mobiliteitsbewegingen. Voor zwaarder transport en de binnenvaart is LNG (liquid natural gas) een duurzame optie. Op gemeentelijke schaal kan met slimme stadsdistributie winst geboekt worden. Denk aan het instellen van een milieuzone voor vracht- en bestelverkeer, stadsdistributie en het inzetten van elektrische vrachtauto’s."
+              }
+            ],
+            "summary": "Door de raad in 2016 vastgesteld GVVP met horizon 2030 (opvolger van de kadernotitie GVVP Middelburg 2025 uit 2014, waarvan de horizon later is verlengd naar 2030). Zet in op een stadsdistributiesysteem vanuit een centraal punt voor de binnenstad, een mogelijke milieuzone voor vracht- en bestelverkeer en inzet van elektrische vrachtauto’s; geen apart SULP of goederenvervoeragenda gevonden."
+          }
+        ],
+        "notes": "Middelburg is geen G4/G40-lid maar wel Urban Node onder de TEN-T-verordening (Bijlage II van Verordening (EU) 2024/1679). Geen coalitieakkoord-onderzoek voor deze gemeente (buiten scope van index.html), alleen SUMP/SULP."
       }
     }
   ]
