@@ -24,6 +24,6 @@ for frag_q in re.findall(r'„(.+?)”', text):
     if not any(q in c for c in corpus):
         print('NIET GEVONDEN:', frag_q); bad += 1
 for a in re.findall(r'href="#([^"]+)"', frag):
-    if a not in slugs: print('ONBEKEND ANKER:', a); bad += 1
+    if a not in slugs and a != "analyse": print('ONBEKEND ANKER:', a); bad += 1
 print(f'{len(re.findall(r"„(.+?)”", text))} citaten gecontroleerd, {bad} problemen')
 sys.exit(1 if bad else 0)

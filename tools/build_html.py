@@ -129,6 +129,10 @@ table{{border-collapse:collapse;width:100%;font-size:.9rem}} th,td{{border-botto
 <tbody>{"".join(rows)}</tbody></table></div>
 {"".join(sections)}
 {INSIGHTS_HTML}
+<script>
+(function(){{function open(){{if(location.hash==="#analyse"){{var d=document.getElementById("analyse");if(d){{d.open=true;d.scrollIntoView();}}}}}}
+open();window.addEventListener("hashchange",open);}})();
+</script>
 </body></html>"""
 (ROOT / "index.html").write_text(page, encoding="utf-8")
 print(f"index.html written: {len(munis)} municipalities, {counts}")
