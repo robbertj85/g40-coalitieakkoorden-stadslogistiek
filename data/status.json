@@ -2189,11 +2189,33 @@
       "economy_summary": null,
       "notes": "Leiden had een lange formatie: coalitiepartijen PRO, VVD, CDA, SVL en ChristenUnie presenteerden het 'Beleidsakkoord 2026-2030' pas op 21 september 2026 (ruim 6 maanden na de verkiezingen van 18 maart 2026), en het financiele deel volgt naar verluidt nog na. Het volledige document (100+ pagina's) was op 22 september 2026 nog niet als PDF vindbaar op gemeente.leiden.nl, sleutelstad.nl of het raadsinformatiesysteem (leiden.qualigraf.nl, JS-gerenderd, geen statische inhoud). Later opnieuw proberen zodra het document gepubliceerd is. Bevestigd bij tweede controle: PRO, VVD, CDA, SVL en ChristenUnie presenteren het volledige coalitieakkoord (100+ pagina's) inclusief financiele paragraaf pas op vrijdag 25 september 2026 (3 dagen na de laatste controle). Het op 9 juli 2026 getekende 'bestuursakkoord' is een apart, raadsbreed document over omgangsvormen/bestuurscultuur, niet het beleidsinhoudelijke coalitieakkoord. Retry na 25 september 2026. Derde controle: geen alternatieve vindplaats gevonden op gemeenteraadleiden.nl (het pad Documenten/Beleidsakkoord-2026-2030.pdf gaf 404). Definitief bevestigd: het volledige coalitieakkoord verschijnt pas op 25 september 2026.",
       "logistics_plans": {
-        "status": "todo",
+        "status": "found",
         "retries": 0,
-        "last_checked": null,
-        "documents": [],
-        "notes": ""
+        "last_checked": "2026-09-22",
+        "documents": [
+          {
+            "doc_type": "SUMP",
+            "title": "Mobiliteitsnota Leiden 2020-2030 – Leiden Duurzaam Bereikbaar",
+            "date": "2019-12",
+            "url": "https://www.palleiden.nl/wp-content/uploads/2019/12/2019-concept-mobiliteitsnota-leiden-duurzaam-bereikbaar.pdf",
+            "source_page": "https://gemeente.leiden.nl/inwoners-en-ondernemers/werkzaamheden-in-leiden/mobiliteit-in-leiden/",
+            "local_file": "data/raw/leiden_sump.pdf",
+            "quotes": [
+              {
+                "term": "stadsdistributie",
+                "page": 14,
+                "text": "Ambitie 6: Een aantrekkelijke binnenstad maken door de aanwezigheid van een emissieloos stadsdistributiesysteem. We willen zwaar vrachtverkeer in en om het centrum verminderen en vervangen door een schoon en efficient stadsdistributiesysteem. Leiden heeft daarom met diverse belanghebbenden het convenant Zero Emissie Stadsdistributie getekend om te werken aan een emissieloos stadsdistributiesysteem in 2025."
+              },
+              {
+                "term": "goederenvervoer",
+                "page": 26,
+                "text": "Stedelijke distributie: een belangrijk instrument voor het verminderen en verschonen van het goederenvervoer is stedelijke distributie. Leiden onderzoekt momenteel samen met een aantal ondernemers waar en op welke manier de stedelijke distributie kan worden verduurzaamd."
+              }
+            ],
+            "summary": "Mobiliteitsnota (ter inzage versie december 2019, opvolgend vastgesteld) met Ambitie 6 volledig gewijd aan emissieloze stadsdistributie: convenant Zero Emissie Stadsdistributie getekend (doel 2025), zwaar vrachtverkeer uit het centrum weren, en onderzoek met ondernemers naar verduurzaming van stedelijke distributie gekoppeld aan de milieuzone."
+          }
+        ],
+        "notes": "PDF is de versie voor ter inzage legging (december 2019); de definitief vastgestelde versie kon niet apart worden teruggevonden maar de inhoud is naar verwachting grotendeels gelijk. Geen apart Leids SULP of goederenvervoeragenda gevonden."
       }
     },
     {
