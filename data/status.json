@@ -1546,11 +1546,33 @@
       "economy_summary": "Het akkoord kiest voor een sterke lokale economie en een levendige (binnen)stad vanuit een 'ja, mits'-houding. Ondernemers krijgen één vast aanspreekpunt en snelle procedures; de gemeente werkt aan een toekomstbestendige binnenstad en toerisme met menselijke maat (p. 2).",
       "notes": "Gouda heeft na de verkiezingen van 18 maart 2026 geen klassiek coalitieakkoord maar een breed gedragen samenlevingsakkoord tussen zeven partijen (geen meerderheidscoalitie), aangenomen op 9 juli 2026. Geen stadslogistiek/goederenvervoer-termen aangetroffen.",
       "logistics_plans": {
-        "status": "todo",
+        "status": "found",
         "retries": 0,
-        "last_checked": null,
-        "documents": [],
-        "notes": ""
+        "last_checked": "2026-09-22",
+        "documents": [
+          {
+            "doc_type": "SUMP",
+            "title": "Mobiliteitsplan Gouda 2017-2026",
+            "date": "2017",
+            "url": "https://lokaleregelgeving.overheid.nl/CVDR676327/1",
+            "source_page": "https://omgevingsvisie.gouda.nl/kern-van-de-omgevingsvisie-keuzes--voor-gouda/duurzame-mobiliteit",
+            "local_file": null,
+            "quotes": [
+              {
+                "term": "stadslogistiek",
+                "page": null,
+                "text": "Transformatie naar kleinschalige elektrische distributie in de binnenstad. We gaan bekijken hoe dat kansrijk kan zijn, en maken daarbij gebruik van kennis en ervaringen die elders zijn opgedaan (bijvoorbeeld Utrecht, Zutphen, Green Deal Zero Emission Stadslogistiek, cargobike)."
+              },
+              {
+                "term": "distributie",
+                "page": null,
+                "text": "Voor kleinschalige elektrische stadsdistributie willen we meer mogelijkheden bieden om de binnenstad te bedienen (verruiming of ontheffing van de venstertijden)."
+              }
+            ],
+            "summary": "Door de raad vastgesteld mobiliteitsplan (2017-2026, opvolger van het plan uit 2007). Zet in op transformatie naar kleinschalige elektrische stadsdistributie in de binnenstad (cargobikes, aansluitend bij de Green Deal Zero Emission Stadslogistiek) en verruiming/ontheffing van venstertijden om dit te faciliteren."
+          }
+        ],
+        "notes": "In april 2021 heeft de raad daarnaast besloten dat vanaf 2025 alleen zero-emissie stadslogistiek toegang krijgt tot de autoluwe binnenstad (apart traject naast het Verkeerscirculatieplan); dit losse besluit/actualisatie is niet als los document teruggevonden, alleen via secundaire bronnen bevestigd."
       }
     },
     {
