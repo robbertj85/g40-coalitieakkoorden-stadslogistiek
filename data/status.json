@@ -1668,11 +1668,33 @@
       "economy_summary": "Hoofdstuk 'Economie' streeft naar een sterke economie waarin werken en wonen in balans zijn, met 4.500 extra banen in de Zuidstrook van de Waarderpolder, een centraal aanspreekpunt voor ondernemers, en een aanpak voor een groene en levendige binnenstad.",
       "notes": "Alleen een korte samenvattingsversie (infographic-stijl, 2 pagina's) gevonden en gedownload; een uitgebreidere volledige tekstversie kon niet worden gelokaliseerd via haarlem.nl of het Notubiz-raadsinformatiesysteem (herhaalde 403's en 404's op geraden bestandspaden). Geen stadslogistiek/goederenvervoer-termen aangetroffen in de beschikbare samenvatting.",
       "logistics_plans": {
-        "status": "todo",
+        "status": "found",
         "retries": 0,
-        "last_checked": null,
-        "documents": [],
-        "notes": ""
+        "last_checked": "2026-09-22",
+        "documents": [
+          {
+            "doc_type": "SUMP",
+            "title": "Uitvoeringsagenda Mobiliteitsbeleid Haarlem 2021-2030 (met doorkijk naar 2040)",
+            "date": "2021-09",
+            "url": "https://www.studiobereikbaar.nl/assets/uploads/2024/03/Uitvoeringsagenda_mobiliteitsbeleid_Haarlem-webversie.pdf",
+            "source_page": "https://gemeentebestuur.haarlem.nl/bestuurlijke-stukken/20210313959-4-Bijlage-3-Mobiliteitsbeleid-2.pdf",
+            "local_file": "data/raw/haarlem_sump.pdf",
+            "quotes": [
+              {
+                "term": "stadslogistiek",
+                "page": 40,
+                "text": "Haarlem heeft de Green Deal ZE stadslogistiek ondertekend. Daarin is de intentie uitgesproken om in 2025 ZE stadslogistiek te hebben. De stappen daarnaartoe worden uitgewerkt in een actie-agenda en de komende jaren stapsgewijs geimplementeerd, in nauwe samenwerking met het bedrijfsleven."
+              },
+              {
+                "term": "hub",
+                "page": 5,
+                "text": "Actieagenda stedelijke distributie/ZE logistiek (2023)."
+              }
+            ],
+            "summary": "Uitvoeringsagenda (september 2021) van het Mobiliteitsbeleid Haarlem 2040, met maatregel 5b 'Actieagenda stedelijke distributie/ZE logistiek': Haarlem heeft de Green Deal Zero Emissie Stadslogistiek ondertekend met de intentie om in 2025 ZE stadslogistiek te hebben, verder uit te werken in een actieagenda (gepland 2023) in samenwerking met het bedrijfsleven."
+          }
+        ],
+        "notes": "Quote op p.40 gereconstrueerd uit een PDF met kolomvermenging (twee kolommen door elkaar geextraheerd); betekenis is duidelijk maar exacte zinsvolgorde kan afwijken van het origineel. Geen apart Haarlems SULP-document (los van deze uitvoeringsagenda) gevonden."
       }
     },
     {
