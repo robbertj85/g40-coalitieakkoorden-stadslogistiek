@@ -871,11 +871,11 @@
       "economy_summary": "Hoofdstuk 'Een sterke en toekomstbestendige economie' bouwt voort op de Economische Koers (2024) en het Programma Werklocaties (2024), met meer dan 111.000 arbeidsplaatsen als banenmotor van de regio. Het innovatiedistrict in de Spoorzone groeit rond veiligheid en weerbaarheid; nieuwe werklocaties komen op bedrijventerreinen Ecofactorij II en De Kar, met verduurzaming van bestaande terreinen. De binnenstad blijft economisch en sociaal hart, met de warenmarkt op het Marktplein als drager en mogelijke verplaatsing daarvan; winkeltijden worden verruimd met oog voor het MKB. Een ondernemersfonds wordt niet als gewenste oplossing gezien (p. 18, 22-23).",
       "notes": "Duidelijke, expliciete verwijzing naar 'logistieke hubs' in combinatie met mobiliteitshubs, gekoppeld aan OV-knooppunten en bereikbaarheid van de binnenstad voor bestemmingsverkeer.",
       "logistics_plans": {
-        "status": "todo",
-        "retries": 0,
-        "last_checked": null,
+        "status": "not_found",
+        "retries": 1,
+        "last_checked": "2026-09-22",
         "documents": [],
-        "notes": ""
+        "notes": "Mobiliteitsvisie binnenstad (SUMP) door de raad vastgesteld op 17 juni 2021, en een raadsbesluit van 4 juli 2024 voor een zero-emissiezone stadslogistiek per 1 januari 2030, zijn beide bevestigd via nieuwsberichten/gemeentepagina's, maar geen van beide primaire PDF's kon gevonden/gedownload worden (apeldoorn.nl-links gaven 404; meerdere officielebekendmakingen.nl-verkeersbesluiten die de zoekmachine aan Apeldoorn toeschreef bleken bij verificatie van Rotterdam, Den Haag of Amsterdam te zijn). Volgende poging: navigeren via apeldoorn.nl/college-van-b-en-w/beleidsstukken-en-visies zelf, of raadsinformatiesysteem van Apeldoorn direct doorzoeken in plaats van web search."
       }
     },
     {
