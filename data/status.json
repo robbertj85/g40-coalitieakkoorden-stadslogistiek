@@ -1243,11 +1243,33 @@
       "economy_summary": "Campus Leerpark groeit uit tot een kennis- en innovatiehub waar onderwijs en bedrijven samenwerken, met ruimte voor startups en studentondernemerschap (p. 16). Energiehubs en samenwerking met werkgevers pakken netcongestie aan via lokaal en regionaal opwekken, opslaan en delen van energie (p. 27).",
       "notes": "Opvallende expliciete keuze: de coalitie voert deze bestuursperiode bewust GEEN zero-emissiezone in, terwijl vrachtverkeer in de binnenstad wel wordt verminderd via 'slimme stadslogistiek' en centrale bouwhubs voor bouwlogistiek.",
       "logistics_plans": {
-        "status": "todo",
+        "status": "found",
         "retries": 0,
-        "last_checked": null,
-        "documents": [],
-        "notes": ""
+        "last_checked": "2026-09-22",
+        "documents": [
+          {
+            "doc_type": "SUMP",
+            "title": "Uitgangspuntennotitie Mobiliteitsplan 2040 Dordrecht (voorloper van het op 24 sept. 2024 vastgestelde Mobiliteitsplan Dordrecht 2040/SUMP)",
+            "date": "2023-05",
+            "url": "https://files.fietsersbond.nl/wp-content/uploads/sites/29/2023/08/10155716/Uitgangspuntennotitie-mobiliteitsplan-2040-mei-2023.pdf",
+            "source_page": "https://raad.dordrecht.nl/Documenten/Mobiliteitsplan-Dordrecht-2040-aangepaste-versie-na-aangenomen-amendementen-014879-20240927-R1-09.pdf",
+            "local_file": "data/raw/dordrecht_sump.pdf",
+            "quotes": [
+              {
+                "term": "stadslogistiek",
+                "page": 7,
+                "text": "Dordrecht kent op dit moment ook sectoraal beleid voor verschillende onderdelen: [...] een integrale visie op laadinfrastructuur, routekaart Zero Emissie Stadslogistiek, top 20 aanpak verkeersveiligheid en deelname aan het Schone Lucht Akkoord."
+              },
+              {
+                "term": "goederenvervoer",
+                "page": 15,
+                "text": "Sturen in een gezamenlijke spoorgemeenten lobby op heroverwegen van nationale goederenvervoer netwerken door woonwijken, met als doel de aanleg van een dedicated Goederenvervoerlijn (DGL) gekoppeld aan de A16."
+              }
+            ],
+            "summary": "Uitgangspuntennotitie (mei 2023) voor het Mobiliteitsplan Dordrecht 2040, dat op 24 september 2024 door de raad is vastgesteld als SUMP (het definitieve document was niet downloadbaar vanwege een botbeveiliging op raad.dordrecht.nl). Goederenvervoer is een van de vijf te versterken netwerken; genoemd wordt de bestaande 'routekaart Zero Emissie Stadslogistiek', emissieloze en efficientere bevoorrading van de binnenstad, en een regionale lobby voor een dedicated Goederenvervoerlijn (DGL) langs de A16 om goederenvervoer per spoor uit woonwijken te weren."
+          }
+        ],
+        "notes": "Het definitieve, op 24-9-2024 vastgestelde Mobiliteitsplan Dordrecht 2040 stond achter een JS-beveiligingscontrole op raad.dordrecht.nl en geen wayback-snapshot was beschikbaar; deze uitgangspuntennotitie (voorloper, mei 2023) is als beste beschikbare bron gebruikt. Dordrecht heeft daarnaast een losse 'routekaart Zero Emissie Stadslogistiek' (genoemd op p.7) die bij een volgende poging apart opgezocht kan worden als mogelijk SULP."
       }
     },
     {
