@@ -2649,11 +2649,33 @@
       "economy_summary": "Hoofdstuk 'Vitale binnensteden en centra' zet in op economische versterking en transformatie van Sittard Centrum en Geleen Centrum door combinatie van winkelen, horeca, cultuur, evenementen en wonen, met een winkelcomplex en Huis aan de Markt in de voormalige V&D-locatie in Sittard. Pilots zoals in de Limbrichterstraat experimenteren met kansen voor startende ondernemers. Onderwijs en arbeidsmarkt richten zich op techniek, zorg, logistiek, nieuwe industrie, circulariteit en dienstverlening (p. 18, 21).",
       "notes": "Multimodale duurzame-logistiek-passage (spoor, water, buisleidingen, distributiehubs) is opvallend breed voor een G40-gemeente; sluit aan bij de chemische industrie/Chemelot-regio. Document gevonden via het iBabs-patroon /Document/View/<guid> in plaats van de Agenda/Document-viewerpagina die geen statische inhoud toonde.",
       "logistics_plans": {
-        "status": "todo",
+        "status": "found",
         "retries": 0,
-        "last_checked": null,
-        "documents": [],
-        "notes": ""
+        "last_checked": "2026-09-22",
+        "documents": [
+          {
+            "doc_type": "SUMP",
+            "title": "Mobiliteitsaanpak Sittard-Geleen (bouwsteen voor de Omgevingsvisie Sittard-Geleen 2023)",
+            "date": "2022",
+            "url": "https://sittardgeleen.bestuurlijkeinformatie.nl/Document/View/94f4e15a-71f0-409a-a6bb-6d4b8d3595e8",
+            "source_page": null,
+            "local_file": "data/raw/sittard-geleen_sump.pdf",
+            "quotes": [
+              {
+                "term": "stadslogistiek",
+                "page": null,
+                "text": "Vanuit Zuid-Limburg Bereikbaar wordt er in Maastricht inmiddels gewerkt aan het realiseren van zero-emissie stadslogistiek. Het is onze wens om hier ook voor Sittard-Geleen invulling aan te gaan geven waarbij we willen aansluiten bij de wensen van binnenstadondernemers."
+              },
+              {
+                "term": "logistiek",
+                "page": null,
+                "text": "(Raadsvraag CDA:) Sittard-Geleen zou vanuit de logistiek actief kunnen meewerken aan een verschuiving van wegvervoer naar meer vervoer per water, spoor en ondergronds. Wordt dat ook een actielijn?"
+              }
+            ],
+            "summary": "Kaderstellend document, vastgesteld door de raad als bouwsteen voor de Omgevingsvisie Sittard-Geleen 2023. Uit de raadscommissiebehandeling (samengevoegde vragen) blijkt de wens om net als Maastricht (via Zuid-Limburg Bereikbaar) zero-emissie stadslogistiek te realiseren, aansluitend bij binnenstadondernemers, en de politieke wens (CDA) om goederenvervoer te verschuiven van weg naar water/spoor/ondergronds (buisleidingen). Sluit aan bij de eerder via coalitieakkoorden gevonden focus op Chemelot-spoorterminal en de haven-spoorterminal-verbinding bij Holtum/Swentibold."
+          }
+        ],
+        "notes": "De volledige Mobiliteitsaanpak-tekst zelf is niet gedownload, alleen het raadsvoorstel (5 pag.) en de samengevoegde raadsvragen+toelichting (7 pag.). Geen apart Sittard-Geleens SULP of goederenvervoeragenda gevonden."
       }
     },
     {
