@@ -808,11 +808,33 @@
       "economy_summary": "Hoofdstuk 5 'Economie' richt zich op bedrijven die waarde toevoegen, met meer balans tussen MKB en internationals. Ruimte voor maak-, duurzame/circulaire en creatieve industrie en starters, ook in bestaande wijken; terugkeer van de creatieve tech- en maaksector in Kronenburg. Het bedrijventerrein Bovenkerk blijft gehandhaafd met onderzoek naar woningbouw. Voor het Stadshart en Winkelcentrum Kostverlorenhof worden horeca en een foodcourt gestimuleerd; standplaatsen voor de detailhandel blijven behouden (p. 19-20).",
       "notes": "Download via HTTPS/2 gaf een curl-fout (stream not closed cleanly); gelukt met --http1.1. Geen enkele stadslogistiek/goederenvervoer-term aangetroffen buiten één irrelevante treffer over afvallogistiek (luiers/incontinentiemateriaal, hoofdstuk Circulaire Economie en Afval, p.22).",
       "logistics_plans": {
-        "status": "todo",
+        "status": "found",
         "retries": 0,
-        "last_checked": null,
-        "documents": [],
-        "notes": ""
+        "last_checked": "2026-09-22",
+        "documents": [
+          {
+            "doc_type": "SUMP",
+            "title": "Mobiliteitsvisie Amstelveen (vastgesteld 2020) – Uitvoeringsprogramma Mobiliteitsvisie 2021-2024",
+            "date": "2021",
+            "url": "https://amstelveen.bestuurlijkeinformatie.nl/Document/View/85cdeb0e-ebf4-451e-9bac-104e8d8c58ab",
+            "source_page": "https://www.amstelveen.nl/home/nieuws/mobiliteitsvisie-amstelveen-door-raad-vastgesteld",
+            "local_file": "data/raw/amstelveen_sump.pdf",
+            "quotes": [
+              {
+                "term": "stadslogistiek",
+                "page": 9,
+                "text": "In die werkagenda zijn de volgende maatregelen benoemd: [...] 3. Uitwerking Green Deal Zero Emissie Stadslogistiek (ZES);"
+              },
+              {
+                "term": "stadslogistiek",
+                "page": 21,
+                "text": "2.7 Stimuleren nieuwe pakketophaalpunten. Minder busjes in wijken en meer elektrisch vervoer. Maakt onderdeel uit van VRA-project SPES (duurzame stadslogistiek) en vraagt ook binnen de gemeente om acties."
+              }
+            ],
+            "summary": "Op 14 februari 2020 door de raad vastgestelde Mobiliteitsvisie Amstelveen, uitgewerkt in dit Uitvoeringsprogramma 2021-2024. Stadslogistiek komt terug via de Green Deal Zero Emissie Stadslogistiek (ZES), het regionale SPES-project (Vervoerregio Amsterdam) en de stimulering van pakketophaalpunten om bestelbusverkeer in wijken te verminderen."
+          }
+        ],
+        "notes": "Geen apart Amstelveens SULP of goederenvervoeragenda gevonden; stadslogistiek loopt via de regionale ZES/SPES-samenwerking binnen de Vervoerregio Amsterdam."
       }
     },
     {
